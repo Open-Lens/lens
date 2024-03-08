@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+yarn-error.log
+tmp/
+lens.log
+docs/extensions/api
+site/
+lerna-debug.log
+coverage
+dist
+builder/
