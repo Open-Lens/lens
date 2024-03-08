@@ -24,7 +24,7 @@
     "gunzip-maybe": "^1.4.2",
     "node-fetch": "^3.3.0",
     "tar-stream": "^3.0.0",
-    "zod": "^3.20.6"
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
