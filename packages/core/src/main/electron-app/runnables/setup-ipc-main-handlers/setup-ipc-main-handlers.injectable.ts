@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { setupIpcMainHandlers } from "./setup-ipc-main-handlers";
-import { loggerInjectionToken } from "@k8slens/logger";
-import { onLoadOfApplicationInjectionToken } from "@k8slens/application";
+import { loggerInjectionToken } from "@openlens/logger";
+import { onLoadOfApplicationInjectionToken } from "@openlens/application";
 import applicationMenuItemCompositeInjectable from "../../../../features/application-menu/main/application-menu-item-composite.injectable";
 import pushCatalogToRendererInjectable from "../../../catalog-sync-to-renderer/push-catalog-to-renderer.injectable";
 import clusterFramesInjectable from "../../../../common/cluster-frames.injectable";

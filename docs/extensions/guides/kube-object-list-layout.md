@@ -27,7 +27,7 @@ This object will register a menu item with "Certificates" text.
 It will also use `CertificateIcon` component to render an icon and navigate to cluster page that is having `certificates` page id.
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 type IconProps = Renderer.Component.IconProps;
 
@@ -86,7 +86,7 @@ We just need to define `Certificate` class derived from `Renderer.K8sApi.KubeObj
 `Certificate` class defines properties found in the CRD object:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 const {
   K8sApi: {
@@ -174,7 +174,7 @@ Then we need to fetch those and render them in the UI.
 First we define `CertificatePage` class that extends `React.Component`.
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import React from "react";
 import { certificatesStore } from "../certificate-store";
 import { Certificate } from "../certificate"
@@ -191,7 +191,7 @@ To define which objects the list is showing, we need to pass `certificateStore` 
 Also, we can define needed sorting callbacks and search filters for the list:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 const {
   Component: {
@@ -268,7 +268,7 @@ Lens will inject `Certificate` object into our component so we just need to rend
 We can use `Renderer.Component.DrawerItem` component from Lens Extensions API to give the same look and feel as Lens is using elsewhere:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import React from "react";
 import { Certificate } from "../certificate";
 

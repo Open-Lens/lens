@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { DiContainer } from "@ogre-tools/injectable";
 import { MESSAGE } from "triple-beam";
-import type { SendMessageToChannel } from "@k8slens/messaging";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
+import type { SendMessageToChannel } from "@openlens/messaging";
+import { sendMessageToChannelInjectionToken } from "@openlens/messaging";
 import rendererLogFileIdInjectable from "./renderer-log-file-id.injectable";
 import ipcLogTransportInjectable from "./ipc-transport.injectable";
 import { getDiForUnitTesting } from "../../../renderer/getDiForUnitTesting";

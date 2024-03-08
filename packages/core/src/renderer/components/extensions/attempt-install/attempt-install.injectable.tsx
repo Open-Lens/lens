@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -12,10 +12,10 @@ import getExtensionDestFolderInjectable from "./get-extension-dest-folder.inject
 import type { CreateTempFilesAndValidate } from "./create-temp-files-and-validate.injectable";
 import createTempFilesAndValidateInjectable from "./create-temp-files-and-validate.injectable";
 import extensionInstallationStateStoreInjectable from "../../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
-import type { Disposer } from "@k8slens/utilities";
-import { disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
+import { disposer } from "@openlens/utilities";
 import type { ShowNotification } from "../../notifications";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import type { ExtensionLoader } from "../../../../extensions/extension-loader";
 import React from "react";
 import { remove as removeDir } from "fs-extra";
@@ -24,7 +24,7 @@ import type { ExtensionInstallationStateStore } from "../../../../extensions/ext
 import { ExtensionInstallationState } from "../../../../extensions/extension-installation-state-store/extension-installation-state-store";
 import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
 import showInfoNotificationInjectable from "../../notifications/show-info-notification.injectable";
-import type { LensExtensionId } from "@k8slens/legacy-extensions";
+import type { LensExtensionId } from "@openlens/legacy-extensions";
 
 export interface InstallRequest {
   fileName: string;

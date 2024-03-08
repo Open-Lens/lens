@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -22,7 +22,7 @@ import {
   htmlTemplate,
   publicPath,
 } from "./vars";
-import corePackageJson from "@k8slens/core/package.json";
+import corePackageJson from "@openlens/core/package.json";
 
 const renderer: webpack.Configuration = {
   target: "electron-renderer",
@@ -119,7 +119,7 @@ const renderer: webpack.Configuration = {
       patterns: [
         {
           from: path.resolve(
-            path.dirname(require.resolve("@k8slens/core/package.json")),
+            path.dirname(require.resolve("@openlens/core/package.json")),
             corePackageJson.exports["./fonts"]
           ),
           to: "fonts/[name][ext]",

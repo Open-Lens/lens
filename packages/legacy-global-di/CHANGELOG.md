@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/legacy-global-di
+**Note:** Version bump only for package @openlens/legacy-global-di
 
 
 
@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/legacy-global-di
+**Note:** Version bump only for package @openlens/legacy-global-di
 
 
 
@@ -61,7 +61,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/legacy-global-di
+**Note:** Version bump only for package @openlens/legacy-global-di
 
 
 
@@ -73,7 +73,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/legacy-global-di
+**Note:** Version bump only for package @openlens/legacy-global-di
 
 
 
@@ -81,4 +81,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 1.0.0-alpha.1 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/legacy-global-di
+**Note:** Version bump only for package @openlens/legacy-global-di

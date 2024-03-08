@@ -1,4 +1,4 @@
-# @k8slens/kubectl-versions
+# @openlens/kubectl-versions
 
 This package contains a JSON array of entries of the format ["MAJOR.MINOR", "MAJOR.MINOR.PATCH"].
 

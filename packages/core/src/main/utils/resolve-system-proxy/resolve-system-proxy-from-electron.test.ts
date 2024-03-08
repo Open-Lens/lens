@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,7 +8,7 @@ import resolveSystemProxyFromElectronInjectable from "./resolve-system-proxy-fro
 import resolveSystemProxyWindowInjectable from "./resolve-system-proxy-window.injectable";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@openlens/test-utils";
 import logErrorInjectable from "../../../common/log-error.injectable";
 import type { DiContainer } from "@ogre-tools/injectable";
 import type { BrowserWindow, Session, WebContents } from "electron";

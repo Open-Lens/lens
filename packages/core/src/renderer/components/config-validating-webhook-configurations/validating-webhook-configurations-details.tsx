@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
@@ -7,7 +7,7 @@ import { observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { WebhookConfig } from "../config-mutating-webhook-configurations/webhook-config";
-import type { ValidatingWebhookConfiguration } from "@k8slens/kube-object";
+import type { ValidatingWebhookConfiguration } from "@openlens/kube-object";
 
 export interface ValidatingWebhookProps extends KubeObjectDetailsProps<ValidatingWebhookConfiguration> {
 }

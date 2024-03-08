@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,8 +8,8 @@ import styles from "./avatar.module.scss";
 import type { ImgHTMLAttributes, MouseEventHandler } from "react";
 import React from "react";
 import randomColor from "randomcolor";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { computeDefaultShortName } from "../../../common/catalog/helpers";
 
 export interface AvatarProps {

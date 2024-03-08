@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/test-utils",
+  "name": "@openlens/test-utils",
   "version": "1.0.0",
   "description": "A collection of utilities for testing",
   "type": "commonjs",
@@ -14,8 +14,8 @@
     "dist"
   ],
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",
@@ -33,7 +33,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@k8slens/webpack": "^6.5.0",
+    "@openlens/webpack": "^6.5.0",
     "@types/lodash": "^4.14.191"
   }
 }

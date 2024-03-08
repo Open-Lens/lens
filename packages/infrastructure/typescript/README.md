@@ -1,11 +1,11 @@
-# @k8slens/typescript
+# @openlens/typescript
 
 This package contains typescript configurations for Lens packages.
 
 ## Install
 
 ```
-$ npm install @k8slens/typescript
+$ npm install @openlens/typescript
 ```
 
 ## Features
@@ -16,7 +16,7 @@ Base configuration for minimal duplication.
 **tsconfig.json**
 ```json
 {
-  "extends": "@k8slens/typescript/config/base.json"
+  "extends": "@openlens/typescript/config/base.json"
 }
 ```
 

@@ -1,20 +1,20 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { action, computed, makeObservable, observable, reaction } from "mobx";
-import type { Disposer } from "@k8slens/utilities";
-import { waitUntilDefined, includes, rejectPromiseBy, object } from "@k8slens/utilities";
-import type { KubeJsonApiDataFor, KubeObject } from "@k8slens/kube-object";
-import { KubeStatus } from "@k8slens/kube-object";
+import type { Disposer } from "@openlens/utilities";
+import { waitUntilDefined, includes, rejectPromiseBy, object } from "@openlens/utilities";
+import type { KubeJsonApiDataFor, KubeObject } from "@openlens/kube-object";
+import { KubeStatus } from "@openlens/kube-object";
 import type { IKubeWatchEvent } from "./kube-watch-event";
 import { ItemStore } from "../item.store";
 import type { KubeApiQueryParams, KubeApi, KubeApiWatchCallback } from "./kube-api";
 import { parseKubeApi } from "./kube-api-parse";
-import type { RequestInit } from "@k8slens/node-fetch";
+import type { RequestInit } from "@openlens/node-fetch";
 import type { Patch } from "rfc6902";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import assert from "assert";
 import type { PartialDeep } from "type-fest";
 import type { ClusterContext } from "../../renderer/cluster-frame-context/cluster-frame-context";

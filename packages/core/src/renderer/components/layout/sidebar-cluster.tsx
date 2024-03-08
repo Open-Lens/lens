@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import { IpcRendererNavigationEvents } from "../../../common/ipc/navigation-even
 import { Avatar } from "../avatar";
 import { Icon } from "../icon";
 import { Menu, MenuItem } from "../menu";
-import { Tooltip } from "@k8slens/tooltip";
+import { Tooltip } from "@openlens/tooltip";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import type { VisitEntityContextMenu } from "../../../common/catalog/visit-entity-context-menu.injectable";

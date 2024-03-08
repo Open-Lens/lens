@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -7,7 +7,7 @@ import type { KubernetesCluster } from "../catalog-entities";
 import readDirectoryInjectable from "../fs/read-directory.injectable";
 import readFileInjectable from "../fs/read-file.injectable";
 import { kubectlApplyAllInjectionToken, kubectlDeleteAllInjectionToken } from "../kube-helpers/channels";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import joinPathsInjectable from "../path/join-paths.injectable";
 import type { ResourceApplyingStack, ResourceStackDependencies } from "./resource-stack";
 import { ResourceStack } from "./resource-stack";

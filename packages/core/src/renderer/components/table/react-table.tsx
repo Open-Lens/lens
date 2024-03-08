@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,7 +8,7 @@ import React, { useCallback, useMemo } from "react";
 import type { Row, UseTableOptions } from "react-table";
 import { useFlexLayout, useSortBy, useTable } from "react-table";
 import { Icon } from "../icon";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 
 export interface ReactTableProps<Data extends object> extends UseTableOptions<Data> {
   headless?: boolean;

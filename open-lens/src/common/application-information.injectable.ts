@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import packageJson from "../../package.json";
-import { applicationInformationToken } from "@k8slens/application";
+import { applicationInformationToken } from "@openlens/application";
 
 const applicationInformationInjectable = getInjectable({
   id: "application-information",

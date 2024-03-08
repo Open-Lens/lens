@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -7,7 +7,7 @@ import { action } from "mobx";
 import weblinksStateInjectable from "./state.injectable";
 import type { WeblinkData } from "./storage.injectable";
 import * as uuid from "uuid";
-import { getOrInsert } from "@k8slens/utilities";
+import { getOrInsert } from "@openlens/utilities";
 
 export interface WeblinkCreateOptions {
   id?: string;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import type { LensExtension } from "../../../extensions/lens-extension";
 import { observable, when } from "mobx";
 import type { LensProtocolRouterDependencies, RouteAttempt } from "../../../common/protocol-handler";
 import { ProtocolHandlerInvalid } from "../../../common/protocol-handler";
-import { disposer, noop } from "@k8slens/utilities";
+import { disposer, noop } from "@openlens/utilities";
 import type { BroadcastMessage } from "../../../common/ipc/broadcast-message.injectable";
 
 export interface FallbackHandler {

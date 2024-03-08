@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
@@ -7,7 +7,7 @@ import emitAppEventInjectable from "../../common/app-event-bus/emit-event.inject
 import removePathInjectable from "../../common/fs/remove.injectable";
 import execFileInjectable from "../../common/fs/exec-file.injectable";
 import writeFileInjectable from "../../common/fs/write-file.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import joinPathsInjectable from "../../common/path/join-paths.injectable";
 import { ResourceApplier } from "./resource-applier";
 import createKubectlInjectable from "../kubectl/create-kubectl.injectable";

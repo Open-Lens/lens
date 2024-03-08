@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./dialog.scss";
 
-import type { StatefulSet } from "@k8slens/kube-object";
+import type { StatefulSet } from "@openlens/kube-object";
 import React, { Component } from "react";
 import type { IObservableValue } from "mobx";
 import { computed, makeObservable, observable } from "mobx";
@@ -15,7 +15,7 @@ import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
 import { Icon } from "../../icon";
 import { Slider } from "../../slider";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import statefulSetApiInjectable from "../../../../common/k8s-api/endpoints/stateful-set.api.injectable";
 import statefulSetDialogStateInjectable from "./dialog-state.injectable";

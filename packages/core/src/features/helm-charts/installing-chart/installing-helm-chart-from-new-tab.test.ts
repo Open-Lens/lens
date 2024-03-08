@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { AsyncFnMock } from "@async-fn/jest";
@@ -28,7 +28,7 @@ import requestHelmChartReadmeInjectable from "../../../common/k8s-api/endpoints/
 import requestHelmChartValuesInjectable from "../../../common/k8s-api/endpoints/helm-charts.api/request-values.injectable";
 import type { RequestDetailedHelmRelease } from "../../../renderer/components/helm-releases/release-details/release-details-model/request-detailed-helm-release.injectable";
 import requestDetailedHelmReleaseInjectable from "../../../renderer/components/helm-releases/release-details/release-details-model/request-detailed-helm-release.injectable";
-import { flushPromises } from "@k8slens/test-utils";
+import { flushPromises } from "@openlens/test-utils";
 import type { ListClusterHelmReleases } from "../../../main/helm/helm-service/list-helm-releases.injectable";
 import listClusterHelmReleasesInjectable from "../../../main/helm/helm-service/list-helm-releases.injectable";
 

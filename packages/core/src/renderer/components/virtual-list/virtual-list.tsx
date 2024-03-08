@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import React, { createRef, forwardRef, useCallback, useEffect, useImperativeHand
 import { observer } from "mobx-react";
 import type { Align, ListChildComponentProps, ListOnScrollProps } from "react-window";
 import { VariableSizeList } from "react-window";
-import { cssNames, noop } from "@k8slens/utilities";
+import { cssNames, noop } from "@openlens/utilities";
 import type { TableRowProps } from "../table/table-row";
 import isEqual from "lodash/isEqual";
 import AutoSizer from "react-virtualized-auto-sizer";

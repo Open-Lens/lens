@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import { Link } from "react-router-dom";
 import { KubeObjectListLayout } from "../kube-object-list-layout";
-import { stopPropagation } from "@k8slens/utilities";
+import { stopPropagation } from "@openlens/utilities";
 import type { PersistentVolumeClaimApi, StorageClassApi } from "../../../common/k8s-api/endpoints";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";
 import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import assert from "assert";
@@ -470,7 +470,7 @@ async function pickRelevantPrs(prs: ExtendedGithubPrData[], isMasterBranch: bool
 }
 
 async function setExtensionApiDepAsExact(coreVersion: SemVer) {
-  await pipeExecFile("npm", ["install", "--save-exact", "--workspace=@k8slens/extensions", `@k8slens/core@${coreVersion.format()}`]);
+  await pipeExecFile("npm", ["install", "--save-exact", "--workspace=@openlens/extensions", `@openlens/core@${coreVersion.format()}`]);
 }
 
 async function createRelease(): Promise<void> {

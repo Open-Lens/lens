@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { reaction } from "mobx";
 import { observer } from "mobx-react";
-import type { Pod, Secret } from "@k8slens/kube-object";
+import type { Pod, Secret } from "@openlens/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import secretApiInjectable from "../../../common/k8s-api/endpoints/secret.api.injectable";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";

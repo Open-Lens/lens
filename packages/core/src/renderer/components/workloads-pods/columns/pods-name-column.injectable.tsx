@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { getConvertedParts } from "@k8slens/utilities";
+import { getConvertedParts } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import React from "react";
-import type { Pod } from "@k8slens/kube-object";
-import { Tooltip } from "@k8slens/tooltip";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import type { Pod } from "@openlens/kube-object";
+import { Tooltip } from "@openlens/tooltip";
+import { podListLayoutColumnInjectionToken } from "@openlens/list-layout";
 
 const columnId = "name";
 

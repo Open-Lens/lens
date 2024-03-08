@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,13 +8,13 @@ import styles from "./hotbar-icon.module.scss";
 import React, { useState } from "react";
 
 import type { CatalogEntityContextMenu } from "../../../common/catalog";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { Menu, MenuItem } from "../menu";
 import { observer } from "mobx-react";
 import type { AvatarProps } from "../avatar";
 import { Avatar } from "../avatar";
 import { Icon } from "../icon";
-import { Tooltip } from "@k8slens/tooltip";
+import { Tooltip } from "@openlens/tooltip";
 import type { NormalizeCatalogEntityContextMenu } from "../../catalog/normalize-menu-item.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import normalizeCatalogEntityContextMenuInjectable from "../../catalog/normalize-menu-item.injectable";

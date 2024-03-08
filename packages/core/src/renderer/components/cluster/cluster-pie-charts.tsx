@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import { Icon } from "../icon";
 import type { PieChartData } from "../chart";
 import { PieChart } from "../chart";
 import { ClusterNoMetrics } from "./cluster-no-metrics";
-import { bytesToUnits, cssNames } from "@k8slens/utilities";
+import { bytesToUnits, cssNames } from "@openlens/utilities";
 import type { LensTheme } from "../../themes/lens-theme";
 import { getMetricLastPoints } from "../../../common/k8s-api/endpoints/metrics.api";
 import type { IAsyncComputed } from "@ogre-tools/injectable-react";
@@ -22,7 +22,7 @@ import activeThemeInjectable from "../../themes/active.injectable";
 import type { ClusterMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-cluster-metrics-by-node-names.injectable";
 import { isNumber } from "lodash";
 import type { SelectedNodeRoleForMetrics } from "./overview/selected-node-role-for-metrics.injectable";
-import type { Node } from "@k8slens/kube-object";
+import type { Node } from "@openlens/kube-object";
 import clusterOverviewMetricsInjectable from "./cluster-metrics.injectable";
 import selectedNodeRoleForMetricsInjectable from "./overview/selected-node-role-for-metrics.injectable";
 

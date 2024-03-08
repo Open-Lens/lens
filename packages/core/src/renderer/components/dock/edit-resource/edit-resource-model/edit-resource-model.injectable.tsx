@@ -1,15 +1,15 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import type { RequestKubeResource } from "./request-kube-resource.injectable";
 import requestKubeResourceInjectable from "./request-kube-resource.injectable";
-import { waitUntilDefined } from "@k8slens/utilities";
+import { waitUntilDefined } from "@openlens/utilities";
 import editResourceTabStoreInjectable from "../store.injectable";
 import type { EditingResource, EditResourceTabStore } from "../store";
 import { action, computed, observable, runInAction } from "mobx";
-import type { KubeObject, RawKubeObject } from "@k8slens/kube-object";
+import type { KubeObject, RawKubeObject } from "@openlens/kube-object";
 import yaml from "js-yaml";
 import assert from "assert";
 import type { RequestPatchKubeResource } from "./request-patch-kube-resource.injectable";

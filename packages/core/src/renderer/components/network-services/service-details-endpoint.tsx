@@ -1,17 +1,17 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { observer } from "mobx-react";
 import React from "react";
 import { Table, TableHead, TableCell, TableRow } from "../table";
-import { prevDefault } from "@k8slens/utilities";
-import type { Logger } from "@k8slens/logger";
-import { Endpoints } from "@k8slens/kube-object";
+import { prevDefault } from "@openlens/utilities";
+import type { Logger } from "@openlens/logger";
+import { Endpoints } from "@openlens/kube-object";
 import type { ShowDetails } from "../kube-detail-params/show-details.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import showDetailsInjectable from "../kube-detail-params/show-details.injectable";
 
 export interface ServiceDetailsEndpointProps {

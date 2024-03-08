@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./drawer-param-toggler.scss";
 import React from "react";
 import { Icon } from "../icon";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
 
 export interface DrawerParamTogglerProps {
   label: string | number;

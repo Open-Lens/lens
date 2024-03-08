@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/application-for-electron-main",
+  "name": "@openlens/application-for-electron-main",
   "private": false,
   "version": "6.5.0",
   "description": "Electron's main specifics for creating Lens applications",
@@ -18,8 +18,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",
@@ -31,9 +31,9 @@
     "lint:fix": "lens-lint --fix"
   },
   "peerDependencies": {
-    "@k8slens/application": "^6.5.0-alpha.0",
-    "@k8slens/feature-core": "^6.5.0-alpha.0",
-    "@k8slens/run-many": "^1.0.0-alpha.1",
+    "@openlens/application": "^6.5.0-alpha.0",
+    "@openlens/feature-core": "^6.5.0-alpha.0",
+    "@openlens/run-many": "^1.0.0-alpha.1",
     "@ogre-tools/injectable": "^16.1.0",
     "@ogre-tools/injectable-extension-for-auto-registration": "^16.1.0",
     "electron": "^22.3.3",
@@ -41,8 +41,8 @@
   },
   "devDependencies": {
     "@async-fn/jest": "^1.6.4",
-    "@k8slens/eslint-config": "^6.5.0",
-    "@k8slens/webpack": "^6.5.0",
+    "@openlens/eslint-config": "^6.5.0",
+    "@openlens/webpack": "^6.5.0",
     "@ogre-tools/test-utils": "^16.1.0"
   }
 }

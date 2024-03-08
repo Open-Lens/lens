@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,14 +8,14 @@ import "./menu-actions.scss";
 import React, { isValidElement } from "react";
 import { observable, makeObservable, reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { IconProps } from "../icon";
 import { Icon } from "../icon";
 import type { MenuProps } from "./menu";
 import { Menu, MenuItem } from "./menu";
 import isString from "lodash/isString";
-import type { TooltipDecoratorProps } from "@k8slens/tooltip";
+import type { TooltipDecoratorProps } from "@openlens/tooltip";
 import type { OpenConfirmDialog } from "../confirm-dialog/open.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import openConfirmDialogInjectable from "../confirm-dialog/open.injectable";

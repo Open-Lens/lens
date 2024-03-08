@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -15,7 +15,7 @@ import { getBoolean } from "../utils/parse-query";
 import assert from "assert";
 import type { SetRequired } from "type-fest";
 import type { EmitAppEvent } from "../../common/app-event-bus/emit-event.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { SelfSignedCert } from "selfsigned";
 import type { KubeAuthProxyServer } from "../cluster/kube-auth-proxy-server.injectable";
 import stoppable from "stoppable";

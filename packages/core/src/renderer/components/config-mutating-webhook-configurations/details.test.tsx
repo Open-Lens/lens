@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { RenderResult } from "@testing-library/react";
 import React from "react";
-import type { MutatingWebhookConfigurationData } from "@k8slens/kube-object";
-import { MutatingWebhookConfiguration } from "@k8slens/kube-object";
+import type { MutatingWebhookConfigurationData } from "@openlens/kube-object";
+import { MutatingWebhookConfiguration } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import type { DiRender } from "../test-utils/renderFor";
 import { renderFor } from "../test-utils/renderFor";

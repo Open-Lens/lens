@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import { ipcMainOn } from "../../common/ipc";
 import { once } from "lodash";
 import type { ClusterId } from "../../common/cluster-types";
 import type { CatalogEntityRegistry } from "../catalog";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { UpdateEntityMetadata } from "./update-entity-metadata.injectable";
 import type { UpdateEntitySpec } from "./update-entity-spec.injectable";
 import type { ClusterConnection } from "./cluster-connection.injectable";

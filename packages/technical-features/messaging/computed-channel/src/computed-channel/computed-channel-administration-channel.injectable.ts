@@ -1,8 +1,8 @@
 import { reaction } from "mobx";
-import { getMessageChannelListenerInjectable } from "@k8slens/messaging";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
+import { getMessageChannelListenerInjectable } from "@openlens/messaging";
+import { sendMessageToChannelInjectionToken } from "@openlens/messaging";
 import { computedChannelObserverInjectionToken } from "./computed-channel.injectable";
-import { getMessageChannel } from "@k8slens/messaging";
+import { getMessageChannel } from "@openlens/messaging";
 
 export type ComputedChannelAdminMessage = {
   channelId: string;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,7 +8,7 @@ import withErrorLoggingInjectable from "./with-error-logging.injectable";
 import { pipeline } from "@ogre-tools/fp";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@openlens/test-utils";
 import logErrorInjectable from "../../log-error.injectable";
 
 describe("with-error-logging", () => {

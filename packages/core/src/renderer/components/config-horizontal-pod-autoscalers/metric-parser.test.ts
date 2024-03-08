@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { DiContainer } from "@ogre-tools/injectable";
 import getHorizontalPodAutoscalerMetrics from "./get-metrics.injectable";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
-import { HorizontalPodAutoscaler } from "@k8slens/kube-object";
+import { HorizontalPodAutoscaler } from "@openlens/kube-object";
 
 const hpaV2 = {
   apiVersion: "autoscaling/v2",

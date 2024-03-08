@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
@@ -8,7 +8,7 @@ import type { PageParamInit } from "../navigation/page-param";
 import type { LensRendererExtension } from "../../extensions/lens-renderer-extension";
 import { map } from "lodash/fp";
 import createPageParamInjectable from "../navigation/create-page-param.injectable";
-import { object } from "@k8slens/utilities";
+import { object } from "@openlens/utilities";
 import type { PageRegistration } from "./page-registration";
 
 export interface ExtensionPageParametersInstantiationParam {

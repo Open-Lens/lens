@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { action } from "mobx";
 import { byOrderNumber } from "../../../common/utils/composable-responsibilities/orderable/orderable";
 import type { CatalogEntity } from "../../api/catalog-entity";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@openlens/routing";
 import type { RegisteredEntitySetting } from "./extension-registrator.injectable";
 import catalogEntitySettingItemsInjectable from "./settings.injectable";
 

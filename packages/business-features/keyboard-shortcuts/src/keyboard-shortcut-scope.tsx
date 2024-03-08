@@ -1,4 +1,4 @@
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 import React from "react";
 
 export interface KeyboardShortcutScopeProps {

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getDiForUnitTesting } from "../getDiForUnitTesting";
@@ -8,8 +8,8 @@ import { Cluster } from "../../common/cluster/cluster";
 import kubeconfigManagerInjectable from "../kubeconfig-manager/kubeconfig-manager.injectable";
 import directoryForTempInjectable from "../../common/app-paths/directory-for-temp/directory-for-temp.injectable";
 import type { DiContainer } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { Logger } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { Logger } from "@openlens/logger";
 import directoryForUserDataInjectable from "../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import normalizedPlatformInjectable from "../../common/vars/normalized-platform.injectable";
 import kubectlBinaryNameInjectable from "../kubectl/binary-name.injectable";

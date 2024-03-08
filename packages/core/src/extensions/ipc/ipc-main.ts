@@ -1,17 +1,17 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { ipcMain } from "electron";
 import { IpcPrefix, IpcRegistrar } from "./ipc-registrar";
 import { Disposers } from "../lens-extension";
 import type { LensMainExtension } from "../lens-main-extension";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
 import { once } from "lodash";
 import { ipcMainHandle } from "../../common/ipc";
-import type { Logger } from "@k8slens/logger";
-import { getEnvironmentSpecificLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
-import { loggerInjectionToken } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
+import { getEnvironmentSpecificLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
+import { loggerInjectionToken } from "@openlens/logger";
 
 interface Dependencies {
   readonly logger: Logger;

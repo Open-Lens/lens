@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -9,7 +9,7 @@ import execFileWithInputInjectable from "./exec-file-with-input/exec-file-with-i
 import { getErrorMessage } from "../../../../../common/utils/get-error-message";
 import { map } from "lodash/fp";
 import { pipeline } from "@ogre-tools/fp";
-import type { KubeJsonApiData } from "@k8slens/kube-object";
+import type { KubeJsonApiData } from "@openlens/kube-object";
 
 export type CallForKubeResourcesByManifest = (
   namespace: string,

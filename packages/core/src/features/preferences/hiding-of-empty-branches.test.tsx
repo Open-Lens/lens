@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
@@ -10,8 +10,8 @@ import { runInAction } from "mobx";
 import type { ApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 import { preferenceItemInjectionToken } from "./renderer/preference-items/preference-item-injection-token";
-import type { Discover } from "@k8slens/react-testing-library-discovery";
-import { discoverFor } from "@k8slens/react-testing-library-discovery";
+import type { Discover } from "@openlens/react-testing-library-discovery";
+import { discoverFor } from "@openlens/react-testing-library-discovery";
 
 describe("preferences - hiding-of-empty-branches, given in preferences page", () => {
   let builder: ApplicationBuilder;

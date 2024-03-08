@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import type { HelmRepo } from "../../common/helm/helm-repo";
 import { HelmChartManager } from "./helm-chart-manager";
 import helmChartManagerCacheInjectable from "./helm-chart-manager-cache.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import execHelmInjectable from "./exec-helm/exec-helm.injectable";
 import readFileInjectable from "../../common/fs/read-file.injectable";
 import statInjectable from "../../common/fs/stat.injectable";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,9 +8,9 @@ import "./info-panel.scss";
 import React, { Component } from "react";
 import { computed, observable, reaction, makeObservable } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
+import { Button } from "@openlens/button";
 import { Icon } from "../icon";
 import { Spinner } from "../spinner";
 import type { DockStore, TabId } from "./dock/store";

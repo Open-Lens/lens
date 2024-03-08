@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React, { useEffect, useState } from "react";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 import type { RequestIdleCallback } from "./request-idle-callback.injectable";
 import type { CancelIdleCallback } from "./cancel-idle-callback.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";

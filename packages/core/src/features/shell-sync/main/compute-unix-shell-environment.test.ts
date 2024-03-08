@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { DiContainer } from "@ogre-tools/injectable";
 import type { ChildProcessWithoutNullStreams } from "child_process";
 import EventEmitter from "events";
-import { flushPromises } from "@k8slens/test-utils";
+import { flushPromises } from "@openlens/test-utils";
 import type { Spawn } from "../../../main/child-process/spawn.injectable";
 import spawnInjectable from "../../../main/child-process/spawn.injectable";
 import randomUUIDInjectable from "../../../main/crypto/random-uuid.injectable";

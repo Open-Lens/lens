@@ -37,7 +37,7 @@ Finally, you can also add commands and protocol handlers:
 To create a renderer extension, extend the `Renderer.LensExtension` class:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 export default class ExampleExtensionMain extends Renderer.LensExtension {
   onActivate() {
@@ -74,7 +74,7 @@ Use your extension to access Kubernetes resources in the active cluster with [`C
 Add a cluster page definition to a `Renderer.LensExtension` subclass with the following example:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { ExampleIcon, ExamplePage } from "./page";
 import React from "react";
 
@@ -101,7 +101,7 @@ The properties of the `clusterPages` array objects are defined as follows:
 `ExamplePage` in the example above can be defined in `page.tsx`:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import React from "react";
 
 export class ExamplePage extends React.Component<{
@@ -131,7 +131,7 @@ Use `clusterPageMenus`, covered in the next section, to add cluster pages to the
 By expanding on the above example, you can add a cluster page menu item to the `ExampleExtension` definition:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { ExampleIcon, ExamplePage } from "./page";
 import React from "react";
 
@@ -172,7 +172,7 @@ When users click **Hello World**, the cluster dashboard will show the contents o
 This example requires the definition of another React-based component, `ExampleIcon`, which has been added to `page.tsx`, as follows:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import React from "react";
 
 type IconProps = Renderer.Component.IconProps;
@@ -209,7 +209,7 @@ The properties that `Renderer.Component.Icon` uses are defined as follows:
 The following example groups two sub menu items under one parent menu item:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { ExampleIcon, ExamplePage } from "./page";
 import React from "react";
 
@@ -283,7 +283,7 @@ Unlike cluster pages, users can trigger global pages even when there is no activ
 The following example defines a `Renderer.LensExtension` subclass with a single global page definition:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { HelpPage } from "./page";
 import React from "react";
 
@@ -310,7 +310,7 @@ The properties of the `globalPages` array objects are defined as follows:
 `HelpPage` in the example above can be defined in `page.tsx`:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import React from "react";
 
 export class HelpPage extends React.Component<{
@@ -347,7 +347,7 @@ You can use Lens extensions to add custom preferences to the Preferences page, p
 The following example demonstrates adding a custom preference:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import {
   ExamplePreferenceHint,
   ExamplePreferenceInput,
@@ -388,7 +388,7 @@ This is how `ExampleRendererExtension` handles the state of the preference input
 In this example `ExamplePreferenceInput`, `ExamplePreferenceHint`, and `ExamplePreferenceProps` are defined in `./src/example-preference.tsx` as follows:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { makeObservable } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
@@ -466,7 +466,7 @@ The following example adds a `statusBarItems` definition and a `globalPages` def
 It configures the status bar item to navigate to the global page upon activation (normally a mouse click):
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { HelpIcon, HelpPage } from "./page";
 import React from "react";
 
@@ -524,7 +524,7 @@ The following example shows how to add a `kubeObjectMenuItems` for namespace res
 
 ```typescript
 import React from "react";
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { NamespaceMenuItem } from "./src/namespace-menu-item";
 
 type KubeObjectMenuProps = Renderer.Component.KubeObjectMenuProps;
@@ -559,7 +559,7 @@ The properties of the `kubeObjectMenuItems` array objects are defined as follows
 
 ```typescript
 import React from "react";
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 const {
   Component: { terminalStore, MenuItem, Icon },
@@ -620,7 +620,7 @@ The following example shows how to use `kubeObjectDetailItems` to add a tabulate
 
 ```typescript
 import React from "react";
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { NamespaceDetailsItem } from "./src/namespace-details-item";
 
 type KubeObjectMenuProps = Renderer.Component.KubeObjectMenuProps;
@@ -656,7 +656,7 @@ The properties of the `kubeObjectDetailItems` array objects are defined as follo
 `NamespaceDetailsItem` is defined in `./src/namespace-details-item.tsx`:
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { PodsDetailsList } from "./pods-details-list";
 import React from "react";
 import { observable } from "mobx";
@@ -716,7 +716,7 @@ The rest of this example's details are defined in `PodsDetailsList`, found in `.
 
 ```typescript
 import React from "react";
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 const {
   Component: { TableHead, TableRow, TableCell, Table },

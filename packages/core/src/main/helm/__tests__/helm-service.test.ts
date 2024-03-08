@@ -1,14 +1,14 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import listHelmChartsInjectable from "../helm-service/list-helm-charts.injectable";
 import getActiveHelmRepositoriesInjectable from "../repositories/get-active-helm-repositories/get-active-helm-repositories.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
 import type { HelmRepo } from "../../../common/helm/helm-repo";
-import { sortBySemverVersion } from "@k8slens/utilities";
+import { sortBySemverVersion } from "@openlens/utilities";
 import helmChartManagerInjectable from "../helm-chart-manager.injectable";
 
 describe("Helm Service tests", () => {

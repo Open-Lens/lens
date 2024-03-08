@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
-import type { Pod, PodSpecVolume, PodVolumeKind } from "@k8slens/kube-object";
+import type { Pod, PodSpecVolume, PodVolumeKind } from "@openlens/kube-object";
 import { DrawerItem } from "../../../drawer";
 import { Icon } from "../../../icon";
 import { AwsElasticBlockStore } from "./variants/aws-elastic-block-store";

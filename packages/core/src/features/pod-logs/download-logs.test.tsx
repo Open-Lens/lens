@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -27,7 +27,7 @@ import stopLoadingLogsInjectable from "../../renderer/components/dock/logs/stop-
 import { dockerPod } from "../../renderer/components/dock/logs/__test__/pod.mock";
 import showErrorNotificationInjectable from "../../renderer/components/notifications/show-error-notification.injectable";
 import type { DiContainer } from "@ogre-tools/injectable";
-import type { Container } from "@k8slens/kube-object";
+import type { Container } from "@openlens/kube-object";
 
 describe("download logs options in logs dock tab", () => {
   let windowDi: DiContainer;

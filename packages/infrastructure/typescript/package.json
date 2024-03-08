@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/typescript",
+  "name": "@openlens/typescript",
   "private": false,
   "version": "6.5.0",
   "description": "Typescript configuration for Lens packages.",
@@ -13,8 +13,8 @@
     "url": "git+https://github.com/Open-Lens/app.git"
   },
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",

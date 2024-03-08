@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import type { ChartOptions } from "chart.js";
 import ChartJS from "chart.js";
 import type { ChartProps } from "./chart";
 import { Chart } from "./chart";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { LensTheme } from "../../themes/lens-theme";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { IComputedValue } from "mobx";

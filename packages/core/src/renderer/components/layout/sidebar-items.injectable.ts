@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, getInjectionToken } from "@ogre-tools/injectable";
@@ -8,7 +8,7 @@ import { computed } from "mobx";
 import { computedInjectManyInjectable } from "@ogre-tools/injectable-extension-for-mobx";
 import { byOrderNumber } from "../../../common/utils/composable-responsibilities/orderable/orderable";
 import type { SetRequired } from "type-fest";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 
 export interface SidebarItemRegistration {
   id: string;

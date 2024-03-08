@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import type { ExtensionLoader } from "../extension-loader";
 import extensionLoaderInjectable from "../extension-loader/extension-loader.injectable";
 import type { ObservableMap } from "mobx";
 import { runInAction } from "mobx";
-import { delay } from "@k8slens/utilities";
+import { delay } from "@openlens/utilities";
 import { getDiForUnitTesting } from "../../renderer/getDiForUnitTesting";
 import ipcRendererInjectable from "../../renderer/utils/channel/ipc-renderer.injectable";
 import type { IpcRenderer } from "electron";

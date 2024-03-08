@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,16 +9,16 @@ import React from "react";
 import kebabCase from "lodash/kebabCase";
 import { observer } from "mobx-react";
 import { Link } from "react-router-dom";
-import { Pod } from "@k8slens/kube-object";
+import { Pod } from "@openlens/kube-object";
 import type { NodeApi, PriorityClassApi, RuntimeClassApi, ServiceAccountApi } from "../../../common/k8s-api/endpoints";
 import { DrawerItem } from "../drawer";
 import { Badge } from "../badge";
-import { cssNames, stopPropagation } from "@k8slens/utilities";
+import { cssNames, stopPropagation } from "@openlens/utilities";
 import { PodDetailsAffinities } from "./pod-details-affinities";
 import { PodDetailsTolerations } from "./pod-details-tolerations";
 import { PodDetailsSecrets } from "./pod-details-secrets";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { PodVolumes } from "./details/volumes/view";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
@@ -27,7 +27,7 @@ import nodeApiInjectable from "../../../common/k8s-api/endpoints/node.api.inject
 import runtimeClassApiInjectable from "../../../common/k8s-api/endpoints/runtime-class.api.injectable";
 import serviceAccountApiInjectable from "../../../common/k8s-api/endpoints/service-account.api.injectable";
 import priorityClassApiInjectable from "../../../common/k8s-api/endpoints/priority-class.api.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import { PodDetailsContainers } from "./details/containers/pod-details-containers";
 import { PodDetailsInitContainers } from "./details/containers/pod-details-init-containers";
 

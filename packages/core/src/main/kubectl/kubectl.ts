@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -15,9 +15,9 @@ import type { JoinPaths } from "../../common/path/join-paths.injectable";
 import type { GetDirnameOfPath } from "../../common/path/get-dirname.injectable";
 import type { GetBasenameOfPath } from "../../common/path/get-basename.injectable";
 import type { NormalizedPlatform } from "../../common/vars/normalized-platform.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { ExecFile } from "../../common/fs/exec-file.injectable";
-import { hasTypedProperty, isObject, isString, json } from "@k8slens/utilities";
+import { hasTypedProperty, isObject, isString, json } from "@openlens/utilities";
 import type { Unlink } from "../../common/fs/unlink.injectable";
 import { packageMirrors, defaultPackageMirror } from "../../features/user-preferences/common/preferences-helpers";
 

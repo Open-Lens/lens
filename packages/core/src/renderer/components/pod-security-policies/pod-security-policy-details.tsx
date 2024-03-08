@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,13 +9,13 @@ import React from "react";
 import { observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { PodSecurityPolicy } from "@k8slens/kube-object";
+import { PodSecurityPolicy } from "@openlens/kube-object";
 import { Badge } from "../badge";
 import { Table, TableCell, TableHead, TableRow } from "../table";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { StrictReactNode } from "@k8slens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { StrictReactNode } from "@openlens/utilities";
 
 export interface PodSecurityPolicyDetailsProps extends KubeObjectDetailsProps<PodSecurityPolicy> {
 }

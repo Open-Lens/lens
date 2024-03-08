@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeObject } from "@k8slens/kube-object";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { KubeObject } from "@openlens/kube-object";
+import type { StrictReactNode } from "@openlens/utilities";
 import type { TableSortCallback, SearchFilter, TableCellProps } from "./list-layout-column";
 
 export interface BaseKubeObjectListLayoutColumn<K extends KubeObject> {

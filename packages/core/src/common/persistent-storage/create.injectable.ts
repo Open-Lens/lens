@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { disposer, isPromiseLike } from "@k8slens/utilities";
+import { disposer, isPromiseLike } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { Options } from "conf/dist/source";
 import { isEqual, kebabCase } from "lodash";
@@ -10,10 +10,10 @@ import type { IEqualsComparer } from "mobx";
 import { reaction } from "mobx";
 import directoryForUserDataInjectable from "../app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import getConfigurationFileModelInjectable from "../get-configuration-file-model/get-configuration-file-model.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import getBasenameOfPathInjectable from "../path/get-basename.injectable";
-import { enlistMessageChannelListenerInjectionToken, sendMessageToChannelInjectionToken } from "@k8slens/messaging";
-import type { MessageChannel } from "@k8slens/messaging";
+import { enlistMessageChannelListenerInjectionToken, sendMessageToChannelInjectionToken } from "@openlens/messaging";
+import type { MessageChannel } from "@openlens/messaging";
 import { persistentStorageIpcChannelPrefixesInjectionToken } from "./channel-prefix";
 import { shouldPersistentStorageDisableSyncInIpcListenerInjectionToken } from "./disable-sync";
 import { persistStateToConfigInjectionToken } from "./save-to-file";

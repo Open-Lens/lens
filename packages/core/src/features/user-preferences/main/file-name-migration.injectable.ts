@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
-import { isErrnoException } from "@k8slens/utilities";
+import { isErrnoException } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";
 import fsInjectable from "../../../common/fs/fs.injectable";

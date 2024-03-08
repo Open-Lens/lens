@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { StatefulSetApi } from "../../../../common/k8s-api/endpoints";
-import { StatefulSet } from "@k8slens/kube-object";
+import { StatefulSet } from "@openlens/kube-object";
 import { StatefulSetScaleDialog } from "./dialog";
 import { waitFor, fireEvent } from "@testing-library/react";
 import React from "react";

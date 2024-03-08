@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { RenderResult } from "@testing-library/react";
@@ -14,7 +14,7 @@ import helmBinaryPathInjectable from "../../main/helm/helm-binary-path.injectabl
 import getActiveHelmRepositoriesInjectable from "../../main/helm/repositories/get-active-helm-repositories/get-active-helm-repositories.injectable";
 import type { HelmRepo } from "../../common/helm/helm-repo";
 import requestPublicHelmRepositoriesInjectable from "./child-features/preferences/renderer/adding-of-public-helm-repository/public-helm-repositories/request-public-helm-repositories.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
 
 describe("remove helm repository from list of active repositories in preferences", () => {
   let builder: ApplicationBuilder;

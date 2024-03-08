@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,7 +8,7 @@ import openShellSessionInjectable from "../../shell-session/create-shell-session
 import type { LensProxyApiRequest } from "../lens-proxy";
 import URLParse from "url-parse";
 import { Server as WebSocketServer } from "ws";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import getClusterForRequestInjectable from "../get-cluster-for-request.injectable";
 
 const shellApiRequestInjectable = getInjectable({

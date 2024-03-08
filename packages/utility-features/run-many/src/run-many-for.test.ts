@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { AsyncFnMock } from "@async-fn/jest";
@@ -7,7 +7,7 @@ import asyncFn from "@async-fn/jest";
 import { createContainer, getInjectable, getInjectionToken } from "@ogre-tools/injectable";
 import type { Runnable } from "./types";
 import { runManyFor } from "./run-many-for";
-import { getPromiseStatus, flushPromises } from "@k8slens/test-utils";
+import { getPromiseStatus, flushPromises } from "@openlens/test-utils";
 import { runInAction } from "mobx";
 
 describe("runManyFor", () => {

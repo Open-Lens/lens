@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,8 +8,8 @@ import "./details.scss";
 import { reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import React from "react";
-import type { RoleBinding } from "@k8slens/kube-object";
-import { prevDefault, ObservableHashSet } from "@k8slens/utilities";
+import type { RoleBinding } from "@openlens/kube-object";
+import { prevDefault, ObservableHashSet } from "@openlens/utilities";
 import { AddRemoveButtons } from "../../add-remove-buttons";
 import { DrawerTitle } from "../../drawer";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";

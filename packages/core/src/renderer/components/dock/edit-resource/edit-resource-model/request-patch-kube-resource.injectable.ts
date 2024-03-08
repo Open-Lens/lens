@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
 import type { JsonPatch } from "../../../../../common/k8s-api/kube-object.store";
 import { getErrorMessage } from "../../../../../common/utils/get-error-message";
 import { patchTypeHeaders } from "../../../../../common/k8s-api/kube-api";

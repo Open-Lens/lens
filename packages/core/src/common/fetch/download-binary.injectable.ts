@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { RequestInit, Response } from "@k8slens/node-fetch";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { RequestInit, Response } from "@openlens/node-fetch";
+import type { AsyncResult } from "@openlens/utilities";
 import fetchInjectable from "./fetch.injectable";
 
 export interface DownloadBinaryOptions {

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -16,7 +16,7 @@ import { TopBar } from "../layout/top-bar/top-bar";
 import type { IComputedValue } from "mobx";
 import currentRouteComponentInjectable from "../../routes/current-route-component.injectable";
 import welcomeRouteInjectable from "../../../common/front-end-routing/routes/welcome/welcome-route.injectable";
-import { buildURL } from "@k8slens/utilities";
+import { buildURL } from "@openlens/utilities";
 import type { WatchForGeneralEntityNavigation } from "../../api/helpers/watch-for-general-entity-navigation.injectable";
 import watchForGeneralEntityNavigationInjectable from "../../api/helpers/watch-for-general-entity-navigation.injectable";
 import currentPathInjectable from "../../routes/current-path.injectable";

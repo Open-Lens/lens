@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/jest",
+  "name": "@openlens/jest",
   "private": false,
   "version": "6.5.0",
   "description": "Jest configuration and scripts for Lens packages.",
@@ -14,8 +14,8 @@
   },
   "main": "index.js",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",

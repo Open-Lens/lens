@@ -37,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Copy fonts from @k8slens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
+* Copy fonts from @openlens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
 
 
 
@@ -86,7 +86,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Copy fonts from @k8slens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
+* Copy fonts from @openlens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
 
 
 
@@ -126,7 +126,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Copy fonts from @k8slens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
+* Copy fonts from @openlens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
 
 
 
@@ -166,7 +166,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Copy fonts from @k8slens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
+* Copy fonts from @openlens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
 
 
 
@@ -190,7 +190,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Copy fonts from @k8slens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
+* Copy fonts from @openlens/core to open-lens correctly ([33a9f3e](https://github.com/lensapp/lens/commit/33a9f3ea3501c04738c8d74b82725bbe83e148bb))
 
 
 

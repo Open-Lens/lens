@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
-import { cssNames } from "@k8slens/utilities";
-import type { KubeObject } from "@k8slens/kube-object";
+import { cssNames } from "@openlens/utilities";
+import type { KubeObject } from "@openlens/kube-object";
 import type { MenuActionsProps } from "../menu";
 import { MenuItem, MenuActions } from "../menu";
 import identity from "lodash/identity";

@@ -1,4 +1,4 @@
-const { monorepoRootConfig } = require("@k8slens/jest");
+const { monorepoRootConfig } = require("@openlens/jest");
 
 module.exports = monorepoRootConfig(__dirname);
 

@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { HelmRepo } from "../../../../../../../common/helm/helm-repo";
-import { requestFromChannelInjectionToken } from "@k8slens/messaging";
+import { requestFromChannelInjectionToken } from "@openlens/messaging";
 import activeHelmRepositoriesInjectable from "../../active-helm-repositories.injectable";
 import showErrorNotificationInjectable from "../../../../../../../renderer/components/notifications/show-error-notification.injectable";
 import showSuccessNotificationInjectable from "../../../../../../../renderer/components/notifications/show-success-notification.injectable";

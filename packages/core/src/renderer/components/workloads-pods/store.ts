@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,8 +7,8 @@ import countBy from "lodash/countBy";
 import { observable } from "mobx";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import { cpuUnitsToNumber, unitsToBytes } from "@k8slens/utilities";
-import type { Pod, PodMetrics, KubeObject, NamespaceScopedMetadata } from "@k8slens/kube-object";
+import { cpuUnitsToNumber, unitsToBytes } from "@openlens/utilities";
+import type { Pod, PodMetrics, KubeObject, NamespaceScopedMetadata } from "@openlens/kube-object";
 import type { PodApi, PodMetricsApi } from "../../../common/k8s-api/endpoints";
 
 export interface PodStoreDependencies extends KubeObjectStoreDependencies {

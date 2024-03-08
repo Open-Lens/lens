@@ -1,15 +1,15 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { action, computed, observable } from "mobx";
-import { disposer } from "@k8slens/utilities";
-import type { ExtendableDisposer } from "@k8slens/utilities";
+import { disposer } from "@openlens/utilities";
+import type { ExtendableDisposer } from "@openlens/utilities";
 import * as uuid from "uuid";
 import { broadcastMessage } from "../../common/ipc";
 import { ipcRenderer } from "electron";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 
 export enum ExtensionInstallationState {
   INSTALLING = "installing",

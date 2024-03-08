@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import * as uuid from "uuid";
 
 import { ProtocolHandlerExtension, ProtocolHandlerInternal, ProtocolHandlerInvalid } from "../../../common/protocol-handler";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@openlens/utilities";
 import type { LensProtocolRouterMain } from "../lens-protocol-router-main/lens-protocol-router-main";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import lensProtocolRouterMainInjectable from "../lens-protocol-router-main/lens-protocol-router-main.injectable";
@@ -17,7 +17,7 @@ import directoryForUserDataInjectable from "../../../common/app-paths/directory-
 import broadcastMessageInjectable from "../../../common/ipc/broadcast-message.injectable";
 import type { LensExtensionState } from "../../../features/extensions/enabled/common/state.injectable";
 import enabledExtensionsStateInjectable from "../../../features/extensions/enabled/common/state.injectable";
-import type { LegacyLensExtension, LensExtensionId } from "@k8slens/legacy-extensions";
+import type { LegacyLensExtension, LensExtensionId } from "@openlens/legacy-extensions";
 import { LensMainExtension } from "../../../extensions/lens-main-extension";
 
 function throwIfDefined(val: any): void {

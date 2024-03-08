@@ -1,16 +1,16 @@
-# @k8slens/application
+# @openlens/application
 
 This package contains stuff related to creating Lens-applications. 
 
 # Usage
 
 ```bash
-$ npm install @k8slens/application-for-electron-main
+$ npm install @openlens/application-for-electron-main
 ```
 
 ```typescript
-import { applicationFeature, startApplicationInjectionToken } from "@k8slens/application";
-import { registerFeature } from "@k8slens/feature-core";
+import { applicationFeature, startApplicationInjectionToken } from "@openlens/application";
+import { registerFeature } from "@openlens/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 
 const di = createContainer("some-container");

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -9,7 +9,7 @@ import lensProtocolRouterRendererInjectable from "../../protocol-handler/lens-pr
 import catalogEntityRegistryInjectable from "../../api/catalog/entity/registry.injectable";
 import registerIpcListenersInjectable from "../../ipc/register-ipc-listeners.injectable";
 import loadExtensionsInjectable from "../load-extensions.injectable";
-import { delay } from "@k8slens/utilities";
+import { delay } from "@openlens/utilities";
 import { broadcastMessage } from "../../../common/ipc";
 import { bundledExtensionsLoaded } from "../../../common/ipc/extension-handling";
 

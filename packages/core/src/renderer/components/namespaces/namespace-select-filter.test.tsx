@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,14 +14,14 @@ import directoryForUserDataInjectable from "../../../common/app-paths/directory-
 import { Cluster } from "../../../common/cluster/cluster";
 import type { Fetch } from "../../../common/fetch/fetch.injectable";
 import fetchInjectable from "../../../common/fetch/fetch.injectable";
-import { Namespace } from "@k8slens/kube-object";
+import { Namespace } from "@openlens/kube-object";
 import { createMockResponseFromString } from "../../../test-utils/mock-responses";
 import hostedClusterInjectable from "../../cluster-frame-context/hosted-cluster.injectable";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import subscribeStoresInjectable from "../../kube-watch-api/subscribe-stores.injectable";
 import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-created.injectable";
-import type { Disposer } from "@k8slens/utilities";
-import { disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
+import { disposer } from "@openlens/utilities";
 import { renderFor } from "../test-utils/renderFor";
 import { NamespaceSelectFilter } from "./namespace-select-filter";
 import type { NamespaceStore } from "./store";

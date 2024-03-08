@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { KubeConfig } from "@kubernetes/client-node";
 import { dumpConfigYaml } from "../../common/kube-helpers";
-import { isErrnoException } from "@k8slens/utilities";
+import { isErrnoException } from "@openlens/utilities";
 import type { PartialDeep } from "type-fest";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { JoinPaths } from "../../common/path/join-paths.injectable";
 import type { GetDirnameOfPath } from "../../common/path/get-dirname.injectable";
 import type { PathExists } from "../../common/fs/path-exists.injectable";

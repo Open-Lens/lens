@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
 import { SecretDetails } from "../secret-details";
-import { Secret, SecretType } from "@k8slens/kube-object";
+import { Secret, SecretType } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { renderFor } from "../../test-utils/renderFor";
 import storesAndApisCanBeCreatedInjectable from "../../../stores-apis-can-be-created.injectable";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import { Table } from "../table/table";
 import { TableHead } from "../table/table-head";
 import { TableRow } from "../table/table-row";
 import React from "react";
-import type { Node } from "@k8slens/kube-object";
+import type { Node } from "@openlens/kube-object";
 import { TableCell } from "../table/table-cell";
 
 export interface NodeDetailsResourcesProps {

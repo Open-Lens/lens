@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { urlBuilderFor, isDefined } from "@k8slens/utilities";
+import { urlBuilderFor, isDefined } from "@openlens/utilities";
 import { HelmChart } from "../helm-charts.api";
 import type { RawHelmChart } from "../helm-charts.api";
 import apiBaseInjectable from "../../api-base.injectable";

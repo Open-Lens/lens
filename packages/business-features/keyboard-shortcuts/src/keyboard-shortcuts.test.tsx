@@ -5,15 +5,15 @@ import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injecta
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { keyboardShortcutInjectionToken } from "./keyboard-shortcut-injection-token";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@openlens/feature-core";
 import { keyboardShortcutsFeature } from "./feature";
 import React from "react";
 import { computed, runInAction } from "mobx";
 import { KeyboardShortcutScope } from "./keyboard-shortcut-scope";
-import { Discover, discoverFor } from "@k8slens/react-testing-library-discovery";
-import { startApplicationInjectionToken } from "@k8slens/application";
-import { renderInjectionToken } from "@k8slens/react-application";
-import { reactApplicationChildrenInjectionToken } from "@k8slens/react-application";
+import { Discover, discoverFor } from "@openlens/react-testing-library-discovery";
+import { startApplicationInjectionToken } from "@openlens/application";
+import { renderInjectionToken } from "@openlens/react-application";
+import { reactApplicationChildrenInjectionToken } from "@openlens/react-application";
 import platformInjectable from "./platform.injectable";
 
 describe("keyboard-shortcuts", () => {

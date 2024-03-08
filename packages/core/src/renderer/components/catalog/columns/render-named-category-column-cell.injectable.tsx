@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -9,7 +9,7 @@ import activeHotbarInjectable from "../../../../features/hotbar/storage/common/a
 import { Avatar } from "../../avatar";
 import type { RegisteredAdditionalCategoryColumn } from "../custom-category-columns";
 import { Icon } from "../../icon";
-import { prevDefault } from "@k8slens/utilities";
+import { prevDefault } from "@openlens/utilities";
 
 const renderNamedCategoryColumnCellInjectable = getInjectable({
   id: "render-named-category-column-cell",

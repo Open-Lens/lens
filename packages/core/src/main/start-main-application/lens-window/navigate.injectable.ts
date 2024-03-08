@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { iter } from "@k8slens/utilities";
+import { iter } from "@openlens/utilities";
 import clusterFramesInjectable from "../../../common/cluster-frames.injectable";
 import { IpcRendererNavigationEvents } from "../../../common/ipc/navigation-events";
 import showApplicationWindowInjectable from "./show-application-window.injectable";

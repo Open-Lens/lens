@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectable } from "@ogre-tools/injectable";
 import type { IComputedValue } from "mobx";
 import { computed } from "mobx";
-import type { CustomResourceDefinition } from "@k8slens/kube-object";
+import type { CustomResourceDefinition } from "@openlens/kube-object";
 import customResourceDefinitionsInjectable from "../../custom-resources/custom-resources.injectable";
 import type { LensRendererExtension } from "../../../../extensions/lens-renderer-extension";
 import rendererExtensionsInjectable from "../../../../extensions/renderer-extensions.injectable";

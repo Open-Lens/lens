@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { RenderResult } from "@testing-library/react";
@@ -12,7 +12,7 @@ import { observable, runInAction, computed } from "mobx";
 import React from "react";
 import { navigateToRouteInjectionToken } from "../../../../common/front-end-routing/navigate-to-route-injection-token";
 import { routeSpecificComponentInjectionToken } from "../../../../renderer/routes/route-specific-component-injection-token";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
 import { KubeObjectMenu } from "../../../../renderer/components/kube-object-menu";
 
 describe("reactively hide kube object menu item", () => {

@@ -1,3 +1,3 @@
 {
-  "extends": "@k8slens/typescript/config/base.json"
+  "extends": "@openlens/typescript/config/base.json"
 }

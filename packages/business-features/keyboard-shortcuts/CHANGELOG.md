@@ -114,7 +114,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.4 (2023-04-12)
 
-**Note:** Version bump only for package @k8slens/keyboard-shortcuts
+**Note:** Version bump only for package @openlens/keyboard-shortcuts
 
 
 
@@ -130,4 +130,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.4 (2023-04-12)
 
-**Note:** Version bump only for package @k8slens/keyboard-shortcuts
+**Note:** Version bump only for package @openlens/keyboard-shortcuts

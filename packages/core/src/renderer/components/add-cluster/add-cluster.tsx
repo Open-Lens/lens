@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,8 +14,8 @@ import React from "react";
 import * as uuid from "uuid";
 import { loadConfigFromString, splitConfig } from "../../../common/kube-helpers";
 import { docsUrl } from "../../../common/vars";
-import { isDefined, iter } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import { isDefined, iter } from "@openlens/utilities";
+import { Button } from "@openlens/button";
 import type { ShowNotification } from "../notifications";
 import { SettingLayout } from "../layout/setting-layout";
 import { MonacoEditor } from "../monaco-editor";

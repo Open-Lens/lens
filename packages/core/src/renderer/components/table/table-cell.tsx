@@ -1,16 +1,16 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./table-cell.scss";
 
 import React from "react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { Icon } from "../icon";
 import { Checkbox } from "../checkbox";
 import autoBindReact from "auto-bind/react";
-import type { TableCellProps } from "@k8slens/list-layout";
+import type { TableCellProps } from "@openlens/list-layout";
 
 export type TableCellElem = React.ReactElement<TableCellProps>;
 

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import catalogCategoryRegistryInjectable from "../../../common/catalog/category-registry.injectable";
 import loadKubeconfigInjectable from "../../../common/cluster/load-kubeconfig.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import getClusterByIdInjectable from "../../../features/cluster/storage/common/get-by-id.injectable";
 import openDeleteClusterDialogInjectable from "../../components/delete-cluster-dialog/open.injectable";
 import { beforeFrameStartsSecondInjectionToken } from "../tokens";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,16 +8,16 @@ import "./kube-object-list-layout.scss";
 import React from "react";
 import { computed, observable, reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import type { Disposer } from "@k8slens/utilities";
-import { hasTypedProperty, isObject, isString, cssNames, isDefined } from "@k8slens/utilities";
-import type { KubeJsonApiDataFor, KubeObject } from "@k8slens/kube-object";
+import type { Disposer } from "@openlens/utilities";
+import { hasTypedProperty, isObject, isString, cssNames, isDefined } from "@openlens/utilities";
+import type { KubeJsonApiDataFor, KubeObject } from "@openlens/kube-object";
 import type { ItemListLayoutProps, ItemListStore } from "../item-object-list/list-layout";
 import { ItemListLayout } from "../item-object-list/list-layout";
 import { KubeObjectMenu } from "../kube-object-menu";
 import { NamespaceSelectFilter } from "../namespaces/namespace-select-filter";
 import { ResourceKindMap, ResourceNames } from "../../utils/rbac";
 import { Icon } from "../icon";
-import { TooltipPosition } from "@k8slens/tooltip";
+import { TooltipPosition } from "@openlens/tooltip";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../cluster-frame-context/for-namespaced-resources.injectable";
 import type { SubscribableStore, SubscribeStores } from "../../kube-watch-api/kube-watch-api";
@@ -28,8 +28,8 @@ import type { ToggleKubeDetailsPane } from "../kube-detail-params/toggle-details
 import kubeSelectedUrlParamInjectable from "../kube-detail-params/kube-selected-url.injectable";
 import toggleKubeDetailsPaneInjectable from "../kube-detail-params/toggle-details.injectable";
 import type { ClusterContext } from "../../cluster-frame-context/cluster-frame-context";
-import type { GeneralKubeObjectListLayoutColumn, SpecificKubeListLayoutColumn } from "@k8slens/list-layout";
-import { kubeObjectListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import type { GeneralKubeObjectListLayoutColumn, SpecificKubeListLayoutColumn } from "@openlens/list-layout";
+import { kubeObjectListLayoutColumnInjectionToken } from "@openlens/list-layout";
 import { sortBy } from "lodash";
 
 export type KubeItemListStore<K extends KubeObject> = ItemListStore<K, false> & SubscribableStore & {

@@ -1,14 +1,14 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { Agent } from "https";
-import type { RequestInit } from "@k8slens/node-fetch";
+import type { RequestInit } from "@openlens/node-fetch";
 import lensProxyCertificateInjectable from "../certificate/lens-proxy-certificate.injectable";
 import fetchInjectable from "../fetch/fetch.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { JsonApiConfig, JsonApiDependencies } from "@k8slens/json-api";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { JsonApiConfig, JsonApiDependencies } from "@openlens/json-api";
 import { KubeJsonApi } from "./kube-json-api";
 
 export type CreateKubeJsonApi = (config: JsonApiConfig, reqInit?: RequestInit) => KubeJsonApi;

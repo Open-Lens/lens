@@ -14,7 +14,7 @@ In order to see logs from this extension, you need to start Lens from the comman
 This extension can register a custom callback that is executed when an extension is activated (started).
 
 ``` javascript
-import { Main } from "@k8slens/extensions"
+import { Main } from "@openlens/extensions"
 
 export default class ExampleMainExtension extends Main.LensExtension {
   async onActivate() {
@@ -28,7 +28,7 @@ export default class ExampleMainExtension extends Main.LensExtension {
 This extension can register a custom callback that is executed when an extension is deactivated (stopped).
 
 ``` javascript
-import { Main } from "@k8slens/extensions"
+import { Main } from "@openlens/extensions"
 
 export default class ExampleMainExtension extends Main.LensExtension {
   async onDeactivate() {
@@ -44,7 +44,7 @@ This extension can register custom app and tray menus that will be displayed on 
 Example:
 
 ```typescript
-import { Main } from "@k8slens/extensions"
+import { Main } from "@openlens/extensions"
 
 export default class ExampleMainExtension extends Main.LensExtension {
   appMenus = [
@@ -92,7 +92,7 @@ In order to see logs from this extension you need to check them via **View** > *
 This extension can register a custom callback that is executed when an extension is activated (started).
 
 ``` javascript
-import { Renderer } from "@k8slens/extensions"
+import { Renderer } from "@openlens/extensions"
 
 export default class ExampleExtension extends Renderer.LensExtension {
   async onActivate() {
@@ -106,7 +106,7 @@ export default class ExampleExtension extends Renderer.LensExtension {
 This extension can register a custom callback that is executed when an extension is deactivated (stopped).
 
 ``` javascript
-import { Renderer } from "@k8slens/extensions"
+import { Renderer } from "@openlens/extensions"
 
 export default class ExampleMainExtension extends Renderer.LensExtension {
   async onDeactivate() {
@@ -122,7 +122,7 @@ The global page is a full-screen page that hides all other content from a window
 
 ```typescript
 import React from "react"
-import { Renderer } from "@k8slens/extensions"
+import { Renderer } from "@openlens/extensions"
 import { ExamplePage } from "./src/example-page"
 
 const {
@@ -160,7 +160,7 @@ It is responsible for storing a state for custom preferences.
 
 ```typescript
 import React from "react"
-import { Renderer } from "@k8slens/extensions"
+import { Renderer } from "@openlens/extensions"
 import { myCustomPreferencesStore } from "./src/my-custom-preferences-store"
 import { MyCustomPreferenceHint, MyCustomPreferenceInput } from "./src/my-custom-preference"
 
@@ -185,7 +185,7 @@ These pages are visible in a cluster menu when a cluster is opened.
 
 ```typescript
 import React from "react"
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { ExampleIcon, ExamplePage } from "./src/page"
 
 export default class ExampleExtension extends Renderer.LensExtension {
@@ -218,7 +218,7 @@ This extension can register custom components to a top bar area.
 
 ```typescript
 import React from "react";
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 const {
   Component: {
@@ -246,7 +246,7 @@ This extension can register custom icons and text to a status bar area.
 
 ```typescript
 import React from "react";
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 const {
   Component: {
@@ -276,7 +276,7 @@ This extension can register custom workloads overview items.
 
 ```typescript
 import React from "react"
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { CustomWorkloadsOverviewItem } from "./src/custom-workloads-overview-item"
 
 export default class ExampleExtension extends Renderer.LensExtension {
@@ -297,7 +297,7 @@ This extension can register custom menu items (actions) for specified Kubernetes
 
 ```typescript
 import React from "react"
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { CustomMenuItem, CustomMenuItemProps } from "./src/custom-menu-item"
 
 export default class ExampleExtension extends Renderer.LensExtension {
@@ -320,7 +320,7 @@ This extension can register custom details (content) for specified Kubernetes ki
 
 ```typescript
 import React from "react"
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { CustomKindDetails, CustomKindDetailsProps } from "./src/custom-kind-details"
 
 export default class ExampleExtension extends Renderer.LensExtension {

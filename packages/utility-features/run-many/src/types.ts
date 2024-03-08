@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { Injectable } from "@ogre-tools/injectable";
-import type { SingleOrMany } from "@k8slens/utilities";
+import type { SingleOrMany } from "@openlens/utilities";
 
 export type Run<Param> = (parameter: Param) => Promise<void> | void;
 

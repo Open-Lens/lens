@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import "./pod-tolerations.scss";
 import React from "react";
 import uniqueId from "lodash/uniqueId";
 
-import type { Toleration } from "@k8slens/kube-object";
+import type { Toleration } from "@openlens/kube-object";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 
 export interface PodTolerationsProps {

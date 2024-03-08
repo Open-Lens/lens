@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
 import "@testing-library/jest-dom/extend-expect";
 import { fireEvent } from "@testing-library/react";
-import type { Toleration } from "@k8slens/kube-object";
+import type { Toleration } from "@openlens/kube-object";
 import { PodTolerations } from "../pod-tolerations";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import type { DiRender } from "../../test-utils/renderFor";

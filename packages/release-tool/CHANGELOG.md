@@ -39,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Make sure that the @k8slens/core dep in @k8slens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
+* Make sure that the @openlens/core dep in @openlens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
 
 
 
@@ -147,7 +147,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Make sure that the @k8slens/core dep in @k8slens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
+* Make sure that the @openlens/core dep in @openlens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
 
 
 
@@ -254,7 +254,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Make sure that the @k8slens/core dep in @k8slens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
+* Make sure that the @openlens/core dep in @openlens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
 
 
 
@@ -348,7 +348,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Make sure that the @k8slens/core dep in @k8slens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
+* Make sure that the @openlens/core dep in @openlens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
 
 
 
@@ -438,7 +438,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Make sure that the @k8slens/core dep in @k8slens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
+* Make sure that the @openlens/core dep in @openlens/extensions is exact ([799a3cb](https://github.com/lensapp/lens/commit/799a3cbd1cc025514d822db8263c3e1ef747a446))
 
 
 

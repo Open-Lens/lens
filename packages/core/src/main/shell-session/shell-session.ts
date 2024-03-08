@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,9 +10,9 @@ import { clearKubeconfigEnvVars } from "../utils/clear-kube-env-vars";
 import path from "path";
 import os from "os";
 import type * as pty from "node-pty";
-import { getOrInsertWith } from "@k8slens/utilities";
+import { getOrInsertWith } from "@openlens/utilities";
 import { type TerminalMessage, TerminalChannels } from "../../common/terminal/channels";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { ComputeShellEnvironment } from "../../features/shell-sync/main/compute-shell-environment.injectable";
 import type { SpawnPty } from "./spawn-pty.injectable";
 import type { EmitAppEvent } from "../../common/app-event-bus/emit-event.injectable";

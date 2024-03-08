@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,8 +7,8 @@ import "./kube-event-icon.scss";
 
 import React from "react";
 import { Icon } from "../icon";
-import type { KubeObject, KubeEvent } from "@k8slens/kube-object";
-import { cssNames } from "@k8slens/utilities";
+import type { KubeObject, KubeEvent } from "@openlens/kube-object";
+import { cssNames } from "@openlens/utilities";
 import { KubeObjectAge } from "../kube-object/age";
 import type { EventStore } from "./store";
 import { withInjectables } from "@ogre-tools/injectable-react";

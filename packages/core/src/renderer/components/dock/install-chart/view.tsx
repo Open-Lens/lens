@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,9 +10,9 @@ import { observer } from "mobx-react";
 import { InfoPanel } from "../info-panel";
 import { Badge } from "../../badge";
 import { NamespaceSelect } from "../../namespaces/namespace-select";
-import { prevDefault } from "@k8slens/utilities";
+import { prevDefault } from "@openlens/utilities";
 import { Icon } from "../../icon";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import { LogsDialog } from "../../dialog/logs-dialog";
 import { Select } from "../../select";
 import { Input } from "../../input";

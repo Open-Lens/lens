@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,8 +12,8 @@ import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
 import type { ExecFileWithInput } from "./call-for-kube-resources-by-manifest/exec-file-with-input/exec-file-with-input.injectable";
 import execFileWithInputInjectable from "./call-for-kube-resources-by-manifest/exec-file-with-input/exec-file-with-input.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
-import type { KubeJsonApiData } from "@k8slens/kube-object";
+import type { AsyncResult } from "@openlens/utilities";
+import type { KubeJsonApiData } from "@openlens/kube-object";
 
 describe("get helm release resources", () => {
   let getHelmReleaseResources: GetHelmReleaseResources;

@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import moment from "moment";
-import { formatDuration, isObject, isString } from "@k8slens/utilities";
+import { formatDuration, isObject, isString } from "@openlens/utilities";
 import type { Patch } from "rfc6902";
 import autoBind from "auto-bind";
 import type { KubeObjectMetadata, KubeObjectScope, KubeJsonApiData } from "./api-types";

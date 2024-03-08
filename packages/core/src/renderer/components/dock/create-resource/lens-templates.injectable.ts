@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -11,7 +11,7 @@ const lensCreateResourceTemplatesInjectable = getInjectable({
 
   instantiate: (di): RawTemplates => {
     const parsePath = di.inject(parsePathInjectable);
-    const templatesContext = require.context("@k8slens/resource-templates/templates", true, /^\.\/.*\.(yaml|yml)$/);
+    const templatesContext = require.context("@openlens/resource-templates/templates", true, /^\.\/.*\.(yaml|yml)$/);
 
     return {
       label: "lens",

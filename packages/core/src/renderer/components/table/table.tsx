@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,8 +7,8 @@ import "./table.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, isDefined } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames, isDefined } from "@openlens/utilities";
 import type { TableRowElem, TableRowProps } from "./table-row";
 import { TableRow } from "./table-row";
 import type { TableHeadElem } from "./table-head";
@@ -21,7 +21,7 @@ import { getSorted } from "./sorting";
 import type { TableModel } from "./table-model/table-model";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import tableModelInjectable from "./table-model/table-model.injectable";
-import type { ItemObject } from "@k8slens/list-layout";
+import type { ItemObject } from "@openlens/list-layout";
 import assert from "assert";
 import orderByUrlParamInjectable from "./order-by-url-param.injectable";
 import sortByUrlParamInjectable from "./sort-by-url-param.injectable";

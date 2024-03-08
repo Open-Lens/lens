@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type winston from "winston";
-import { getGlobalOverride } from "@k8slens/test-utils";
-import { noop } from "@k8slens/utilities";
-import { winstonLoggerInjectable } from "@k8slens/logger";
+import { getGlobalOverride } from "@openlens/test-utils";
+import { noop } from "@openlens/utilities";
+import { winstonLoggerInjectable } from "@openlens/logger";
 
 export default getGlobalOverride(winstonLoggerInjectable, () => ({
   log: noop,

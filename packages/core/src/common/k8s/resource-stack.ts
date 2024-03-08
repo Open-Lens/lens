@@ -1,19 +1,19 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import hb from "handlebars";
 import type { KubernetesCluster } from "../catalog-entities";
 import yaml from "js-yaml";
-import { getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 import productNameInjectable from "../vars/product-name.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
-import type { Logger } from "@k8slens/logger";
+import type { AsyncResult } from "@openlens/utilities";
+import type { Logger } from "@openlens/logger";
 import type { KubectlApplyAll, KubectlDeleteAll } from "../kube-helpers/channels";
 import type { ReadDirectory } from "../fs/read-directory.injectable";
 import type { JoinPaths } from "../path/join-paths.injectable";
 import type { ReadFile } from "../fs/read-file.injectable";
-import { hasTypedProperty, isObject } from "@k8slens/utilities";
+import { hasTypedProperty, isObject } from "@openlens/utilities";
 
 export interface ResourceApplyingStack {
   kubectlApplyFolder(folderPath: string, templateContext?: any, extraArgs?: string[]): Promise<string>;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -13,7 +13,7 @@ import statusBarItemsInjectable from "./status-bar-items.injectable";
 import type { IComputedValue, IObservableValue } from "mobx";
 import type { StatusBarStatus } from "./current-status.injectable";
 import statusBarCurrentStatusInjectable from "./current-status.injectable";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 
 export interface StatusBarProps {}
 

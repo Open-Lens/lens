@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -15,7 +15,7 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import logsViewModelInjectable from "./logs-view-model.injectable";
 import type { LogTabViewModel } from "./logs-view-model";
 import type { DockTab } from "../dock/store";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { SubscribeStores } from "../../../kube-watch-api/kube-watch-api";
 import subscribeStoresInjectable from "../../../kube-watch-api/subscribe-stores.injectable";
 import type { PodStore } from "../../workloads-pods/store";

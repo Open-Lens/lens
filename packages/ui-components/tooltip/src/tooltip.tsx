@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,8 +8,8 @@ import "./tooltip.scss";
 import React from "react";
 import { createPortal } from "react-dom";
 import { observer } from "mobx-react";
-import type { IClassName, StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { IClassName, StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { observable, makeObservable, action, runInAction } from "mobx";
 import autoBindReact from "auto-bind/react";
 import { computeNextPosition } from "./helpers";

@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { getRequestChannelListenerInjectable } from "@k8slens/messaging";
+import { getRequestChannelListenerInjectable } from "@openlens/messaging";
 import getHelmReleaseInjectable from "../../../main/helm/helm-service/get-helm-release.injectable";
 import getClusterByIdInjectable from "../../cluster/storage/common/get-by-id.injectable";
 import { getHelmReleaseChannel } from "../common/channels";

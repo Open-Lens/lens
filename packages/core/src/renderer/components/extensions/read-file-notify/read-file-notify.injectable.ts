@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getMessageFromError } from "../get-message-from-error/get-message-from-error";
 import { getInjectable } from "@ogre-tools/injectable";
 import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import readFileBufferInjectable from "../../../../common/fs/read-file-buffer.injectable";
 
 export type ReadFileNotify = (filePath: string, showError?: boolean) => Promise<Buffer | null>;

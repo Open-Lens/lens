@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,10 +9,10 @@ import React, { Component } from "react";
 import type { HelmChart } from "../../../common/k8s-api/endpoints/helm-charts.api";
 import { observer } from "mobx-react";
 import { Drawer, DrawerItem } from "../drawer";
-import { stopPropagation } from "@k8slens/utilities";
+import { stopPropagation } from "@openlens/utilities";
 import { MarkdownViewer } from "../markdown-viewer";
 import { Spinner } from "../spinner";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import { Select } from "../select";
 import { Badge } from "../badge";
 import { Tooltip, withStyles } from "@material-ui/core";

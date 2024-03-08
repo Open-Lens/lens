@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,8 +8,8 @@ import type { ConfigMapStore } from "../../config-maps/store";
 import configMapStoreInjectable from "../../config-maps/store.injectable";
 import type { SecretStore } from "../../config-secrets/store";
 import secretStoreInjectable from "../../config-secrets/store.injectable";
-import type { Container } from "@k8slens/kube-object";
-import { Secret, ConfigMap, Pod, SecretType } from "@k8slens/kube-object";
+import type { Container } from "@openlens/kube-object";
+import { Secret, ConfigMap, Pod, SecretType } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import type { DiRender } from "../../test-utils/renderFor";
 import { renderFor } from "../../test-utils/renderFor";

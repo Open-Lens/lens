@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,9 +14,9 @@ import type { EventStore } from "../events/store";
 import type { PodStore } from "./store";
 import eventStoreInjectable from "../events/store.injectable";
 import podStoreInjectable from "./store.injectable";
-import type { SpecificKubeListLayoutColumn } from "@k8slens/list-layout";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
-import type { Pod } from "@k8slens/kube-object";
+import type { SpecificKubeListLayoutColumn } from "@openlens/list-layout";
+import { podListLayoutColumnInjectionToken } from "@openlens/list-layout";
+import type { Pod } from "@openlens/kube-object";
 
 interface Dependencies {
   eventStore: EventStore;

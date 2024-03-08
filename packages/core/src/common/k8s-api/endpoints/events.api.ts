@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeEventData } from "@k8slens/kube-object";
-import { KubeEvent } from "@k8slens/kube-object";
+import type { KubeEventData } from "@openlens/kube-object";
+import { KubeEvent } from "@openlens/kube-object";
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 import { KubeApi } from "../kube-api";
 

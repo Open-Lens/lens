@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { CronJob } from "@k8slens/kube-object";
+import type { CronJob } from "@openlens/kube-object";
 import type { GetJobsByOwner } from "../workloads-jobs/get-jobs-by-owner.injectable";
 import type { CronJobApi } from "../../../common/k8s-api/endpoints";
 

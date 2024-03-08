@@ -1,14 +1,14 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { IComputedValue, ObservableMap } from "mobx";
 import { action, observable, computed, makeObservable, observe } from "mobx";
 import type { CatalogEntity } from "../../../common/catalog";
-import type { Disposer } from "@k8slens/utilities";
-import { iter } from "@k8slens/utilities";
-import type { Logger } from "@k8slens/logger";
+import type { Disposer } from "@openlens/utilities";
+import { iter } from "@openlens/utilities";
+import type { Logger } from "@openlens/logger";
 import type { WatchKubeconfigFileChanges } from "./watch-file-changes.injectable";
 import type { KubeconfigSyncValue } from "../../../features/user-preferences/common/preferences-helpers";
 

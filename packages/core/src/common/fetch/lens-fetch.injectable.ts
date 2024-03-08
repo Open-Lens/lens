@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { Agent } from "https";
-import type { RequestInit, Response } from "@k8slens/node-fetch";
+import type { RequestInit, Response } from "@openlens/node-fetch";
 import lensProxyPortInjectable from "../../main/lens-proxy/lens-proxy-port.injectable";
 import lensProxyCertificateInjectable from "../certificate/lens-proxy-certificate.injectable";
-import fetch from "@k8slens/node-fetch";
+import fetch from "@openlens/node-fetch";
 
 export type LensRequestInit = Omit<RequestInit, "agent">;
 

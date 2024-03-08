@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,8 +14,8 @@ import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
 import { Icon } from "../../icon";
 import { Slider } from "../../slider";
-import { cssNames } from "@k8slens/utilities";
-import type { ReplicaSet } from "@k8slens/kube-object";
+import { cssNames } from "@openlens/utilities";
+import type { ReplicaSet } from "@openlens/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import replicaSetApiInjectable from "../../../../common/k8s-api/endpoints/replica-set.api.injectable";
 import replicaSetScaleDialogStateInjectable from "./state.injectable";

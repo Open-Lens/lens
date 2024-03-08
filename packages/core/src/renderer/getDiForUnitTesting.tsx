@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -13,14 +13,14 @@ import requestAnimationFrameInjectable from "./components/animate/request-animat
 import startTopbarStateSyncInjectable from "./components/layout/top-bar/start-state-sync.injectable";
 import watchHistoryStateInjectable from "./remote-helpers/watch-history-state.injectable";
 import legacyOnChannelListenInjectable from "./ipc/legacy-channel-listen.injectable";
-import type { GlobalOverride } from "@k8slens/test-utils";
-import { setLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import type { GlobalOverride } from "@openlens/test-utils";
+import { setLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
-import { registerFeature } from "@k8slens/feature-core";
-import { messagingFeature, testUtils as messagingTestUtils } from "@k8slens/messaging";
-import { routingFeature } from "@k8slens/routing";
-import { loggerFeature } from "@k8slens/logger";
+import { registerFeature } from "@openlens/feature-core";
+import { messagingFeature, testUtils as messagingTestUtils } from "@openlens/messaging";
+import { routingFeature } from "@openlens/routing";
+import { loggerFeature } from "@openlens/logger";
 
 export const getDiForUnitTesting = () => {
   const environment = "renderer";

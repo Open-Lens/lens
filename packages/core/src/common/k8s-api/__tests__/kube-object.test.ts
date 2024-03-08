@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
 
 describe("KubeObject", () => {
   describe("isJsonApiData", () => {

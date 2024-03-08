@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,7 +11,7 @@ import type { KubeObjectMenuItemComponent, KubeObjectMenuItem } from "../kube-ob
 import { kubeObjectMenuItemInjectionToken } from "../kube-object-menu/kube-object-menu-item-injection-token";
 import { ingressClassSetDefaultInjectable } from "./ingress-class-set-default.injectable";
 import { MenuItem } from "../menu";
-import type { IngressClass } from "@k8slens/kube-object";
+import type { IngressClass } from "@openlens/kube-object";
 import type { KubeObjectMenuProps } from "../kube-object-menu";
 import { Icon } from "../icon";
 import hideDetailsInjectable from "../kube-detail-params/hide-details.injectable";

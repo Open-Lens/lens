@@ -17,7 +17,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.1 (2023-03-14)
 
-**Note:** Version bump only for package @k8slens/eslint-config
+**Note:** Version bump only for package @openlens/eslint-config
 
 
 
@@ -33,4 +33,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.1 (2023-03-14)
 
-**Note:** Version bump only for package @k8slens/eslint-config
+**Note:** Version bump only for package @openlens/eslint-config

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import type { IComputedValue } from "mobx";
 import { Drawer } from "../drawer";
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@openlens/kube-object";
 import { Spinner } from "../spinner";
 import { KubeObjectMenu } from "../kube-object-menu";
 import type { HideDetails } from "../kube-detail-params/hide-details.injectable";

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import execFileInjectable from "../../../common/fs/exec-file.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { AsyncResult } from "@k8slens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { AsyncResult } from "@openlens/utilities";
 import { platformSpecificRequestSystemCAsInjectionToken } from "../common/request-system-cas-token";
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet#other_assertions

@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectionToken } from "@ogre-tools/injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
 
 export interface KubeResourceListGroup {
   group: string;

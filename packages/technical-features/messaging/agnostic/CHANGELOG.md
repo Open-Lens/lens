@@ -29,7 +29,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.4 (2023-04-12)
 
-**Note:** Version bump only for package @k8slens/messaging
+**Note:** Version bump only for package @openlens/messaging
 
 
 
@@ -53,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.4 (2023-04-12)
 
-**Note:** Version bump only for package @k8slens/messaging
+**Note:** Version bump only for package @openlens/messaging
 
 
 
@@ -73,7 +73,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.4 (2023-04-12)
 
-**Note:** Version bump only for package @k8slens/messaging
+**Note:** Version bump only for package @openlens/messaging
 
 
 
@@ -89,7 +89,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.4 (2023-04-12)
 
-**Note:** Version bump only for package @k8slens/messaging
+**Note:** Version bump only for package @openlens/messaging
 
 
 
@@ -101,4 +101,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.4 (2023-04-12)
 
-**Note:** Version bump only for package @k8slens/messaging
+**Note:** Version bump only for package @openlens/messaging

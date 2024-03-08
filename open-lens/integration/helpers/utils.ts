@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { createHash } from "crypto";
@@ -10,7 +10,7 @@ import * as uuid from "uuid";
 import type { ElectronApplication, Frame, Page } from "playwright";
 import { _electron as electron } from "playwright";
 import { noop } from "lodash";
-import { disposer } from "@k8slens/utilities";
+import { disposer } from "@openlens/utilities";
 
 export const appPaths: Partial<Record<NodeJS.Platform, string>> = {
   "win32": "./dist/win-unpacked/OpenLens.exe",

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,10 +12,10 @@ import { observer } from "mobx-react";
 import type { DialogProps } from "../../dialog";
 import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
-import type { Deployment } from "@k8slens/kube-object";
+import type { Deployment } from "@openlens/kube-object";
 import { Icon } from "../../icon";
 import { Slider } from "../../slider";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import deploymentApiInjectable from "../../../../common/k8s-api/endpoints/deployment.api.injectable";
 import deploymentScaleDialogStateInjectable from "./dialog-state.injectable";

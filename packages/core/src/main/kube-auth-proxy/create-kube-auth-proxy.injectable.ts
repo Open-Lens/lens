@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import type { Cluster } from "../../common/cluster/cluster";
 import spawnInjectable from "../child-process/spawn.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import waitUntilPortIsUsedInjectable from "./wait-until-port-is-used/wait-until-port-is-used.injectable";
 import lensK8sProxyPathInjectable from "./lens-k8s-proxy-path.injectable";
 import getPortFromStreamInjectable from "../utils/get-port-from-stream.injectable";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { withInjectables } from "@ogre-tools/injectable-react";
@@ -10,7 +10,7 @@ import type { IComputedValue } from "mobx";
 import { observer } from "mobx-react";
 import installUpdateCountdownInjectable from "./install-update-countdown.injectable";
 import { Dialog } from "../../../../../../renderer/components/dialog";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import styles from "./force-update-modal.module.scss";
 
 interface Dependencies {

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { withInjectables } from "@ogre-tools/injectable-react";
@@ -9,7 +9,7 @@ import React from "react";
 import siblingTabsInjectable from "../../routes/sibling-tabs.injectable";
 import { TabLayout } from "./tab-layout-2";
 import type { HierarchicalSidebarItem } from "./sidebar-items.injectable";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 
 interface SiblingTabLayoutProps {
   children: StrictReactNode;

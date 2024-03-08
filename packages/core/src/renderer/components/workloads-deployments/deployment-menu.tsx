@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
 import type { KubeObjectMenuProps } from "../kube-object-menu";
-import type { Deployment } from "@k8slens/kube-object";
+import type { Deployment } from "@openlens/kube-object";
 import { MenuItem } from "../menu";
 import { Icon } from "../icon";
 import type { OpenDeploymentScaleDialog } from "./scale/open.injectable";

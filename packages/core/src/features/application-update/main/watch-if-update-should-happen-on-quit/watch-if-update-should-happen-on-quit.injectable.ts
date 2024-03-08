@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { autorun } from "mobx";
-import { getStartableStoppable } from "@k8slens/startable-stoppable";
+import { getStartableStoppable } from "@openlens/startable-stoppable";
 import setUpdateOnQuitInjectable from "../../../../main/electron-app/features/set-update-on-quit.injectable";
 import selectedUpdateChannelInjectable from "../../common/selected-update-channel.injectable";
 import type { ReleaseChannel, UpdateChannel } from "../../common/update-channels";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,9 +8,9 @@ import "./notifications.scss";
 import React from "react";
 import { reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import { JsonApiErrorParsed } from "@k8slens/json-api";
-import type { Disposer } from "@k8slens/utilities";
-import { cssNames, prevDefault } from "@k8slens/utilities";
+import { JsonApiErrorParsed } from "@openlens/json-api";
+import type { Disposer } from "@openlens/utilities";
+import { cssNames, prevDefault } from "@openlens/utilities";
 import type { CreateNotificationOptions, Notification, NotificationMessage, NotificationsStore } from "./notifications.store";
 import { Animate } from "../animate";
 import { Icon } from "../icon";

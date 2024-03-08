@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import React from "react";
 
 import { DrawerTitle } from "../../drawer";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";
-import type { ClusterRole } from "@k8slens/kube-object";
+import type { ClusterRole } from "@openlens/kube-object";
 
 export interface ClusterRoleDetailsProps extends KubeObjectDetailsProps<ClusterRole> {
 }

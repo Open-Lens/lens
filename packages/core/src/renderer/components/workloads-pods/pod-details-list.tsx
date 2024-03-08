@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,8 +9,8 @@ import React from "react";
 import kebabCase from "lodash/kebabCase";
 import { reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import type { Pod, KubeObject } from "@k8slens/kube-object";
-import { bytesToUnits, cssNames, interval, prevDefault } from "@k8slens/utilities";
+import type { Pod, KubeObject } from "@openlens/kube-object";
+import { bytesToUnits, cssNames, interval, prevDefault } from "@openlens/utilities";
 import { LineProgress } from "../line-progress";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { Spinner } from "../spinner";

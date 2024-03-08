@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
 import { Link } from "react-router-dom";
-import type { PodVolumeVariants, Pod, SecretReference, LocalObjectReference } from "@k8slens/kube-object";
+import type { PodVolumeVariants, Pod, SecretReference, LocalObjectReference } from "@openlens/kube-object";
 import type { KubeApiQueryParams, ResourceDescriptor } from "../../../../../common/k8s-api/kube-api";
 import { DrawerItem } from "../../../drawer";
 import type { GetDetailsUrl } from "../../../kube-detail-params/get-details-url.injectable";

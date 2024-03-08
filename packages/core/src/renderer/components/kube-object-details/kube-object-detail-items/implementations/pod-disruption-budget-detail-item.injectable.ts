@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -7,7 +7,7 @@ import { kubeObjectDetailItemInjectionToken } from "../kube-object-detail-item-i
 import { computed } from "mobx";
 import { PodDisruptionBudgetDetails } from "../../../config-pod-disruption-budgets";
 import currentKubeObjectInDetailsInjectable from "../../current-kube-object-in-details.injectable";
-import { PodDisruptionBudget } from "@k8slens/kube-object";
+import { PodDisruptionBudget } from "@openlens/kube-object";
 
 const podDisruptionBudgetDetailItemInjectable = getInjectable({
   id: "pod-disruption-budget-detail-item",

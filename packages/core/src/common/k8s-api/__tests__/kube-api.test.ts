@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { KubeApiWatchCallback } from "../kube-api";
@@ -7,7 +7,7 @@ import { KubeApi } from "../kube-api";
 import { PassThrough } from "stream";
 import { PodApi } from "../endpoints";
 import type { DeploymentApi, NamespaceApi  } from "../endpoints";
-import { Deployment, Pod } from "@k8slens/kube-object";
+import { Deployment, Pod } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../../renderer/getDiForUnitTesting";
 import type { Fetch } from "../../fetch/fetch.injectable";
 import fetchInjectable from "../../fetch/fetch.injectable";
@@ -15,10 +15,10 @@ import type { CreateKubeApiForRemoteCluster } from "../create-kube-api-for-remot
 import createKubeApiForRemoteClusterInjectable from "../create-kube-api-for-remote-cluster.injectable";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { flushPromises } from "@k8slens/test-utils";
+import { flushPromises } from "@openlens/test-utils";
 import createKubeJsonApiInjectable from "../create-kube-json-api.injectable";
 import type { IKubeWatchEvent } from "../kube-watch-event";
-import type { KubeJsonApiDataFor, KubeStatusData, KubeJsonApiData } from "@k8slens/kube-object";
+import type { KubeJsonApiDataFor, KubeStatusData, KubeJsonApiData } from "@openlens/kube-object";
 import setupAutoRegistrationInjectable from "../../../renderer/before-frame-starts/runnables/setup-auto-registration.injectable";
 import { createMockResponseFromStream, createMockResponseFromString } from "../../../test-utils/mock-responses";
 import storesAndApisCanBeCreatedInjectable from "../../../renderer/stores-apis-can-be-created.injectable";

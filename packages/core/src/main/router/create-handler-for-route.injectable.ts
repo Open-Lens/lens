@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { ServerResponse } from "http";
-import { loggerInjectionToken } from "@k8slens/logger";
-import { object } from "@k8slens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
+import { object } from "@openlens/utilities";
 import type { LensApiRequest, Route } from "./route";
 import { contentTypes } from "./router-content-types";
 

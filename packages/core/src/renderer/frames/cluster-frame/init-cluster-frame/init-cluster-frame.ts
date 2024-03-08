@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { Cluster } from "../../../../common/cluster/cluster";
@@ -8,7 +8,7 @@ import type { ShowNotification } from "../../../components/notifications";
 import { when } from "mobx";
 import { requestSetClusterFrameId } from "../../../ipc";
 import type { EmitAppEvent } from "../../../../common/app-event-bus/emit-event.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 
 interface Dependencies {
   hostedCluster: Cluster;

@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
-import { cssNames, hasDefiniteField } from "@k8slens/utilities";
+import { cssNames, hasDefiniteField } from "@openlens/utilities";
 import type { MenuActionsProps } from "../menu/menu-actions";
 import { MenuActions } from "../menu/menu-actions";
 import type { CatalogEntity, CatalogEntityContextMenu } from "../../api/catalog-entity";

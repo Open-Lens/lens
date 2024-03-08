@@ -1,14 +1,14 @@
 {
-  "name": "@k8slens/resource-templates",
+  "name": "@openlens/resource-templates",
   "version": "1.0.0",
   "private": false,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "copyright": "© 2023 OpenLens Authors",
+  "copyright": "© 2023 OpenLens Maintainers",
   "license": "MIT",
-  "author": "OpenLens Authors <info@k8slens.dev>",
+  "author": "OpenLens Maintainers <f.baldo31@gmail.com>",
   "files": [
     "templates/**/*"
   ]

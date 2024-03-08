@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { StatefulSet } from "@k8slens/kube-object";
+import type { StatefulSet } from "@openlens/kube-object";
 import openStatefulSetScaleDialogInjectable from "../../components/workloads-statefulsets/scale/open-dialog.injectable";
 import { staticKubeObjectHandlerInjectionToken } from "../handler";
 

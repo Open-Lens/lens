@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { waitUntilDefined } from "@k8slens/utilities";
+import { waitUntilDefined } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import customResourceDefinitionStoreInjectable from "../custom-resources/definition.store.injectable";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
-import type { Namespace } from "@k8slens/kube-object";
+import type { Namespace } from "@openlens/kube-object";
 
 export type RequestDeleteSubNamespaceAnchor = (namespace: Namespace) => Promise<void>;
 

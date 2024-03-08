@@ -1,15 +1,15 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { ClusterModel, ClusterPreferences, ClusterPrometheusPreferences } from "../../../common/cluster-types";
 import { moveSync, removeSync } from "fs-extra";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
-import { isDefined } from "@k8slens/utilities";
+import { isDefined } from "@openlens/utilities";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import { clusterStoreMigrationInjectionToken } from "../../../features/cluster/storage/common/migration-token";
 import { generateNewIdFor } from "../../../common/utils/generate-new-id-for";
 

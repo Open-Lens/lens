@@ -1,55 +1,55 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import openLinkInBrowserInjectable from "../../common/utils/open-link-in-browser.injectable";
 import { buildVersionInitializable } from "../../features/vars/build-version/common/token";
-import { asLegacyGlobalFunctionForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalFunctionForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 
 export { Singleton } from "../../common/utils/singleton";
 
 export {
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   prevDefault,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   stopPropagation,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   cssNames,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   disposer,
-} from "@k8slens/utilities";
+} from "@openlens/utilities";
 
 export type {
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   IClassName,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   IgnoredClassNames,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   Disposer,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   Disposable,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@openlens/utilities` package
    */
   ExtendableDisposer,
-} from "@k8slens/utilities";
+} from "@openlens/utilities";
 
 export type { OpenLinkInBrowser } from "../../common/utils/open-link-in-browser.injectable";
 

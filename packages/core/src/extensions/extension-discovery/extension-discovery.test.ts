@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import extensionDiscoveryInjectable from "../extension-discovery/extension-disco
 import type { ExtensionDiscovery } from "../extension-discovery/extension-discovery";
 import installExtensionInjectable from "../install-extension/install-extension.injectable";
 import directoryForUserDataInjectable from "../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
-import { delay } from "@k8slens/utilities";
+import { delay } from "@openlens/utilities";
 import { observable, runInAction, when } from "mobx";
 import readJsonFileInjectable from "../../common/fs/read-json-file.injectable";
 import pathExistsInjectable from "../../common/fs/path-exists.injectable";

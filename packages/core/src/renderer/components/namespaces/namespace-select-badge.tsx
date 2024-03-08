@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -13,7 +13,7 @@ import type {
 } from "./namespace-select-filter-model/filter-by-namespace.injectable";
 import filterByNamespaceInjectable
   from "./namespace-select-filter-model/filter-by-namespace.injectable";
-import { prevDefault, cssNames } from "@k8slens/utilities";
+import { prevDefault, cssNames } from "@openlens/utilities";
 
 export interface NamespaceSelectBadgeProps extends BadgeProps {
   namespace: string;

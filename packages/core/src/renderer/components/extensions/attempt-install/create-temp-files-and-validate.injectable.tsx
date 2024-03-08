@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,12 +8,12 @@ import { validatePackage } from "./validate-package";
 import { getMessageFromError } from "../get-message-from-error/get-message-from-error";
 import React from "react";
 import type { InstallRequest } from "./attempt-install.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import writeFileInjectable from "../../../../common/fs/write-file.injectable";
 import joinPathsInjectable from "../../../../common/path/join-paths.injectable";
 import tempDirectoryPathInjectable from "../../../../common/os/temp-directory-path.injectable";
 import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
-import type { LensExtensionId, LensExtensionManifest } from "@k8slens/legacy-extensions";
+import type { LensExtensionId, LensExtensionManifest } from "@openlens/legacy-extensions";
 
 export interface InstallRequestValidated {
   fileName: string;

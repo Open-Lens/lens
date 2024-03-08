@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import { observable, makeObservable } from "mobx";
 import EventEmitter from "events";
 import type TypedEventEmitter from "typed-emitter";
 import type { Arguments } from "typed-emitter";
-import type { Defaulted } from "@k8slens/utilities";
+import type { Defaulted } from "@openlens/utilities";
 import type { DefaultWebsocketApiParams } from "./default-websocket-api-params.injectable";
 
 interface WebsocketApiParams {

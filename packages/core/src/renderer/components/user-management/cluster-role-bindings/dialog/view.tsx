@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import { action, computed, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 
-import type { ClusterRole, ServiceAccount, Subject } from "@k8slens/kube-object";
+import type { ClusterRole, ServiceAccount, Subject } from "@openlens/kube-object";
 import type { DialogProps } from "../../../dialog";
 import { Dialog } from "../../../dialog";
 import { EditableList } from "../../../editable-list";
@@ -18,9 +18,9 @@ import { Icon } from "../../../icon";
 import { SubTitle } from "../../../layout/sub-title";
 import { onMultiSelectFor, Select } from "../../../select";
 import { Wizard, WizardStep } from "../../../wizard";
-import { ObservableHashSet, iter } from "@k8slens/utilities";
+import { ObservableHashSet, iter } from "@openlens/utilities";
 import { Input } from "../../../input";
-import { TooltipPosition } from "@k8slens/tooltip";
+import { TooltipPosition } from "@openlens/tooltip";
 import type { ClusterRoleBindingDialogState } from "./state.injectable";
 import type { ClusterRoleStore } from "../../cluster-roles/store";
 import type { ServiceAccountStore } from "../../service-accounts/store";

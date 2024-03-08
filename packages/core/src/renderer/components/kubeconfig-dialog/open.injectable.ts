@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import showCheckedErrorNotificationInjectable from "../notifications/show-checked-error.injectable";
 import kubeconfigDialogStateInjectable from "./state.injectable";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 
 export interface OpenKubeconfigDialogArgs {
   title?: StrictReactNode;

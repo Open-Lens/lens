@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,7 +8,7 @@ import { clusterStoreMigrationInjectionToken } from "../../../features/cluster/s
 import type { ClusterModel } from "../../../common/cluster-types";
 import readJsonSyncInjectable from "../../../common/fs/read-json-sync.injectable";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";
-import { isErrnoException } from "@k8slens/utilities";
+import { isErrnoException } from "@openlens/utilities";
 
 interface Pre500WorkspaceStoreModel {
   workspaces: {

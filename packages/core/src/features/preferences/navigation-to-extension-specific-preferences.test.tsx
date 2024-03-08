@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { RenderResult } from "@testing-library/react";
@@ -8,8 +8,8 @@ import { getApplicationBuilder } from "../../renderer/components/test-utils/get-
 import React from "react";
 import "@testing-library/jest-dom/extend-expect";
 import type { FakeExtensionOptions } from "../../renderer/components/test-utils/get-extension-fake";
-import type { Discover } from "@k8slens/react-testing-library-discovery";
-import { discoverFor } from "@k8slens/react-testing-library-discovery";
+import type { Discover } from "@openlens/react-testing-library-discovery";
+import { discoverFor } from "@openlens/react-testing-library-discovery";
 import logErrorInjectable from "../../common/log-error.injectable";
 
 describe("preferences - navigation to extension specific preferences", () => {

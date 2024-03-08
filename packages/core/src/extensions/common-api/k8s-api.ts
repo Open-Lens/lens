@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,23 +12,23 @@ import createKubeApiForClusterInjectable from "../../common/k8s-api/create-kube-
 import createKubeApiForRemoteClusterInjectable from "../../common/k8s-api/create-kube-api-for-remote-cluster.injectable";
 import createResourceStackInjectable from "../../common/k8s/create-resource-stack.injectable";
 import type { ResourceApplyingStack } from "../../common/k8s/resource-stack";
-import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 import type { KubernetesCluster } from "./catalog";
 import type { KubeApiDataFrom, KubeObjectStoreOptions } from "../../common/k8s-api/kube-object.store";
 import { KubeObjectStore as InternalKubeObjectStore } from "../../common/k8s-api/kube-object.store";
-import type { KubeJsonApiDataFor, KubeObject } from "@k8slens/kube-object";
+import type { KubeJsonApiDataFor, KubeObject } from "@openlens/kube-object";
 import type { DerivedKubeApiOptions, KubeApiDependencies, KubeApiOptions } from "../../common/k8s-api/kube-api";
 import { KubeApi as InternalKubeApi } from "../../common/k8s-api/kube-api";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../renderer/cluster-frame-context/for-namespaced-resources.injectable";
 import type { ClusterContext } from "../../renderer/cluster-frame-context/cluster-frame-context";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import maybeKubeApiInjectable from "../../common/k8s-api/maybe-kube-api.injectable";
 import { DeploymentApi as InternalDeploymentApi, IngressApi as InternalIngressApi, NodeApi, PersistentVolumeClaimApi, PodApi } from "../../common/k8s-api/endpoints";
 import { storesAndApisCanBeCreatedInjectionToken } from "../../common/k8s-api/stores-apis-can-be-created.token";
-import type { JsonApiConfig } from "@k8slens/json-api";
+import type { JsonApiConfig } from "@openlens/json-api";
 import type { KubeJsonApi as InternalKubeJsonApi } from "../../common/k8s-api/kube-json-api";
 import createKubeJsonApiInjectable from "../../common/k8s-api/create-kube-json-api.injectable";
-import type { RequestInit } from "@k8slens/node-fetch";
+import type { RequestInit } from "@openlens/node-fetch";
 import createKubeJsonApiForClusterInjectable from "../../common/k8s-api/create-kube-json-api-for-cluster.injectable";
 import getPodsByOwnerIdInjectable from "../../renderer/components/workloads-pods/get-pods-by-owner-id.injectable";
 
@@ -130,7 +130,7 @@ export {
   isPartialJsonApiMetadata,
   createKubeObject,
   stringifyLabels,
-} from "@k8slens/kube-object";
+} from "@openlens/kube-object";
 export type {
   OwnerReference,
   KubeObjectMetadata,
@@ -141,7 +141,7 @@ export type {
   KubeStatusData,
   KubeJsonApiDataFor,
   KubeJsonApiData,
-} from "@k8slens/kube-object";
+} from "@openlens/kube-object";
 
 function KubeJsonApiCstr(config: JsonApiConfig, reqInit?: RequestInit) {
   const di = getLegacyGlobalDiForExtensionApi();
@@ -298,4 +298,4 @@ export {
   ClusterRole,
   ClusterRoleBinding,
   CustomResourceDefinition,
-} from "@k8slens/kube-object";
+} from "@openlens/kube-object";

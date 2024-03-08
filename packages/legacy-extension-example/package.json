@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/legacy-extension-example",
+  "name": "@openlens/legacy-extension-example",
   "private": false,
   "description": "An example bundled Lens extensions using the v1 API",
   "version": "1.0.2",
@@ -24,8 +24,8 @@
     "lens": "6.5"
   },
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",
@@ -36,7 +36,7 @@
     "lint:fix": "lens-lint --fix"
   },
   "devDependencies": {
-    "@k8slens/extensions": "^6.5.2",
+    "@openlens/extensions": "^6.5.2",
     "@types/node": "^16.18.25",
     "typescript": "^4.9.5",
     "webpack": "^5.81.0",

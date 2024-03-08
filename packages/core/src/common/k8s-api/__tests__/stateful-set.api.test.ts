@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,7 +11,7 @@ import statefulSetApiInjectable from "../endpoints/stateful-set.api.injectable";
 import type { KubeJsonApi } from "../kube-json-api";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { flushPromises } from "@k8slens/test-utils";
+import { flushPromises } from "@openlens/test-utils";
 
 describe("StatefulSetApi", () => {
   let statefulSetApi: StatefulSetApi;

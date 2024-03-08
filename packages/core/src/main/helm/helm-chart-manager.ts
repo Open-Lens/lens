@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import * as yaml from "js-yaml";
-import { iter, put, sortBySemverVersion } from "@k8slens/utilities";
+import { iter, put, sortBySemverVersion } from "@openlens/utilities";
 import type { HelmRepo } from "../../common/helm/helm-repo";
 import type { HelmChartManagerCache } from "./helm-chart-manager-cache.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { RepoHelmChartList } from "../../common/k8s-api/endpoints/helm-charts.api/request-charts.injectable";
 import type { ExecHelm } from "./exec-helm/exec-helm.injectable";
 import type { ReadFile } from "../../common/fs/read-file.injectable";

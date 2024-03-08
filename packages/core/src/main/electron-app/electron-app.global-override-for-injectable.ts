@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { kebabCase } from "lodash";
-import { getGlobalOverride } from "@k8slens/test-utils";
+import { getGlobalOverride } from "@openlens/test-utils";
 import electronAppInjectable from "./electron-app.injectable";
 import EventEmitter from "events";
-import { getOrInsert } from "@k8slens/utilities";
+import { getOrInsert } from "@openlens/utilities";
 
 export default getGlobalOverride(electronAppInjectable, () => {
   const commandLineArgs: string[] = [];

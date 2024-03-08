@@ -1,15 +1,15 @@
-# @k8slens/error-boundary
+# @openlens/error-boundary
 
 This package contains stuff related to creating Lens-applications. 
 
 # Usage
 
 ```bash
-$ npm install @k8slens/error-boundary
+$ npm install @openlens/error-boundary
 ```
 
 ```typescript
-import "@k8slens/error-boundary/dist/index.css";
+import "@openlens/error-boundary/dist/index.css";
 ```
 
 ## Extendability

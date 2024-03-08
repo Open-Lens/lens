@@ -1,14 +1,14 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { action, makeObservable, observable, when } from "mobx";
 import type { ClusterId } from "../../../common/cluster-types";
-import type { Disposer } from "@k8slens/utilities";
-import { onceDefined } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
+import { onceDefined } from "@openlens/utilities";
 import assert from "assert";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { getClusterFrameUrl } from "../../../common/utils";
 import type { GetClusterById } from "../../../features/cluster/storage/common/get-by-id.injectable";
 

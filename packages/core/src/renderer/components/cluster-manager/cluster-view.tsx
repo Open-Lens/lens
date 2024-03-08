@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -22,7 +22,7 @@ import type { RequestClusterActivation } from "../../../features/cluster/activat
 import requestClusterActivationInjectable from "../../../features/cluster/activation/renderer/request-activation.injectable";
 import type { GetClusterById } from "../../../features/cluster/storage/common/get-by-id.injectable";
 import getClusterByIdInjectable from "../../../features/cluster/storage/common/get-by-id.injectable";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 
 interface Dependencies {
   clusterId: IComputedValue<string>;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,15 +7,15 @@ import { computed, observable, makeObservable, action } from "mobx";
 import { ipcRendererOn } from "../../../../common/ipc";
 import type { CatalogCategory, CatalogEntity, CatalogEntityData, CatalogCategoryRegistry, CatalogEntityKindData } from "../../../../common/catalog";
 import "../../../../common/catalog-entities";
-import { iter } from "@k8slens/utilities";
-import type { Disposer } from "@k8slens/utilities";
+import { iter } from "@openlens/utilities";
+import type { Disposer } from "@openlens/utilities";
 import { once } from "lodash";
 import { CatalogRunEvent } from "../../../../common/catalog/catalog-run-event";
 import { ipcRenderer } from "electron";
 import { catalogInitChannel, catalogItemsChannel, catalogEntityRunListener } from "../../../../common/ipc/catalog";
 import { isMainFrame } from "process";
 import type { Navigate } from "../../../navigation/navigate.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 
 export type EntityFilter = (entity: CatalogEntity) => any;
 export type CatalogEntityOnBeforeRun = (event: CatalogRunEvent) => void | Promise<void>;

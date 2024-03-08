@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { watch } from "chokidar";
 import type { Stats } from "fs";
 import type TypedEventEmitter from "typed-emitter";
-import type { SingleOrMany } from "@k8slens/utilities";
+import type { SingleOrMany } from "@openlens/utilities";
 
 export interface AlwaysStatWatcherEvents {
   add: (path: string, stats: Stats) => void;

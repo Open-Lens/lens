@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { withInjectables } from "@ogre-tools/injectable-react";
@@ -7,14 +7,14 @@ import { computed, makeObservable, observable, reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import React from "react";
 import { Notice } from "../../../../../../renderer/components/extensions/notice";
-import { iter, tuple } from "@k8slens/utilities";
+import { iter, tuple } from "@openlens/utilities";
 import { SubTitle } from "../../../../../../renderer/components/layout/sub-title";
 import { PathPicker } from "../../../../../../renderer/components/path-picker/path-picker";
 import { Spinner } from "../../../../../../renderer/components/spinner";
 import { RemovableItem } from "../../../removable-item/removable-item";
 import isWindowsInjectable from "../../../../../../common/vars/is-windows.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { Logger } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { Logger } from "@openlens/logger";
 import type { DiscoverAllKubeconfigSyncKinds } from "./discover-all-sync-kinds.injectable";
 import type { DiscoverKubeconfigSyncKind, SyncKind } from "./discover-sync-kind.injectable";
 import discoverKubeconfigSyncKindInjectable from "./discover-sync-kind.injectable";

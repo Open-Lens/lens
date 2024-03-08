@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
 import nonPromiseExecFileInjectable from "./non-promise-exec-file.injectable";
-import { isNumber } from "@k8slens/utilities";
+import { isNumber } from "@openlens/utilities";
 import assert from "assert";
 import type { ChildProcess } from "child_process";
 

@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./button.scss";
 import type { ButtonHTMLAttributes } from "react";
 import React from "react";
-import { cssNames, StrictReactNode } from "@k8slens/utilities";
-import { withTooltip } from "@k8slens/tooltip";
+import { cssNames, StrictReactNode } from "@openlens/utilities";
+import { withTooltip } from "@openlens/tooltip";
 
 export interface ButtonProps extends ButtonHTMLAttributes<any> {
   label?: StrictReactNode;

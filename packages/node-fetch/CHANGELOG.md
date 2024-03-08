@@ -8,7 +8,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* Fix generating @k8slens/node-fetch ([ecdb14c](https://github.com/lensapp/lens/commit/ecdb14c692b00db391d993e9fc8eee29081da04f))
+* Fix generating @openlens/node-fetch ([ecdb14c](https://github.com/lensapp/lens/commit/ecdb14c692b00db391d993e9fc8eee29081da04f))
 
 
 ### Features

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { generalCatalogEntityInjectionToken } from "../../../common/catalog-entities/general-catalog-entities/general-catalog-entity-injection-token";
 import { GeneralEntity } from "../../../common/catalog-entities";
-import { buildURL } from "@k8slens/utilities";
+import { buildURL } from "@openlens/utilities";
 import preferencesRouteInjectable from "./preferences-route.injectable";
 
 const preferencesCatalogEntityInjectable = getInjectable({

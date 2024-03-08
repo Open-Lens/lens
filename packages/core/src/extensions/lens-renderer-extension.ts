@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { Disposers, LensExtension } from "./lens-extension";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
 import type { LensExtensionDependencies } from "./lens-extension";
 import type { CatalogEntity, CategoryFilter, CatalogCategoryRegistry } from "../common/catalog";
 import type { EntityFilter, CatalogEntityRegistry } from "../renderer/api/catalog/entity/registry";
@@ -36,10 +36,10 @@ import type { NavigateToRoute } from "../common/front-end-routing/navigate-to-ro
 import type { Route } from "../common/front-end-routing/front-end-route-injection-token";
 import type { GetExtensionPageParameters } from "../renderer/routes/get-extension-page-parameters.injectable";
 import type { InstalledExtension } from "./common-api";
-import { getEnvironmentSpecificLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getEnvironmentSpecificLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 import catalogCategoryRegistryInjectable from "../common/catalog/category-registry.injectable";
 import catalogEntityRegistryInjectable from "../renderer/api/catalog/entity/registry.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import getExtensionPageParametersInjectable from "../renderer/routes/get-extension-page-parameters.injectable";
 import navigateToRouteInjectable from "../renderer/routes/navigate-to-route.injectable";
 import routesInjectable from "../renderer/routes/routes.injectable";

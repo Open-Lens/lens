@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -11,7 +11,7 @@ import directoryForBinariesInjectable from "../../../common/app-paths/directory-
 import isMacInjectable from "../../../common/vars/is-mac.injectable";
 import type { Cluster } from "../../../common/cluster/cluster";
 import isWindowsInjectable from "../../../common/vars/is-windows.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import type WebSocket from "ws";
 import getDirnameOfPathInjectable from "../../../common/path/get-dirname.injectable";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";

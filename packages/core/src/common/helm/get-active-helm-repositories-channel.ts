@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { HelmRepo } from "./helm-repo";
-import type { AsyncResult } from "@k8slens/utilities";
-import { getRequestChannel } from "@k8slens/messaging";
+import type { AsyncResult } from "@openlens/utilities";
+import { getRequestChannel } from "@openlens/messaging";
 
 export const getActiveHelmRepositoriesChannel = getRequestChannel<
   void,

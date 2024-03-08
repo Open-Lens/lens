@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, observable } from "mobx";
-import { delay, getOrInsert, isErrnoException } from "@k8slens/utilities";
+import { delay, getOrInsert, isErrnoException } from "@openlens/utilities";
 import { readFile } from "fs/promises";
 import { hasCorrectExtension } from "./has-correct-extension";
 import type { RawTemplate, RawTemplates } from "./create-resource-templates.injectable";
@@ -15,7 +15,7 @@ import homeDirectoryPathInjectable from "../../../../common/os/home-directory-pa
 import getDirnameOfPathInjectable from "../../../../common/path/get-dirname.injectable";
 import parsePathInjectable from "../../../../common/path/parse.injectable";
 import { waitForPath } from "../../../../common/utils/wait-for-path";
-import { prefixedLoggerInjectable } from "@k8slens/logger";
+import { prefixedLoggerInjectable } from "@openlens/logger";
 
 const userCreateResourceTemplatesInjectable = getInjectable({
   id: "user-create-resource-templates",

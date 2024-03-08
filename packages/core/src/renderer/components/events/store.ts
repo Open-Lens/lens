@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,8 +7,8 @@ import groupBy from "lodash/groupBy";
 import compact from "lodash/compact";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { KubeEvent, KubeObject } from "@k8slens/kube-object";
-import { Pod } from "@k8slens/kube-object";
+import type { KubeEvent, KubeObject } from "@openlens/kube-object";
+import { Pod } from "@openlens/kube-object";
 import type { GetPodById } from "../workloads-pods/get-pod-by-id.injectable";
 import autoBind from "auto-bind";
 import type { KubeEventApi } from "../../../common/k8s-api/endpoints";

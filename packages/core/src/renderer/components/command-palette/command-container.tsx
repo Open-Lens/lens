@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -22,7 +22,7 @@ import matchedClusterIdInjectable from "../../navigation/matched-cluster-id.inje
 import hostedClusterIdInjectable from "../../cluster-frame-context/hosted-cluster-id.injectable";
 import isMacInjectable from "../../../common/vars/is-mac.injectable";
 import legacyOnChannelListenInjectable from "../../ipc/legacy-channel-listen.injectable";
-import { onKeyboardShortcut } from "@k8slens/utilities";
+import { onKeyboardShortcut } from "@openlens/utilities";
 
 interface Dependencies {
   addWindowEventListener: AddWindowEventListener;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -13,7 +13,7 @@ import { Spinner } from "../spinner";
 import { observable, makeObservable } from "mobx";
 import { observer } from "mobx-react";
 import _ from "lodash";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 
 export interface FileUploadProps {
     uploadDir: string;

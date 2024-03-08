@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { buildURL } from "@k8slens/utilities";
+import { buildURL } from "@openlens/utilities";
 import type { BaseKubeObjectCondition, ClusterScopedMetadata } from "../api-types";
 import { KubeObject } from "../kube-object";
 import type { JSONSchemaProps } from "../types/json-schema-props";

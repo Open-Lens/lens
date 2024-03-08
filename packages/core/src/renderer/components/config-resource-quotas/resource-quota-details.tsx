@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,14 +8,14 @@ import React from "react";
 import kebabCase from "lodash/kebabCase";
 import { observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
-import { cpuUnitsToNumber, cssNames, unitsToBytes, metricUnitsToNumber, object, hasDefinedTupleValue } from "@k8slens/utilities";
+import { cpuUnitsToNumber, cssNames, unitsToBytes, metricUnitsToNumber, object, hasDefinedTupleValue } from "@openlens/utilities";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { ResourceQuota } from "@k8slens/kube-object";
+import { ResourceQuota } from "@openlens/kube-object";
 import { LineProgress } from "../line-progress";
 import { Table, TableCell, TableHead, TableRow } from "../table";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 export interface ResourceQuotaDetailsProps extends KubeObjectDetailsProps<ResourceQuota> {
 }

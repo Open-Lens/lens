@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,8 +8,8 @@ import "./hotbar-menu.scss";
 import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { HotbarEntityIcon } from "./hotbar-entity-icon";
-import type { IClassName, StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { IClassName, StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { CatalogEntityRegistry } from "../../api/catalog/entity/registry";
 import type { CatalogEntity } from "../../api/catalog-entity";
 import { DragDropContext, Draggable, Droppable, type DropResult } from "react-beautiful-dnd";

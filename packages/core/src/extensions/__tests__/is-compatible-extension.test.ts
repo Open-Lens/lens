@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { LensExtensionManifest } from "@k8slens/legacy-extensions";
+import type { LensExtensionManifest } from "@openlens/legacy-extensions";
 import { isCompatibleExtension } from "../extension-discovery/is-compatible-extension/is-compatible-extension";
 
 describe("Extension/App versions compatibility checks", () => {

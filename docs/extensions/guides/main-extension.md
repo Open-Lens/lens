@@ -12,7 +12,7 @@ It also provides convenient methods for navigating to built-in Lens pages and ex
 To create a main extension simply extend the `Main.LensExtension` class:
 
 ```typescript
-import { Main } from "@k8slens/extensions";
+import { Main } from "@openlens/extensions";
 
 export default class ExampleExtensionMain extends Main.LensExtension {
   onActivate() {
@@ -48,7 +48,7 @@ The Main Extension API allows you to customize the UI application menu.
 The following example demonstrates adding an item to the **Help** menu.
 
 ```typescript
-import { Main } from "@k8slens/extensions";
+import { Main } from "@openlens/extensions";
 
 export default class SamplePageMainExtension extends Main.LensExtension {
   appMenus = [
@@ -79,7 +79,7 @@ The properties of the appMenus array objects are defined as follows:
 The following example demonstrates how an application menu can be used to navigate to such a page:
 
 ```typescript
-import { Main } from "@k8slens/extensions";
+import { Main } from "@openlens/extensions";
 
 export default class SamplePageMainExtension extends Main.LensExtension {
   appMenus = [
@@ -114,7 +114,7 @@ interface TrayMenuRegistration {
 The following example demonstrates how tray menus can be added from extension:
 
 ```typescript
-import { Main } from "@k8slens/extensions";
+import { Main } from "@openlens/extensions";
 
 export default class SampleTrayMenuMainExtension extends Main.LensExtension {
   trayMenus = [

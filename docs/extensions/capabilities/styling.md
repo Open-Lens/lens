@@ -114,7 +114,7 @@ There is a way of detect active theme and its changes in JS. [MobX observer func
 ```js
 import React from "react"
 import { observer } from "mobx-react"
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 @observer
 export class SupportPage extends React.Component {
@@ -128,7 +128,7 @@ export class SupportPage extends React.Component {
 }
 ```
 
-`Theme` entity from `@k8slens/extensions` provides active theme object and `@observer` decorator makes component reactive - so it will rerender each time any of the observables (active theme in our case) will be changed.
+`Theme` entity from `@openlens/extensions` provides active theme object and `@observer` decorator makes component reactive - so it will rerender each time any of the observables (active theme in our case) will be changed.
 
 Working example provided in [Styling with Emotion](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-emotion-sample) sample extension.
 

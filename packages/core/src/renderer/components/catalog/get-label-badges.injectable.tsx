@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import styles from "./catalog.module.scss";
@@ -7,7 +7,7 @@ import React from "react";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { CatalogEntity } from "../../api/catalog-entity";
 import searchUrlPageParamInjectable from "../input/search-url-page-param.injectable";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
 import { Badge } from "../badge";
 
 export type GetLabelBadges = (entity: CatalogEntity, onClick?: (evt: React.MouseEvent<any, MouseEvent>) => void) => JSX.Element[];

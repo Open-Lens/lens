@@ -1,9 +1,9 @@
 {
-  "name": "@k8slens/semver",
+  "name": "@openlens/semver",
   "version": "6.5.0",
   "description": "CLI over semver package for picking parts of a version",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rimraf dist/",
     "build": "swc ./src/index.ts -d ./dist"

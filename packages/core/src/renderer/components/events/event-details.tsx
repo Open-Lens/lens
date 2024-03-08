@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,17 +11,17 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import { Link } from "react-router-dom";
 import { observer } from "mobx-react";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { KubeEvent } from "@k8slens/kube-object";
+import { KubeEvent } from "@openlens/kube-object";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { DurationAbsoluteTimestamp } from "./duration-absolute";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
-import { cssNames } from "@k8slens/utilities";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { cssNames } from "@openlens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
 
 export interface EventDetailsProps extends KubeObjectDetailsProps<KubeEvent> {
 }

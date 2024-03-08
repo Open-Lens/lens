@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectable } from "@ogre-tools/injectable";
 
-import { getOrInsert } from "@k8slens/utilities";
+import { getOrInsert } from "@openlens/utilities";
 import randomBytesInjectable from "../../../common/utils/random-bytes.injectable";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";
 import directoryForExtensionDataInjectable from "./directory-for-extension-data.injectable";

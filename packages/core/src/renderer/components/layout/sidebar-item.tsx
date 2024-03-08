@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import styles from  "./sidebar-items.module.scss";
 
 import React from "react";
 import { computed, makeObservable } from "mobx";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { observer } from "mobx-react";
 import { NavLink } from "react-router-dom";
 import { Icon } from "../icon";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -15,8 +15,8 @@ import { FilePicker, OverSizeLimitStyle } from "../file-picker";
 import { MenuActions, MenuItem } from "../menu";
 import type { ShowNotification } from "../notifications";
 import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
-import { clusterIconSettingsComponentInjectionToken, clusterIconSettingsMenuInjectionToken } from "@k8slens/cluster-settings";
-import type { ClusterIconMenuItem, ClusterIconSettingsComponent } from "@k8slens/cluster-settings";
+import { clusterIconSettingsComponentInjectionToken, clusterIconSettingsMenuInjectionToken } from "@openlens/cluster-settings";
+import type { ClusterIconMenuItem, ClusterIconSettingsComponent } from "@openlens/cluster-settings";
 
 export interface ClusterIconSettingProps {
   cluster: Cluster;

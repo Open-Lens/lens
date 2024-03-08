@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,13 +8,13 @@ import "./tab-layout.scss";
 import React from "react";
 import { matchPath, Redirect, Route, Switch } from "react-router";
 import { observer } from "mobx-react";
-import type { IClassName, StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { IClassName, StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { Tab, Tabs } from "../tabs";
-import { ErrorBoundary } from "@k8slens/error-boundary";
+import { ErrorBoundary } from "@openlens/error-boundary";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@openlens/routing";
 import type { Navigate } from "../../navigation/navigate.injectable";
 import navigateInjectable from "../../navigation/navigate.injectable";
 

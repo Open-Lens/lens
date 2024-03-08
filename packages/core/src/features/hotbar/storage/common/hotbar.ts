@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,8 +11,8 @@ import { defaultHotbarCells } from "./types";
 import { broadcastMessage } from "../../../../common/ipc";
 import { hotbarTooManyItemsChannel } from "../../../../common/ipc/hotbar";
 import * as uuid from "uuid";
-import type { Logger } from "@k8slens/logger";
-import { tuple } from "@k8slens/utilities";
+import type { Logger } from "@openlens/logger";
+import { tuple } from "@openlens/utilities";
 
 export interface HotbarDependencies {
   readonly logger: Logger;

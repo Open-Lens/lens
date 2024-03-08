@@ -18,7 +18,7 @@ In other words, which handler is selected in either process is independent from 
 Example of registering a handler:
 
 ```typescript
-import { Main, Common } from "@k8slens/extensions";
+import { Main, Common } from "@openlens/extensions";
 
 function rootHandler(params: Common.Types.ProtocolRouteParams) {
   console.log("routed to ExampleExtension", params);

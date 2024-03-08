@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import "./list.scss";
 import React from "react";
 import { observer } from "mobx-react";
 import { Badge } from "../../badge";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { Filter, PageFiltersStore } from "./store";
 import { FilterIcon } from "../filter-icon";
 import { Icon } from "../../icon";

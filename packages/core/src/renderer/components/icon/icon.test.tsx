@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
-import type { Logger } from "@k8slens/logger";
-import { loggerInjectionToken } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import type { DiRender } from "../test-utils/renderFor";
 import { renderFor } from "../test-utils/renderFor";

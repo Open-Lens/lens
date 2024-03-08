@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { getOrInsertMap } from "@k8slens/utilities";
+import { getOrInsertMap } from "@openlens/utilities";
 import type { ClusterId } from "../../../../common/cluster-types";
 import { ipcMainHandle } from "../../../../common/ipc";
 import crypto from "crypto";

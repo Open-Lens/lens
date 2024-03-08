@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { RenderResult } from "@testing-library/react";
@@ -17,7 +17,7 @@ import requestPublicHelmRepositoriesInjectable from "./child-features/preference
 import isPathInjectable from "../../renderer/components/input/validators/is-path.injectable";
 import showSuccessNotificationInjectable from "../../renderer/components/notifications/show-success-notification.injectable";
 import showErrorNotificationInjectable from "../../renderer/components/notifications/show-error-notification.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
 import { testUsingFakeTime } from "../../test-utils/use-fake-time";
 
 describe("add custom helm repository in preferences", () => {

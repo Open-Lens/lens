@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,8 +7,8 @@ import { observable } from "mobx";
 import type { DeploymentStore } from "../workloads-deployments/store";
 import deploymentStoreInjectable from "../workloads-deployments/store.injectable";
 import podStoreInjectable from "../workloads-pods/store.injectable";
-import type { PodSpec } from "@k8slens/kube-object";
-import { Deployment, Pod } from "@k8slens/kube-object";
+import type { PodSpec } from "@openlens/kube-object";
+import { Deployment, Pod } from "@openlens/kube-object";
 import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-created.injectable";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";

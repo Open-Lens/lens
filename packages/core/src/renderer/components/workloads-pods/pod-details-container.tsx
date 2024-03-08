@@ -1,14 +1,14 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./pod-details-container.scss";
 
 import React from "react";
-import type { Container, PodContainerStatus, Pod } from "@k8slens/kube-object";
+import type { Container, PodContainerStatus, Pod } from "@openlens/kube-object";
 import { DrawerItem } from "../drawer";
-import { cssNames, isDefined } from "@k8slens/utilities";
+import { cssNames, isDefined } from "@openlens/utilities";
 import { StatusBrick } from "../status-brick";
 import { Badge } from "../badge";
 import { ContainerEnvironment } from "./pod-container-env";
@@ -21,8 +21,8 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import portForwardStoreInjectable from "../../port-forward/port-forward-store/port-forward-store.injectable";
 import type { IComputedValue } from "mobx";
 import enabledMetricsInjectable from "../../api/catalog/entity/metrics-enabled.injectable";
-import type { PodDetailsContainerMetricsComponent } from "@k8slens/metrics";
-import { podDetailsContainerMetricsInjectionToken } from "@k8slens/metrics";
+import type { PodDetailsContainerMetricsComponent } from "@openlens/metrics";
+import { podDetailsContainerMetricsInjectionToken } from "@openlens/metrics";
 
 export interface PodDetailsContainerProps {
   pod: Pod;

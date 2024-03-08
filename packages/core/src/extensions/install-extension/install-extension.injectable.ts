@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -7,13 +7,13 @@ import { fork } from "child_process";
 import AwaitLock from "await-lock";
 import pathToNpmCliInjectable from "../../common/app-paths/path-to-npm-cli.injectable";
 import extensionPackageRootDirectoryInjectable from "./extension-package-root-directory.injectable";
-import { prefixedLoggerInjectable } from "@k8slens/logger";
+import { prefixedLoggerInjectable } from "@openlens/logger";
 import readJsonFileInjectable from "../../common/fs/read-json-file.injectable";
 import joinPathsInjectable from "../../common/path/join-paths.injectable";
 import type { PackageJson } from "../common-api";
 import writeJsonFileInjectable from "../../common/fs/write-json-file.injectable";
 import { once } from "lodash";
-import { isErrnoException } from "@k8slens/utilities";
+import { isErrnoException } from "@openlens/utilities";
 
 const baseNpmInstallArgs = [
   "install",

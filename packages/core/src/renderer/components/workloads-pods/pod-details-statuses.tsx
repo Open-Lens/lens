@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import "./pod-details-statuses.scss";
 import React from "react";
 import countBy from "lodash/countBy";
 import kebabCase from "lodash/kebabCase";
-import type { Pod } from "@k8slens/kube-object";
+import type { Pod } from "@openlens/kube-object";
 
 export interface PodDetailsStatusesProps {
   pods: Pod[];

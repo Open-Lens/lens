@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import moment from "moment";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies, NamespacedResourceDescriptor } from "../kube-api";
 import { KubeApi } from "../kube-api";
-import { StatefulSet } from "@k8slens/kube-object";
+import { StatefulSet } from "@openlens/kube-object";
 
 export class StatefulSetApi extends KubeApi<StatefulSet> {
   constructor(deps: KubeApiDependencies, opts?: DerivedKubeApiOptions) {

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { noop } from "@k8slens/utilities";
+import { noop } from "@openlens/utilities";
 import type { KubeApi } from "../kube-api";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
 import type { KubeObjectStoreLoadingParams } from "../kube-object.store";
 import { KubeObjectStore } from "../kube-object.store";
 

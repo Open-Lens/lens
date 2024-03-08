@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -9,8 +9,8 @@ import type { IComputedValue, IObservableValue } from "mobx";
 import { computed, observable, reaction } from "mobx";
 import type { CatalogEntity } from "../../api/catalog-entity";
 import type { CatalogCategory } from "../../../common/catalog";
-import type { Disposer } from "@k8slens/utilities";
-import { disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
+import { disposer } from "@openlens/utilities";
 import type { ItemListStore } from "../item-object-list";
 import catalogCategoryRegistryInjectable from "../../../common/catalog/category-registry.injectable";
 import selectedCatalogEntityParamInjectable from "./entity-details/selected-uid.injectable";

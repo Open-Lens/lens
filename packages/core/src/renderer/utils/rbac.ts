@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { KubeResource } from "../../common/rbac";
 import { apiResourceRecord } from "../../common/rbac";
-import { object } from "@k8slens/utilities";
+import { object } from "@openlens/utilities";
 
 export const ResourceNames: Record<KubeResource, string> = {
   "namespaces": "Namespaces",

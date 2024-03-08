@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -7,9 +7,9 @@ import { reaction, when } from "mobx";
 import type { GeneralEntity } from "../../../common/catalog-entities";
 import generalCategoryInjectable from "../../../common/catalog/categories/general.injectable";
 import isActiveRouteInjectable from "../../navigation/is-route-active.injectable";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
-import type { Disposer } from "@k8slens/utilities";
-import { disposer } from "@k8slens/utilities";
+import { observableHistoryInjectionToken } from "@openlens/routing";
+import type { Disposer } from "@openlens/utilities";
+import { disposer } from "@openlens/utilities";
 import catalogEntityRegistryInjectable from "../catalog/entity/registry.injectable";
 
 export type WatchForGeneralEntityNavigation = () => Disposer;

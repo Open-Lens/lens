@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/feature-core",
+  "name": "@openlens/feature-core",
   "private": false,
   "version": "6.5.0",
   "description": "Code that is common to all Features and those registering them.",
@@ -18,8 +18,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",
@@ -34,7 +34,7 @@
     "@ogre-tools/injectable": "^16.1.0"
   },
   "devDependencies": {
-    "@k8slens/eslint-config": "^6.5.0",
-    "@k8slens/webpack": "^6.5.0"
+    "@openlens/eslint-config": "^6.5.0",
+    "@openlens/webpack": "^6.5.0"
   }
 }

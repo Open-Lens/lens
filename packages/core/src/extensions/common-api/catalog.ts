@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { KubernetesClusterCategory } from "../../common/catalog-entities/kubernetes-cluster";
 import kubernetesClusterCategoryInjectable from "../../common/catalog/categories/kubernetes-cluster.injectable";
-import { asLegacyGlobalForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalForExtensionApi } from "@openlens/legacy-global-di";
 
 export {
   KubernetesCluster,

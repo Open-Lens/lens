@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@openlens/test-utils";
 import { withErrorSuppression } from "./with-error-suppression";
 
 describe("with-error-suppression", () => {

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { formatDuration } from "@k8slens/utilities";
+import { formatDuration } from "@openlens/utilities";
 import moment from "moment";
 import type { ObjectReference, NamespaceScopedMetadata } from "../api-types";
 import { KubeObject } from "../kube-object";

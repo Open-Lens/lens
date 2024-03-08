@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { DerivedKubeApiOptions, KubeApiDependencies, NamespacedResourceDescriptor } from "../kube-api";
 import { KubeApi } from "../kube-api";
-import { ReplicaSet } from "@k8slens/kube-object";
+import { ReplicaSet } from "@openlens/kube-object";
 
 export class ReplicaSetApi extends KubeApi<ReplicaSet> {
   constructor(deps: KubeApiDependencies, opts?: DerivedKubeApiOptions) {

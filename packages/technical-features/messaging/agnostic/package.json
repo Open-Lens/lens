@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/messaging",
+  "name": "@openlens/messaging",
   "private": false,
   "version": "1.0.0",
   "description": "An abstraction for messaging between Lens environments",
@@ -18,8 +18,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",
@@ -31,9 +31,9 @@
     "lint": "lens-lint"
   },
   "peerDependencies": {
-    "@k8slens/application": "^6.5.0-alpha.0",
-    "@k8slens/feature-core": "^6.5.0-alpha.0",
-    "@k8slens/startable-stoppable": "^1.0.0-alpha.1",
+    "@openlens/application": "^6.5.0-alpha.0",
+    "@openlens/feature-core": "^6.5.0-alpha.0",
+    "@openlens/startable-stoppable": "^1.0.0-alpha.1",
     "@ogre-tools/injectable": "^16.1.0",
     "@ogre-tools/injectable-extension-for-auto-registration": "^16.1.0",
     "@ogre-tools/injectable-extension-for-mobx": "^16.1.0",
@@ -41,7 +41,7 @@
     "mobx": "^6.7.0"
   },
   "devDependencies": {
-    "@k8slens/eslint-config": "^6.5.0",
-    "@k8slens/webpack": "^6.5.0"
+    "@openlens/eslint-config": "^6.5.0",
+    "@openlens/webpack": "^6.5.0"
   }
 }

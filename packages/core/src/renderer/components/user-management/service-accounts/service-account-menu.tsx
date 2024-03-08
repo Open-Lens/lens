@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
 
 import type { KubeObjectMenuProps } from "../../kube-object-menu";
-import type { ServiceAccount } from "@k8slens/kube-object";
+import type { ServiceAccount } from "@openlens/kube-object";
 import { MenuItem } from "../../menu";
 import { Icon } from "../../icon";
 import type { OpenServiceAccountKubeConfigDialog } from "../../kubeconfig-dialog/open-service-account-kube-config-dialog.injectable";

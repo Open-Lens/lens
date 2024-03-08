@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,16 +7,16 @@ import styles from "./network-policy-details.module.scss";
 
 import React from "react";
 import { DrawerItem, DrawerTitle } from "../drawer";
-import type { PolicyIpBlock, NetworkPolicyPeer, NetworkPolicyPort, LabelMatchExpression, LabelSelector } from "@k8slens/kube-object";
-import { NetworkPolicy } from "@k8slens/kube-object";
+import type { PolicyIpBlock, NetworkPolicyPeer, NetworkPolicyPort, LabelMatchExpression, LabelSelector } from "@openlens/kube-object";
+import { NetworkPolicy } from "@openlens/kube-object";
 import { Badge } from "../badge";
 import { SubTitle } from "../layout/sub-title";
 import { observer } from "mobx-react";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { isEmpty } from "lodash";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 export interface NetworkPolicyDetailsProps extends KubeObjectDetailsProps<NetworkPolicy> {
 }

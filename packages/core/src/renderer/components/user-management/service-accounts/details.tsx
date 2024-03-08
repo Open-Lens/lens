@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import type { Secret, ServiceAccount } from "@k8slens/kube-object";
+import type { Secret, ServiceAccount } from "@openlens/kube-object";
 import { DrawerItem, DrawerTitle } from "../../drawer";
 import { Icon } from "../../icon";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";

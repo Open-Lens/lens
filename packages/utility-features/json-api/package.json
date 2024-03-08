@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/json-api",
+  "name": "@openlens/json-api",
   "private": false,
   "version": "1.0.0",
   "description": "JSON api client",
@@ -18,8 +18,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/Open-Lens/app",
@@ -32,19 +32,19 @@
     "lint:fix": "lens-lint --fix"
   },
   "dependencies": {
-    "@k8slens/node-fetch": "^6.5.0"
+    "@openlens/node-fetch": "^6.5.0"
   },
   "peerDependencies": {
-    "@k8slens/event-emitter": "^1.0.0-alpha.1",
-    "@k8slens/logger": "^1.0.0-alpha.5",
-    "@k8slens/utilities": "^1.0.0-alpha.1",
+    "@openlens/event-emitter": "^1.0.0-alpha.1",
+    "@openlens/logger": "^1.0.0-alpha.5",
+    "@openlens/utilities": "^1.0.0-alpha.1",
     "lodash": "^4.17.15",
     "rfc6902": "^5.0.1"
   },
   "devDependencies": {
-    "@k8slens/eslint-config": "^6.5.0",
-    "@k8slens/jest": "^6.5.0",
-    "@k8slens/typescript": "^6.5.0",
+    "@openlens/eslint-config": "^6.5.0",
+    "@openlens/jest": "^6.5.0",
+    "@openlens/typescript": "^6.5.0",
     "@types/node": "^16.18.25",
     "type-fest": "^2.14.0"
   }

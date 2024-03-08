@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import assert from "assert";
@@ -9,7 +9,7 @@ import ingressClassApiInjectable from "../../../common/k8s-api/endpoints/ingress
 import { IngressClassStore } from "./ingress-class-store";
 import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-created.injectable";
 import clusterFrameContextForClusterScopedResourcesInjectable from "../../cluster-frame-context/for-cluster-scoped-resources.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 const ingressClassStoreInjectable = getInjectable({
   id: "ingress-class-store",

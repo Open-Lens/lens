@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,7 +11,7 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Badge } from "../badge";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import type { ReplicationController } from "@k8slens/kube-object";
+import type { ReplicationController } from "@openlens/kube-object";
 import replicationControllerApiInjectable from "../../../common/k8s-api/endpoints/replication-controller.api.injectable";
 import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
 import type { ShowNotification } from "../notifications";

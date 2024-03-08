@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { action, computed, type IComputedValue, type IObservableArray, makeObservable, observable } from "mobx";
 import type { CatalogEntity } from "../../common/catalog";
 import type { HasCategoryForEntity } from "../../common/catalog/has-category-for-entity.injectable";
-import { iter } from "@k8slens/utilities";
+import { iter } from "@openlens/utilities";
 
 interface Dependencies {
   readonly hasCategoryForEntity: HasCategoryForEntity;

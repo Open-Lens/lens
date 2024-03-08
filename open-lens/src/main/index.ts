@@ -4,14 +4,14 @@ import {
   mainExtensionApi as Main,
   commonExtensionApi as Common,
   registerLensCore,
-} from "@k8slens/core/main";
+} from "@openlens/core/main";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
-import { registerFeature } from "@k8slens/feature-core";
-import { applicationFeature, startApplicationInjectionToken } from '@k8slens/application'
-import { applicationFeatureForElectronMain } from '@k8slens/application-for-electron-main'
-import { messagingFeatureForMain } from "@k8slens/messaging-for-main";
-import { loggerFeature } from "@k8slens/logger";
+import { registerFeature } from "@openlens/feature-core";
+import { applicationFeature, startApplicationInjectionToken } from '@openlens/application'
+import { applicationFeatureForElectronMain } from '@openlens/application-for-electron-main'
+import { messagingFeatureForMain } from "@openlens/messaging-for-main";
+import { loggerFeature } from "@openlens/logger";
 
 const environment = "main";
 
@@ -59,7 +59,7 @@ startApplication().catch((error) => {
 export {
   Mobx,
   Pty,
-} from "@k8slens/core/main";
+} from "@openlens/core/main";
 
 export const LensExtensions = {
   Main,

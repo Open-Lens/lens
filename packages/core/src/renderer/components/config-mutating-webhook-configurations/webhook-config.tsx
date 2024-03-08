@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
 import styles from "./webhook-config.module.css";
-import type { Webhook } from "@k8slens/kube-object";
+import type { Webhook } from "@openlens/kube-object";
 import { DrawerItem } from "../drawer";
 import { Badge } from "../badge";
 

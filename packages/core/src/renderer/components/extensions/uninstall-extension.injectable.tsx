@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import extensionLoaderInjectable from "../../../extensions/extension-loader/extension-loader.injectable";
 import extensionInstallationStateStoreInjectable from "../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
 import extensionDiscoveryInjectable from "../../../extensions/extension-discovery/extension-discovery.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { LensExtensionId } from "@k8slens/legacy-extensions";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { LensExtensionId } from "@openlens/legacy-extensions";
 import { extensionDisplayName } from "../../../extensions/lens-extension";
 import React from "react";
 import { when } from "mobx";

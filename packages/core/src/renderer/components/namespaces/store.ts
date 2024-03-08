@@ -1,16 +1,16 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { IComputedValue, IReactionDisposer } from "mobx";
 import { action, comparer, computed, makeObservable, reaction } from "mobx";
 import type { StorageLayer } from "../../utils/storage-helper";
-import { noop, toggle } from "@k8slens/utilities";
+import { noop, toggle } from "@openlens/utilities";
 import type { KubeObjectStoreDependencies, KubeObjectStoreLoadingParams } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 import type { NamespaceApi } from "../../../common/k8s-api/endpoints/namespace.api";
-import { Namespace } from "@k8slens/kube-object";
+import { Namespace } from "@openlens/kube-object";
 import autoBind from "auto-bind";
 
 export interface NamespaceTree {

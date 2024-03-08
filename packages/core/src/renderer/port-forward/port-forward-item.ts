@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 
 import autoBind from "auto-bind";
-import type { ItemObject } from "@k8slens/list-layout";
+import type { ItemObject } from "@openlens/list-layout";
 
 export type ForwardedPortStatus = "Active" | "Disabled";
 export interface ForwardedPort {

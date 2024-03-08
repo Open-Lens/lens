@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import yaml from "js-yaml";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { HelmReleaseUpdateDetails } from "../helm-releases.api";
-import { urlBuilderFor } from "@k8slens/utilities";
+import { urlBuilderFor } from "@openlens/utilities";
 import apiBaseInjectable from "../../api-base.injectable";
 
 interface HelmReleaseCreatePayload {

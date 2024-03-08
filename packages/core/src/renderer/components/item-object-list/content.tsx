@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,13 +12,13 @@ import { Observer, observer } from "mobx-react";
 import type { ConfirmDialogParams } from "../confirm-dialog";
 import type { TableProps, TableRowProps, TableSortCallbacks } from "../table";
 import { Table, TableCell, TableHead, TableRow } from "../table";
-import type { IClassName, StrictReactNode } from "@k8slens/utilities";
-import { cssNames, isDefined, isReactNode, noop, prevDefault, stopPropagation } from "@k8slens/utilities";
+import type { IClassName, StrictReactNode } from "@openlens/utilities";
+import { cssNames, isDefined, isReactNode, noop, prevDefault, stopPropagation } from "@openlens/utilities";
 import type { AddRemoveButtonsProps } from "../add-remove-buttons";
 import { AddRemoveButtons } from "../add-remove-buttons";
 import { NoItems } from "../no-items";
 import { Spinner } from "../spinner";
-import type { ItemObject, TableCellProps } from "@k8slens/list-layout";
+import type { ItemObject, TableCellProps } from "@openlens/list-layout";
 import type { Filter, PageFiltersStore } from "./page-filters/store";
 import type { LensTheme } from "../../themes/lens-theme";
 import { MenuActions } from "../menu/menu-actions";

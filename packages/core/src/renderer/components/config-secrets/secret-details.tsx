@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,16 +10,16 @@ import { autorun, observable, makeObservable } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Input } from "../input";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import type { ShowNotification } from "../notifications";
-import { base64, toggle } from "@k8slens/utilities";
+import { base64, toggle } from "@openlens/utilities";
 import { Icon } from "../icon";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { Secret } from "@k8slens/kube-object";
-import type { Logger } from "@k8slens/logger";
+import { Secret } from "@openlens/kube-object";
+import type { Logger } from "@openlens/logger";
 import type { SecretStore } from "./store";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import secretStoreInjectable from "./store.injectable";
 import showSuccessNotificationInjectable from "../notifications/show-success-notification.injectable";
 import type { ShowCheckedErrorNotification } from "../notifications/show-checked-error.injectable";

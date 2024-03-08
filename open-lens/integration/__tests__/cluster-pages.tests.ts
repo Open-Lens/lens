@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,7 +14,7 @@ import { minikubeReady } from "../helpers/minikube";
 import type { Frame, Page } from "playwright";
 import { groupBy, toPairs } from "lodash/fp";
 import { pipeline } from "@ogre-tools/fp";
-import { describeIf } from "@k8slens/test-utils";
+import { describeIf } from "@openlens/test-utils";
 
 const TEST_NAMESPACE = "integration-tests";
 

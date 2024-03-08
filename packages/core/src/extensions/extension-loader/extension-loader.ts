@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,15 +8,15 @@ import { isEqual } from "lodash";
 import type { ObservableMap } from "mobx";
 import { runInAction, action, computed, toJS, observable, reaction, when } from "mobx";
 import { broadcastMessage, ipcMainOn, ipcRendererOn, ipcMainHandle } from "../../common/ipc";
-import { isDefined, iter } from "@k8slens/utilities";
-import type { ExternalInstalledExtension, InstalledExtension, LensExtensionConstructor, LensExtensionId, BundledExtension, BundledInstalledExtension, LegacyLensExtension } from "@k8slens/legacy-extensions";
+import { isDefined, iter } from "@openlens/utilities";
+import type { ExternalInstalledExtension, InstalledExtension, LensExtensionConstructor, LensExtensionId, BundledExtension, BundledInstalledExtension, LegacyLensExtension } from "@openlens/legacy-extensions";
 import type { LensExtension } from "../lens-extension";
 import { extensionLoaderFromMainChannel, extensionLoaderFromRendererChannel } from "../../common/ipc/extension-handling";
 import { requestExtensionLoaderInitialState } from "../../renderer/ipc";
 import assert from "assert";
-import { EventEmitter } from "@k8slens/event-emitter";
+import { EventEmitter } from "@openlens/event-emitter";
 import type { Extension } from "./extension/extension.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { JoinPaths } from "../../common/path/join-paths.injectable";
 import type { GetDirnameOfPath } from "../../common/path/get-dirname.injectable";
 import type { UpdateExtensionsState } from "../../features/extensions/enabled/common/update-state.injectable";

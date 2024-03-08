@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { getMessageChannelListenerInjectable } from "@k8slens/messaging";
+import { getMessageChannelListenerInjectable } from "@openlens/messaging";
 import extensionLoaderInjectable from "../../../../extensions/extension-loader/extension-loader.injectable";
 import type { LensRendererExtension } from "../../../../extensions/lens-renderer-extension";
 import { navigateForExtensionChannel } from "../common/channel";

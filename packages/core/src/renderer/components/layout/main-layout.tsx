@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,10 +7,10 @@ import styles from "./main-layout.module.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
-import { ErrorBoundary } from "@k8slens/error-boundary";
-import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@k8slens/resizing-anchor";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
+import { ErrorBoundary } from "@openlens/error-boundary";
+import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@openlens/resizing-anchor";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { SidebarStorageState } from "./sidebar-storage/sidebar-storage.injectable";
 import sidebarStorageInjectable, { defaultSidebarWidth } from "./sidebar-storage/sidebar-storage.injectable";

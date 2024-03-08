@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,9 +10,9 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import React from "react";
 import { ipcRendererOn } from "../../../common/ipc";
 import type { Cluster } from "../../../common/cluster/cluster";
-import type { IClassName } from "@k8slens/utilities";
-import { hasTypedProperty, isObject, isString, cssNames } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import type { IClassName } from "@openlens/utilities";
+import { hasTypedProperty, isObject, isString, cssNames } from "@openlens/utilities";
+import { Button } from "@openlens/button";
 import { Icon } from "../icon";
 import { Spinner } from "../spinner";
 import type { KubeAuthUpdate } from "../../../common/cluster-types";

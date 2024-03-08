@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { JsonApiErrorParsed } from "@k8slens/json-api";
+import { JsonApiErrorParsed } from "@openlens/json-api";
 
 export const getErrorMessage = (error: unknown): string => {
   if (typeof error === "string") {
