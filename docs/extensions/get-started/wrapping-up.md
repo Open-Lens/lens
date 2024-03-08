@@ -14,7 +14,7 @@ Determine whether your idea for an extension is doable and get ideas for new ext
 
 Here you'll find a collection of sample extensions that you can use as a base to work from.
 Some of these samples include a detailed guide that explains the source code.
-You can find all samples and guides in the [lens-extension-samples](https://github.com/lensapp/lens-extension-samples) repository.
+You can find all samples and guides in the [lens-extension-samples](https://github.com/Open-Lens/app-extension-samples) repository.
 
 ## Testing and Publishing
 

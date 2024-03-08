@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lensapp/lens.git"
+    "url": "git+https://github.com/Open-Lens/app.git"
   },
   "author": {
     "name": "OpenLens Authors",
     "email": "info@k8slens.dev"
   },
   "license": "MIT",
-  "homepage": "https://github.com/lensapp/lens",
+  "homepage": "https://github.com/Open-Lens/app",
   "dependencies": {
     "typescript": "^4.9.3"
   },

@@ -167,7 +167,7 @@ class LensK8sProxyDownloader extends BinaryDownloader {
     const binaryName = getBinaryName("lens-k8s-proxy", { forPlatform: args.platform });
 
     super({ ...args, binaryName }, bar);
-    this.url = `https://github.com/lensapp/lens-k8s-proxy/releases/download/v${args.version}/lens-k8s-proxy-${args.platform}-${args.downloadArch}`;
+    this.url = `https://github.com/Open-Lens/app-k8s-proxy/releases/download/v${args.version}/lens-k8s-proxy-${args.platform}-${args.downloadArch}`;
   }
 }
 

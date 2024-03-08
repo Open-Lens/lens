@@ -11,10 +11,10 @@ In this topic, you'll learn the basics of building extensions by creating an ext
 
 ## Install the Extension
 
-To install the extension, clone the [Lens Extension samples](https://github.com/lensapp/lens-extension-samples) repository to your local machine:
+To install the extension, clone the [Lens Extension samples](https://github.com/Open-Lens/app-extension-samples) repository to your local machine:
 
 ```sh
-git clone https://github.com/lensapp/lens-extension-samples.git
+git clone https://github.com/Open-Lens/app-extension-samples.git
 ```
 
 Next you need to create a symlink.
@@ -96,5 +96,5 @@ Finally, you'll make a change to the message that our Hello World sample extensi
 
 In the [next topic](anatomy.md), we'll take a closer look at the source code of our Hello World sample.
 
-You can find the source code for this tutorial at: [lensapp/lens-extension-samples](https://github.com/lensapp/lens-extension-samples/tree/master/helloworld-sample).
+You can find the source code for this tutorial at: [lensapp/lens-extension-samples](https://github.com/Open-Lens/app-extension-samples/tree/master/helloworld-sample).
 [Extension Guides](../guides/README.md) contains additional samples.

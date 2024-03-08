@@ -1,7 +1,7 @@
 # KubeObjectListLayout Sample
 
 In this guide we will learn how to list Kubernetes CRD objects on the cluster dashboard.
-You can see the complete source code for this guide [here](https://github.com/lensapp/lens-extension-samples/tree/master/custom-resource-page).
+You can see the complete source code for this guide [here](https://github.com/Open-Lens/app-extension-samples/tree/master/custom-resource-page).
 
 ![](./images/certificates-crd-list.png)
 
@@ -322,4 +322,4 @@ export class CertificateDetails extends React.Component<CertificateDetailsProps>
 ## Summary
 
 Like we can see above, it's very easy to add custom pages and fetch Kubernetes resources by using Extensions API.
-Please see the [complete source code](https://github.com/lensapp/lens-extension-samples/tree/master/custom-resource-page) to test it out.
+Please see the [complete source code](https://github.com/Open-Lens/app-extension-samples/tree/master/custom-resource-page) to test it out.

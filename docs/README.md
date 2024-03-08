@@ -9,7 +9,7 @@ This documentation describes:
 
 - How to build, run, test, and publish an extension.
 - How to take full advantage of the Lens Extension API.
-- Where to find [guides](extensions/guides/README.md) and [code samples](https://github.com/lensapp/lens-extension-samples) to help get you started.
+- Where to find [guides](extensions/guides/README.md) and [code samples](https://github.com/Open-Lens/app-extension-samples) to help get you started.
 
 ## What Extensions Can Do
 
@@ -33,7 +33,7 @@ Here is what each section of the Lens Extension API docs can help you with:
 
 Just like Lens itself, the extension API updates on a monthly cadence, rolling out new features with every release.
 
-Keep up with Lens and the Lens Extension API by reviewing the [release notes](https://github.com/lensapp/lens/releases).
+Keep up with Lens and the Lens Extension API by reviewing the [release notes](https://github.com/Open-Lens/app/releases).
 
 ## Important changes since Lens v4
 
@@ -47,7 +47,7 @@ See the [Lens v4 to v5 extension migration notes](extensions/extension-migration
 
 If you have questions for extension development, try asking on the [Lens Forums](http://forums.k8slens.dev/). It's a public chatroom for Lens developers, where Lens team members chime in from time to time.
 
-To provide feedback on the documentation or issues with the Lens Extension API, create new issues at [lensapp/lens](https://github.com/lensapp/lens/issues). Please use the labels `area/documentation` and/or `area/extension`.
+To provide feedback on the documentation or issues with the Lens Extension API, create new issues at [lensapp/lens](https://github.com/Open-Lens/app/issues). Please use the labels `area/documentation` and/or `area/extension`.
 
 ## Downloading Lens
 

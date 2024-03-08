@@ -73,7 +73,7 @@ export default class ExampleMainExtension extends Main.LensExtension {
         {
           label: "Lens Github",
           click() {
-            Main.Navigation.navigate("https://github.com/lensapp/lens");
+            Main.Navigation.navigate("https://github.com/Open-Lens/app");
           }
         }
       ]
