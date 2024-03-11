@@ -1,14 +1,14 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { iter } from "@k8slens/utilities";
+import { iter } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { comparer, action } from "mobx";
 import { clusterStoreMigrationInjectionToken } from "./migration-token";
 import type { ClusterId, ClusterModel } from "../../../../common/cluster-types";
 import { Cluster } from "../../../../common/cluster/cluster";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import createPersistentStorageInjectable from "../../../../common/persistent-storage/create.injectable";
 import persistentStorageMigrationsInjectable from "../../../../common/persistent-storage/migrations.injectable";
 import storeMigrationVersionInjectable from "../../../../common/vars/store-migration-version.injectable";

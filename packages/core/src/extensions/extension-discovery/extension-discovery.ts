@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,14 +8,14 @@ import { EventEmitter } from "events";
 import { makeObservable, observable, reaction, when } from "mobx";
 import { broadcastMessage, ipcMainHandle, ipcRendererOn } from "../../common/ipc";
 import { toJS } from "../../common/utils";
-import { isErrnoException } from "@k8slens/utilities";
+import { isErrnoException } from "@openlens/utilities";
 import type { ExtensionLoader } from "../extension-loader";
-import type { InstalledExtension, LensExtensionId, LensExtensionManifest, ExternalInstalledExtension } from "@k8slens/legacy-extensions";
+import type { InstalledExtension, LensExtensionId, LensExtensionManifest, ExternalInstalledExtension } from "@openlens/legacy-extensions";
 import type { ExtensionInstallationStateStore } from "../extension-installation-state-store/extension-installation-state-store";
 import { extensionDiscoveryStateChannel } from "../../common/ipc/extension-handling";
 import { requestInitialExtensionDiscovery } from "../../renderer/ipc";
 import type { ReadJson } from "../../common/fs/read-json-file.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { PathExists } from "../../common/fs/path-exists.injectable";
 import type { Watch, Watcher } from "../../common/fs/watch/watch.injectable";
 import type { Stats } from "fs";

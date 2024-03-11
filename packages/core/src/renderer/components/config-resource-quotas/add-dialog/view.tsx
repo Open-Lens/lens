@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,11 +14,11 @@ import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
 import { Input } from "../../input";
 import { systemName } from "../../input/input_validators";
-import type { ResourceQuotaValues } from "@k8slens/kube-object";
+import type { ResourceQuotaValues } from "@openlens/kube-object";
 import type { ResourceQuotaApi } from "../../../../common/k8s-api/endpoints";
 import { Select } from "../../select";
 import { Icon } from "../../icon";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import { NamespaceSelect } from "../../namespaces/namespace-select";
 import { SubTitle } from "../../layout/sub-title";
 import { withInjectables } from "@ogre-tools/injectable-react";

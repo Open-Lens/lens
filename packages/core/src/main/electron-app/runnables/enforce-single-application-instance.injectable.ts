@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { beforeElectronIsReadyInjectionToken } from "@k8slens/application-for-electron-main";
+import { beforeElectronIsReadyInjectionToken } from "@openlens/application-for-electron-main";
 import requestSingleInstanceLockInjectable from "../features/request-single-instance-lock.injectable";
 import forceAppExitInjectable from "../features/force-app-exit.injectable";
 

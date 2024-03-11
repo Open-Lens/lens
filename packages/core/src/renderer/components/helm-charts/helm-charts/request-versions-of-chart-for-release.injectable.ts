@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { HelmChart } from "../../../../common/k8s-api/endpoints/helm-charts.api";
 import requestHelmChartVersionsInjectable from "../../../../common/k8s-api/endpoints/helm-charts.api/request-versions.injectable";
 import type { HelmRelease } from "../../../../common/k8s-api/endpoints/helm-releases.api";
-import { sortBySemverVersion } from "@k8slens/utilities";
+import { sortBySemverVersion } from "@openlens/utilities";
 import type { HelmChartVersion } from "./versions";
 
 /**

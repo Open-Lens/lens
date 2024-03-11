@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,9 +12,9 @@ import { observer } from "mobx-react";
 import type { DialogProps } from "../../dialog";
 import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
-import type { CronJob } from "@k8slens/kube-object";
+import type { CronJob } from "@openlens/kube-object";
 import type { ShowNotification } from "../../notifications";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { Input } from "../../input";
 import { systemName, maxLength } from "../../input/input_validators";
 import { withInjectables } from "@ogre-tools/injectable-react";

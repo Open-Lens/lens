@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
@@ -9,7 +9,7 @@ import type { NamespaceStore } from "../store";
 import type { ActionMeta, MultiValue } from "react-select";
 import { Icon } from "../../icon";
 import type { SelectOption } from "../../select";
-import { observableCrate } from "@k8slens/utilities";
+import { observableCrate } from "@openlens/utilities";
 import type { IsMultiSelectionKey } from "./is-selection-key.injectable";
 import type { ClusterContext } from "../../../cluster-frame-context/cluster-frame-context";
 

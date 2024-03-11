@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,8 +12,8 @@ import { renderFor } from "../../test-utils/renderFor";
 import { ClusterIconSetting } from "../icon-settings";
 import { screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import type { ClusterIconSettingComponentProps } from "@k8slens/cluster-settings";
-import { clusterIconSettingsComponentInjectionToken, clusterIconSettingsMenuInjectionToken } from "@k8slens/cluster-settings";
+import type { ClusterIconSettingComponentProps } from "@openlens/cluster-settings";
+import { clusterIconSettingsComponentInjectionToken, clusterIconSettingsMenuInjectionToken } from "@openlens/cluster-settings";
 import { runInAction } from "mobx";
 import { getInjectable, type DiContainer } from "@ogre-tools/injectable";
 

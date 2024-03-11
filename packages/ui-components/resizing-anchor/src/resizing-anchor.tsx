@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import "./resizing-anchor.scss";
 import React from "react";
 import { action, observable, makeObservable } from "mobx";
 import _ from "lodash";
-import { cssNames, noop } from "@k8slens/utilities";
+import { cssNames, noop } from "@openlens/utilities";
 import { observer } from "mobx-react";
 
 export enum ResizeDirection {

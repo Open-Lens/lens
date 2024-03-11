@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,7 +8,7 @@ import emitAppEventInjectable from "../../../../common/app-event-bus/emit-event.
 import type { ClusterModel } from "../../../../common/cluster-types";
 import { Cluster } from "../../../../common/cluster/cluster";
 import clustersStateInjectable from "./state.injectable";
-import { setAndGet } from "@k8slens/utilities";
+import { setAndGet } from "@openlens/utilities";
 
 export type AddCluster = (clusterModel: ClusterModel) => Cluster;
 

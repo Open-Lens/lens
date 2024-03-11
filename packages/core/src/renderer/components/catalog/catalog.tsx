@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -28,8 +28,8 @@ import type { VisitEntityContextMenu } from "../../../common/catalog/visit-entit
 import visitEntityContextMenuInjectable from "../../../common/catalog/visit-entity-context-menu.injectable";
 import type { NavigateToCatalog } from "../../../common/front-end-routing/routes/catalog/navigate-to-catalog.injectable";
 import navigateToCatalogInjectable from "../../../common/front-end-routing/routes/catalog/navigate-to-catalog.injectable";
-import type { Logger } from "@k8slens/logger";
-import { loggerInjectionToken } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import type { NormalizeCatalogEntityContextMenu } from "../../catalog/normalize-menu-item.injectable";
 import normalizeCatalogEntityContextMenuInjectable from "../../catalog/normalize-menu-item.injectable";
 import type { Navigate } from "../../navigation/navigate.injectable";

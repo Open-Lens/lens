@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { Runnable } from "@k8slens/run-many";
+import type { Runnable } from "@openlens/run-many";
 import type { DiContainerForInjection, Injectable, InjectionToken } from "@ogre-tools/injectable";
 import { getInjectionToken, getInjectable } from "@ogre-tools/injectable";
 import assert from "assert";

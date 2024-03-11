@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import activeThemeInjectable from "../../renderer/themes/active.injectable";
 import type { LensTheme } from "../../renderer/themes/lens-theme";
-import { asLegacyGlobalForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalForExtensionApi } from "@openlens/legacy-global-di";
 
 export const activeTheme = asLegacyGlobalForExtensionApi(activeThemeInjectable);
 

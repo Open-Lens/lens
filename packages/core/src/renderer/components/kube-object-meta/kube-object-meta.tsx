@@ -1,24 +1,24 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
-import type { KubeMetaField } from "@k8slens/kube-object";
-import { KubeObject } from "@k8slens/kube-object";
+import type { KubeMetaField } from "@openlens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
 import { DrawerItem, DrawerItemLabels } from "../drawer";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import { Link } from "react-router-dom";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";
 import { LocaleDate } from "../locale-date";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { KubeObjectAge } from "../kube-object/age";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import { observer } from "mobx-react";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import type { NamespaceApi } from "../../../common/k8s-api/endpoints";
 import namespaceApiInjectable from "../../../common/k8s-api/endpoints/namespace.api.injectable";
 

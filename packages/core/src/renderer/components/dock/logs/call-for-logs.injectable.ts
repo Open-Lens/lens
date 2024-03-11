@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { PodLogsQuery } from "@k8slens/kube-object";
+import type { PodLogsQuery } from "@openlens/kube-object";
 import podApiInjectable from "../../../../common/k8s-api/endpoints/pod.api.injectable";
 import type { ResourceDescriptor } from "../../../../common/k8s-api/kube-api";
 

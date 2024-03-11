@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { action } from "mobx";
-import { prefixedLoggerInjectable } from "@k8slens/logger";
+import { prefixedLoggerInjectable } from "@openlens/logger";
 import createPersistentStorageInjectable from "../../../common/persistent-storage/create.injectable";
 import persistentStorageMigrationsInjectable from "../../../common/persistent-storage/migrations.injectable";
 import { userPreferencesMigrationInjectionToken } from "./migrations-token";

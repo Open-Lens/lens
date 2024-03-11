@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,9 +7,9 @@ import "./deployments.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { Deployment } from "@k8slens/kube-object";
+import type { Deployment } from "@openlens/kube-object";
 import { KubeObjectListLayout } from "../kube-object-list-layout";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import kebabCase from "lodash/kebabCase";
 import orderBy from "lodash/orderBy";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";

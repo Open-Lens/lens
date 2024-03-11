@@ -30,4 +30,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 1.0.0-alpha.6 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/logger
+**Note:** Version bump only for package @openlens/logger

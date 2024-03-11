@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,10 +7,10 @@ import "./deployment-replicasets.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { ReplicaSet } from "@k8slens/kube-object";
+import type { ReplicaSet } from "@openlens/kube-object";
 import { KubeObjectMenu } from "../kube-object-menu";
 import { Spinner } from "../spinner";
-import { prevDefault, stopPropagation } from "@k8slens/utilities";
+import { prevDefault, stopPropagation } from "@openlens/utilities";
 import { DrawerTitle } from "../drawer";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";

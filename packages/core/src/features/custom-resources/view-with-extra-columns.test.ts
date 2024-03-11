@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeObjectMetadata, KubeObjectScope } from "@k8slens/kube-object";
-import { KubeObject, CustomResourceDefinition } from "@k8slens/kube-object";
+import type { KubeObjectMetadata, KubeObjectScope } from "@openlens/kube-object";
+import { KubeObject, CustomResourceDefinition } from "@openlens/kube-object";
 import type { RenderResult } from "@testing-library/react";
 import navigateToCustomResourcesInjectable from "../../common/front-end-routing/routes/cluster/custom-resources/custom-resources/navigate-to-custom-resources.injectable";
 import apiManagerInjectable from "../../common/k8s-api/api-manager/manager.injectable";

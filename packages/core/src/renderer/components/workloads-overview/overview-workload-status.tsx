@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import capitalize from "lodash/capitalize";
 import { observer } from "mobx-react";
 import type { PieChartData } from "../chart";
 import { PieChart } from "../chart";
-import { object } from "@k8slens/utilities";
+import { object } from "@openlens/utilities";
 import type { LensTheme } from "../../themes/lens-theme";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { PascalCase } from "type-fest";

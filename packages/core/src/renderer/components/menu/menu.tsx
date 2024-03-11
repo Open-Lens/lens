@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,8 +8,8 @@ import "./menu.scss";
 import type { ReactElement } from "react";
 import React, { Fragment } from "react";
 import { createPortal } from "react-dom";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, noop } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames, noop } from "@openlens/utilities";
 import { Animate } from "../animate";
 import type { IconProps } from "../icon";
 import { Icon } from "../icon";

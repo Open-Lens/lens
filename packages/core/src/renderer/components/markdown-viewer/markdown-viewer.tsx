@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import "./markdown-viewer.scss";
 import React, { Component } from "react";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 
 DOMPurify.addHook("afterSanitizeAttributes", function (node) {
   // Set all elements owning target to target=_blank

@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../../renderer/cluster-frame-context/for-namespaced-resources.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import type { KubeApi } from "../kube-api";
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@openlens/kube-object";
 import type { KubeObjectStoreDependencies } from "../kube-object.store";
 import { CustomResourceStore } from "./resource.store";
 

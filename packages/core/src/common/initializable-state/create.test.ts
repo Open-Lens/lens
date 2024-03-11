@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import type { Runnable } from "@k8slens/run-many";
-import { runManyFor } from "@k8slens/run-many";
+import type { Runnable } from "@openlens/run-many";
+import { runManyFor } from "@openlens/run-many";
 import type { DiContainer, InjectionToken } from "@ogre-tools/injectable";
 import { createContainer, getInjectionToken } from "@ogre-tools/injectable";
 import type { ImplInitializableInjectionTokensArgs, Initializable } from "./create";

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { KubeObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@k8slens/kube-object";
-import { KubeObject } from "@k8slens/kube-object";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { KubeObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@openlens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
+import type { AsyncResult } from "@openlens/utilities";
 import { getErrorMessage } from "../../../../../common/utils/get-error-message";
 import type { Writable } from "type-fest";
 import { parseKubeApi } from "../../../../../common/k8s-api/kube-api-parse";

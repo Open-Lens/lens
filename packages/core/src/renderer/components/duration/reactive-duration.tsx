@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { observer } from "mobx-react";
 import React from "react";
-import { formatDuration } from "@k8slens/utilities";
+import { formatDuration } from "@openlens/utilities";
 import { reactiveNow } from "../../../common/utils/reactive-now/reactive-now";
 
 export interface ReactiveDurationProps {

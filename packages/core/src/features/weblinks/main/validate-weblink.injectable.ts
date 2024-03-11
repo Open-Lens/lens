@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { chainSignal } from "@k8slens/utilities";
+import { chainSignal } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import fetchInjectable from "../../../common/fetch/fetch.injectable";
 import { withTimeout } from "../../../common/fetch/timeout-controller";

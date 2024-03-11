@@ -1,17 +1,17 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { AgentOptions } from "https";
 import { Agent } from "https";
-import type { RequestInit } from "@k8slens/node-fetch";
-import { loggerInjectionToken } from "@k8slens/logger";
+import type { RequestInit } from "@openlens/node-fetch";
+import { loggerInjectionToken } from "@openlens/logger";
 import isDevelopmentInjectable from "../vars/is-development.injectable";
 import createKubeJsonApiInjectable from "./create-kube-json-api.injectable";
 import type { KubeApiOptions } from "./kube-api";
 import { KubeApi } from "./kube-api";
-import type { KubeJsonApiDataFor, KubeObject, KubeObjectConstructor } from "@k8slens/kube-object";
+import type { KubeJsonApiDataFor, KubeObject, KubeObjectConstructor } from "@openlens/kube-object";
 
 export interface CreateKubeApiForRemoteClusterConfig {
   cluster: {

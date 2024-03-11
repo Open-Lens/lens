@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { observer } from "mobx-react";
 import React from "react";
-import type { Pod } from "@k8slens/kube-object";
+import type { Pod } from "@openlens/kube-object";
 import { DrawerTitle } from "../../../drawer";
 import { Icon } from "../../../icon";
 import { VolumeVariant } from "./variant";

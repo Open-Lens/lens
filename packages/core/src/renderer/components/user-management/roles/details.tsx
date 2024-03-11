@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,7 +8,7 @@ import "./details.scss";
 import { observer } from "mobx-react";
 import React from "react";
 
-import type { Role } from "@k8slens/kube-object";
+import type { Role } from "@openlens/kube-object";
 import { DrawerTitle } from "../../drawer";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";
 

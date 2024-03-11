@@ -16,7 +16,7 @@ All releases will be made by creating a PR which bumps the version field in the 
 1. Run `npm run create-release-pr`.
     - NOTES:
         - The PRs that picked are based on which milestone they are marked as being a part of and if they have already been released
-        - The milestone is automatically computed from the version of the `@k8slens/core`.
+        - The milestone is automatically computed from the version of the `@openlens/core`.
         If there is are any prerelease tags then the milestone will be for the next stable version (no prereleases).
         Otherwise, it will be for the next patch version.
 1. Pick the PRs that you want to include in this release using the keys listed.

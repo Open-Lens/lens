@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./animate.scss";
 import React, { useEffect, useState } from "react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, noop } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames, noop } from "@openlens/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { RequestAnimationFrame } from "./request-animation-frame.injectable";
 import requestAnimationFrameInjectable from "./request-animation-frame.injectable";

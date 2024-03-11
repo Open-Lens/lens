@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,8 +8,8 @@ import "./icon.scss";
 import React, { createRef } from "react";
 import { NavLink } from "react-router-dom";
 import type { LocationDescriptor } from "history";
-import { cssNames } from "@k8slens/utilities";
-import { withTooltip } from "@k8slens/tooltip";
+import { cssNames } from "@openlens/utilities";
+import { withTooltip } from "@openlens/tooltip";
 import isNumber from "lodash/isNumber";
 import Configuration from "./configuration.svg";
 import Crane from "./crane.svg";
@@ -33,10 +33,10 @@ import User from "./user.svg";
 import Users from "./users.svg";
 import Wheel from "./wheel.svg";
 import Workloads from "./workloads.svg";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { StrictReactNode } from "@k8slens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { StrictReactNode } from "@openlens/utilities";
 
 const hrefValidation = /https?:\/\//;
 

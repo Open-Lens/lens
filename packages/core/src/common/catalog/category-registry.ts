@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { action, computed, observable, makeObservable } from "mobx";
 import { once } from "lodash";
-import { iter, getOrInsertMap, strictSet } from "@k8slens/utilities";
-import type { Disposer } from "@k8slens/utilities";
+import { iter, getOrInsertMap, strictSet } from "@openlens/utilities";
+import type { Disposer } from "@openlens/utilities";
 import type { CatalogCategory, CatalogEntityData, CatalogEntityKindData } from "./catalog-entity";
 
 export type CategoryFilter = (category: CatalogCategory) => any;

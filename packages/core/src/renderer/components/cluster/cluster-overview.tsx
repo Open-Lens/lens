@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -23,8 +23,8 @@ import podStoreInjectable from "../workloads-pods/store.injectable";
 import eventStoreInjectable from "../events/store.injectable";
 import nodeStoreInjectable from "../nodes/store.injectable";
 import enabledMetricsInjectable from "../../api/catalog/entity/metrics-enabled.injectable";
-import type { ClusterOverviewUIBlock } from "@k8slens/metrics";
-import { clusterOverviewUIBlockInjectionToken } from "@k8slens/metrics";
+import type { ClusterOverviewUIBlock } from "@openlens/metrics";
+import { clusterOverviewUIBlockInjectionToken } from "@openlens/metrics";
 import { orderByOrderNumber } from "../../../common/utils/composable-responsibilities/orderable/orderable";
 import { computedInjectManyInjectable } from "@ogre-tools/injectable-extension-for-mobx";
 import type { ClusterMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-cluster-metrics-by-node-names.injectable";

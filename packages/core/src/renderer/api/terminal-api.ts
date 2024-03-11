@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import isEqual from "lodash/isEqual";
 import url from "url";
 import { makeObservable, observable } from "mobx";
 import { ipcRenderer } from "electron";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { once } from "lodash";
 import { type TerminalMessage, TerminalChannels } from "../../common/terminal/channels";
 

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,7 +11,7 @@ import React from "react";
 import { Icon } from "../icon";
 import type { InputProps, InputValidator } from "../input";
 import { Input } from "../input";
-import type { StrictReactNode, SingleOrMany } from "@k8slens/utilities";
+import type { StrictReactNode, SingleOrMany } from "@openlens/utilities";
 import autoBindReact from "auto-bind/react";
 
 export interface EditableListProps<T> {

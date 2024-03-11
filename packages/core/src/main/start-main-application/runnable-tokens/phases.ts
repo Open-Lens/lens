@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectionToken } from "@ogre-tools/injectable";
-import type { Runnable, RunnableSync } from "@k8slens/run-many";
+import type { Runnable, RunnableSync } from "@openlens/run-many";
 
 export const afterQuitOfFrontEndInjectionToken = getInjectionToken<RunnableSync>({
   id: "after-quit-of-front-end",

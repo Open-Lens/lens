@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/startable-stoppable",
+  "name": "@openlens/startable-stoppable",
   "private": false,
   "version": "1.0.0",
   "description": "TBD",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lensapp/lens.git"
+    "url": "git+https://github.com/Open-Lens/app.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/lensapp/lens",
+  "homepage": "https://github.com/Open-Lens/app",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "lens-webpack-build",
@@ -28,7 +28,7 @@
     "lint:fix": "lens-lint --fix"
   },
   "devDependencies": {
-    "@k8slens/eslint-config": "^6.5.0",
-    "@k8slens/webpack": "^6.5.0"
+    "@openlens/eslint-config": "^6.5.0",
+    "@openlens/webpack": "^6.5.0"
   }
 }

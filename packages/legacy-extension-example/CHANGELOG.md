@@ -53,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example
 
 
 
@@ -105,7 +105,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example
 
 
 
@@ -153,7 +153,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example
 
 
 
@@ -193,7 +193,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example
 
 
 
@@ -229,7 +229,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example
 
 
 
@@ -261,7 +261,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example
 
 
 
@@ -289,7 +289,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example
 
 
 
@@ -313,4 +313,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.3 (2023-03-15)
 
-**Note:** Version bump only for package @k8slens/legacy-extension-example
+**Note:** Version bump only for package @openlens/legacy-extension-example

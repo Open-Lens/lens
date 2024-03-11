@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/react-testing-library-discovery",
+  "name": "@openlens/react-testing-library-discovery",
   "private": false,
   "version": "1.0.0",
   "description": "A way to discover HTML-elements using react-testing-library",
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lensapp/lens.git"
+    "url": "git+https://github.com/Open-Lens/app.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/lensapp/lens",
+  "homepage": "https://github.com/Open-Lens/app",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "lens-webpack-build",
@@ -30,7 +30,7 @@
     "lint:fix": "lens-lint --fix"
   },
   "peerDependencies": {
-    "@k8slens/webpack": "^6.5.0-alpha.4",
+    "@openlens/webpack": "^6.5.0-alpha.4",
     "@testing-library/dom": "^8.19.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5"

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import React from "react";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { onMultiSelectFor, Select } from "../select/select";
 import { Icon } from "../icon/icon";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import { SubTitle } from "../layout/sub-title";
 import type { Cluster } from "../../../common/cluster/cluster";
 import { observable, reaction, makeObservable } from "mobx";

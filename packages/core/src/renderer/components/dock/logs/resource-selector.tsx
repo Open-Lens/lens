@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import { Badge } from "../../badge";
 import type { SelectOption } from "../../select";
 import { Select } from "../../select";
 import type { LogTabViewModel } from "./logs-view-model";
-import type { Container, Pod } from "@k8slens/kube-object";
+import type { Container, Pod } from "@openlens/kube-object";
 import type { SingleValue } from "react-select";
 
 export interface LogResourceSelectorProps {

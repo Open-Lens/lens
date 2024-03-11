@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,18 +7,18 @@ import styles from "./kube-event-details.module.scss";
 
 import React from "react";
 import { disposeOnUnmount, observer } from "mobx-react";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
 import { DrawerItem, DrawerTitle } from "../drawer";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { LocaleDate } from "../locale-date";
 import type { EventStore } from "./store";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import subscribeStoresInjectable from "../../kube-watch-api/subscribe-stores.injectable";
 import eventStoreInjectable from "./store.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 export interface KubeEventDetailsProps {
   object: KubeObject;

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { powerMonitor } from "electron";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
 
 /**
  * Event listener for system power events

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { DockTabStoreDependencies } from "../dock-tab-store/dock-tab.store";
 import { DockTabStore } from "../dock-tab-store/dock-tab.store";
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@openlens/kube-object";
 
 export interface EditingResource {
   resource: string; // resource path, e.g. /api/v1/namespaces/default

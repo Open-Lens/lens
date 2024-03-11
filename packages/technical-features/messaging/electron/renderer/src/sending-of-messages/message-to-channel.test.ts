@@ -1,8 +1,8 @@
 import { createContainer, DiContainer } from "@ogre-tools/injectable";
-import { registerFeature } from "@k8slens/feature-core";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
+import { registerFeature } from "@openlens/feature-core";
+import { sendMessageToChannelInjectionToken } from "@openlens/messaging";
 import { messagingFeatureForRenderer } from "../feature";
-import type { MessageChannel } from "@k8slens/messaging";
+import type { MessageChannel } from "@openlens/messaging";
 import sendToIpcInjectable from "./send-to-ipc.injectable";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";

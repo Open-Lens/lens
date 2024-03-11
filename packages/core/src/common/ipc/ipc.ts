@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,10 +9,10 @@
 
 import { ipcMain, ipcRenderer, webContents } from "electron";
 import { toJS } from "../utils/toJS";
-import type { Disposer } from "@k8slens/utilities";
-import { getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import type { Disposer } from "@openlens/utilities";
+import { getLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 import ipcRendererInjectable from "../../renderer/utils/channel/ipc-renderer.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import ipcMainInjectionToken from "./ipc-main-injection-token";
 import clusterFramesInjectable from "../cluster-frames.injectable";
 

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import rendererExtensionsInjectable from "../../extensions/renderer-extensions.injectable";
-import { getOrInsert, getOrInsertMap, readonly } from "@k8slens/utilities";
+import { getOrInsert, getOrInsertMap, readonly } from "@openlens/utilities";
 import type { KubeObjectHandlerRegistration, KubeObjectHandlers } from "./handler";
 import { staticKubeObjectHandlerInjectionToken } from "./handler";
 

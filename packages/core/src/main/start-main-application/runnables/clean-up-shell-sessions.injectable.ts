@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { onQuitOfBackEndInjectionToken } from "../runnable-tokens/phases";
 import shellSessionProcessesInjectable from "../../shell-session/processes.injectable";
-import { prefixedLoggerInjectable } from "@k8slens/logger";
+import { prefixedLoggerInjectable } from "@openlens/logger";
 
 const cleanUpShellSessionsInjectable = getInjectable({
   id: "clean-up-shell-sessions",

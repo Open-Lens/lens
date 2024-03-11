@@ -37,6 +37,9 @@ jobs:
       - name: Install specific npm version
         run: npm install -g npm@^9.6.7
 
+      - name: Install specific python dependencies
+        run: pip install setuptools
+
       - name: Get npm cache directory path
         if: ${{ runner.os != 'Windows' }}
         id: npm-cache-dir-path

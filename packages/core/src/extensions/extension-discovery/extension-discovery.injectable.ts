@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -10,7 +10,7 @@ import extensionInstallationStateStoreInjectable from "../extension-installation
 import installExtensionInjectable from "../install-extension/install-extension.injectable";
 import extensionPackageRootDirectoryInjectable from "../install-extension/extension-package-root-directory.injectable";
 import readJsonFileInjectable from "../../common/fs/read-json-file.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import pathExistsInjectable from "../../common/fs/path-exists.injectable";
 import watchInjectable from "../../common/fs/watch/watch.injectable";
 import accessPathInjectable from "../../common/fs/access-path.injectable";

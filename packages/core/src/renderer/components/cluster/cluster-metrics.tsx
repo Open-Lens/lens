@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import React, { useState } from "react";
 import { observer } from "mobx-react";
 import type { ChartOptions, ChartPoint } from "chart.js";
 import { BarChart } from "../chart";
-import { bytesToUnits, cssNames } from "@k8slens/utilities";
+import { bytesToUnits, cssNames } from "@openlens/utilities";
 import { Spinner } from "../spinner";
 import { ZebraStripesPlugin } from "../chart/zebra-stripes.plugin";
 import { ClusterNoMetrics } from "./cluster-no-metrics";

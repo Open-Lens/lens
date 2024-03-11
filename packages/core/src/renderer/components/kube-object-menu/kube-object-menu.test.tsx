@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
 import type { RenderResult } from "@testing-library/react";
 import { screen, waitFor } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@openlens/kube-object";
 import userEvent from "@testing-library/user-event";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { DiContainer } from "@ogre-tools/injectable";

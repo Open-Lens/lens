@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import { broadcastMessage } from "../ipc";
 import type { CatalogEntityConstructor, CatalogEntitySpec } from "../catalog/catalog-entity";
 import { IpcRendererNavigationEvents } from "../ipc/navigation-events";
 import KubeClusterCategoryIcon from "./icons/kubernetes.svg";
-import { getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 import { requestClusterActivationInjectionToken, requestClusterDeactivationInjectionToken } from "../../features/cluster/activation/common/request-token";
 
 export interface KubernetesClusterPrometheusMetrics {

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,13 +12,13 @@ import { editor, Uri } from "monaco-editor";
 import type { MonacoTheme } from "./monaco-themes";
 import { type MonacoValidator, monacoValidators } from "./monaco-validators";
 import { debounce, merge } from "lodash";
-import { cssNames, disposer } from "@k8slens/utilities";
+import { cssNames, disposer } from "@openlens/utilities";
 import type { LensTheme } from "../../themes/lens-theme";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import activeThemeInjectable from "../../themes/active.injectable";
 import getEditorHeightFromLinesCountInjectable from "./get-editor-height-from-lines-number.injectable";
-import type { Logger } from "@k8slens/logger";
-import { loggerInjectionToken } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import autoBindReact from "auto-bind/react";
 import type { UserPreferencesState } from "../../../features/user-preferences/common/state.injectable";
 import userPreferencesStateInjectable from "../../../features/user-preferences/common/state.injectable";

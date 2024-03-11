@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./runtime-classes-details-tolerations.scss";
 import React from "react";
 import { DrawerParamToggler, DrawerItem } from "../drawer";
-import type { Toleration, KubeObject } from "@k8slens/kube-object";
+import type { Toleration, KubeObject } from "@openlens/kube-object";
 import { RuntimeClassTolerations } from "./runtime-classes-tolerations";
 
 export interface KubeObjectWithTolerations extends KubeObject {

@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./wizard.scss";
 import React from "react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, prevDefault } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames, prevDefault } from "@openlens/utilities";
+import { Button } from "@openlens/button";
 import { Stepper } from "../stepper";
 import { SubTitle } from "../layout/sub-title";
 import { Spinner } from "../spinner";

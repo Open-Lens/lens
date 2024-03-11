@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import startCase from "lodash/startCase";
 import React from "react";
-import type { ContainerStateValues, Pod } from "@k8slens/kube-object";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import type { ContainerStateValues, Pod } from "@openlens/kube-object";
+import { podListLayoutColumnInjectionToken } from "@openlens/list-layout";
 import { StatusBrick } from "../../status-brick";
 
 const renderState = (name: string, ready: boolean, key: string, data?: ContainerStateValues) => (

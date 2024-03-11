@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { GetPodsByOwnerId } from "../../workloads-pods/get-pods-by-owner-id.injectable";
 import getPodsByOwnerIdInjectable from "../../workloads-pods/get-pods-by-owner-id.injectable";
-import type { DaemonSet, Deployment, Job, ReplicaSet, StatefulSet } from "@k8slens/kube-object";
+import type { DaemonSet, Deployment, Job, ReplicaSet, StatefulSet } from "@openlens/kube-object";
 import type { TabId } from "../dock/store";
 import type { CreateLogsTabData } from "./create-logs-tab.injectable";
 import createLogsTabInjectable from "./create-logs-tab.injectable";

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import type { Cluster } from "../../../common/cluster/cluster";
 import type { GetHelmReleaseValuesData } from "../get-helm-release-values.injectable";
 import getHelmReleaseValuesInjectable from "../get-helm-release-values.injectable";

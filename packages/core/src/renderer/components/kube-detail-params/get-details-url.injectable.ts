@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@openlens/routing";
 import kubeDetailsUrlParamInjectable from "./kube-details-url.injectable";
 import kubeSelectedUrlParamInjectable from "./kube-selected-url.injectable";
 

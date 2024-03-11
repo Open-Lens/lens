@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import navigateToPortForwardsInjectable from "../../common/front-end-routing/routes/cluster/network/port-forwards/navigate-to-port-forwards.injectable";
 import showErrorNotificationInjectable from "../components/notifications/show-error-notification.injectable";
 import React from "react";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 
 const notifyErrorPortForwardingInjectable = getInjectable({
   id: "notify-error-port-forwarding",

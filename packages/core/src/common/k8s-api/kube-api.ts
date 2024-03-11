@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,21 +8,21 @@
 import { merge } from "lodash";
 import { stringify } from "querystring";
 import { createKubeApiURL, parseKubeApi } from "./kube-api-parse";
-import type { KubeObjectConstructor, KubeJsonApiDataFor, KubeObjectMetadata, KubeJsonApiData, KubeObject, KubeObjectScope, Scale } from "@k8slens/kube-object";
-import { isJsonApiData, isJsonApiDataList, isPartialJsonApiData, KubeStatus, isKubeStatusData } from "@k8slens/kube-object";
+import type { KubeObjectConstructor, KubeJsonApiDataFor, KubeObjectMetadata, KubeJsonApiData, KubeObject, KubeObjectScope, Scale } from "@openlens/kube-object";
+import { isJsonApiData, isJsonApiDataList, isPartialJsonApiData, KubeStatus, isKubeStatusData } from "@openlens/kube-object";
 import byline from "byline";
 import type { IKubeWatchEvent } from "./kube-watch-event";
 import type { KubeJsonApi } from "./kube-json-api";
-import type { Disposer } from "@k8slens/utilities";
-import { isDefined, noop, WrappedAbortController } from "@k8slens/utilities";
-import type { RequestInit, Response } from "@k8slens/node-fetch";
+import type { Disposer } from "@openlens/utilities";
+import { isDefined, noop, WrappedAbortController } from "@openlens/utilities";
+import type { RequestInit, Response } from "@openlens/node-fetch";
 import type { Patch } from "rfc6902";
 import assert from "assert";
 import type { PartialDeep } from "type-fest";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { matches } from "lodash/fp";
 import { makeObservable, observable } from "mobx";
-import type { ScaleCreateOptions } from "@k8slens/kube-object/src/types/scale";
+import type { ScaleCreateOptions } from "@openlens/kube-object/src/types/scale";
 
 /**
  * The options used for creating a `KubeApi`

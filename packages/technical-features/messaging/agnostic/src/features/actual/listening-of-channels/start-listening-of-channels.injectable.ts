@@ -1,5 +1,5 @@
 import { getInjectable } from "@ogre-tools/injectable";
-import { onLoadOfApplicationInjectionToken } from "@k8slens/application";
+import { onLoadOfApplicationInjectionToken } from "@openlens/application";
 import { listeningOfChannelsInjectionToken } from "./listening-of-channels.injectable";
 
 const startListeningOfChannelsInjectable = getInjectable({

@@ -1,3 +1,3 @@
-# @k8slens/run-many
+# @openlens/run-many
 
 This package contains the functions `runMany` and `runManySync`

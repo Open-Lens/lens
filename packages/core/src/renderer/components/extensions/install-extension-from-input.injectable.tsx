@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
-import type { ExtendableDisposer } from "@k8slens/utilities";
+import type { ExtendableDisposer } from "@openlens/utilities";
 import { InputValidators } from "../input";
 import { getMessageFromError } from "./get-message-from-error/get-message-from-error";
 import { getInjectable } from "@ogre-tools/injectable";
@@ -13,7 +13,7 @@ import extensionInstallationStateStoreInjectable from "../../../extensions/exten
 import readFileNotifyInjectable from "./read-file-notify/read-file-notify.injectable";
 import getBasenameOfPathInjectable from "../../../common/path/get-basename.injectable";
 import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import downloadBinaryInjectable from "../../../common/fetch/download-binary.injectable";
 import { withTimeout } from "../../../common/fetch/timeout-controller";
 

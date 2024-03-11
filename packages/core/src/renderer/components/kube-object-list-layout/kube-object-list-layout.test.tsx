@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { DiContainer } from "@ogre-tools/injectable";
@@ -22,7 +22,7 @@ import hostedClusterInjectable from "../../cluster-frame-context/hosted-cluster.
 import type { PodStore } from "../workloads-pods/store";
 import { Cluster } from "../../../common/cluster/cluster";
 import isTableColumnHiddenInjectable from "../../../features/user-preferences/common/is-table-column-hidden.injectable";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import { podListLayoutColumnInjectionToken } from "@openlens/list-layout";
 
 describe("kube-object-list-layout", () => {
   let di: DiContainer;

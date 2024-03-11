@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -10,7 +10,7 @@ import clusterApiInjectable from "../../../common/k8s-api/endpoints/cluster.api.
 import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-created.injectable";
 import assert from "assert";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../cluster-frame-context/for-namespaced-resources.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 const clusterStoreInjectable = getInjectable({
   id: "cluster-store",

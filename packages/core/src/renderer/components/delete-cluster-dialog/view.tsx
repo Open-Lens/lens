@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import styles from "./view.module.scss";
@@ -9,7 +9,7 @@ import { runInAction } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import type { ShowNotification } from "../notifications";
 import { Dialog } from "../dialog";
 import { Icon } from "../icon";

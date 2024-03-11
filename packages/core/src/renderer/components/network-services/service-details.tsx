@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,18 +10,18 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Badge } from "../badge";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { Service } from "@k8slens/kube-object";
+import { Service } from "@openlens/kube-object";
 import { ServicePortComponent } from "./service-port-component";
 import type { EndpointsStore } from "../network-endpoints/store";
 import { ServiceDetailsEndpoint } from "./service-details-endpoint";
 import type { PortForwardStore } from "../../port-forward";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import portForwardStoreInjectable from "../../port-forward/port-forward-store/port-forward-store.injectable";
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import subscribeStoresInjectable from "../../kube-watch-api/subscribe-stores.injectable";
 import endpointsStoreInjectable from "../network-endpoints/store.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 export interface ServiceDetailsProps extends KubeObjectDetailsProps<Service> {
 }

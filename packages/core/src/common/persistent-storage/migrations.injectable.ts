@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { InjectionToken } from "@ogre-tools/injectable";
 import { lifecycleEnum, getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import { getOrInsert, iter, object } from "@k8slens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
+import { getOrInsert, iter, object } from "@openlens/utilities";
 
 export type AllowedSetValue<T> = T extends (...args: any[]) => any
   ? never

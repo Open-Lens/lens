@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import type { InputProps } from "./input";
 import fse from "fs-extra";
 import { TypedRegEx } from "typed-regex";
 import type { SetRequired } from "type-fest";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
 
 export type InputValidationResult<IsAsync extends boolean> =
   IsAsync extends true

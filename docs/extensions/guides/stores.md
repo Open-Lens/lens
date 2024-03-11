@@ -24,7 +24,7 @@ This is so that your data is kept up to date and not persisted longer than expec
 The following example code creates a store for the `appPreferences` guide example:
 
 ``` typescript
-import { Common } from "@k8slens/extensions";
+import { Common } from "@openlens/extensions";
 import { observable, makeObservable } from "mobx";
 
 export type ExamplePreferencesModel = {
@@ -87,7 +87,7 @@ The following example code, modified from the [`appPreferences`](../renderer-ext
 This can be done in `./main.ts`:
 
 ``` typescript
-import { Main } from "@k8slens/extensions";
+import { Main } from "@openlens/extensions";
 import { ExamplePreferencesStore } from "./src/example-preference-store";
 
 export default class ExampleMainExtension extends Main.LensExtension {
@@ -102,7 +102,7 @@ Similarly, `ExamplePreferencesStore` must load in the renderer process where the
 This can be done in `./renderer.ts`:
 
 ``` typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { ExamplePreferenceHint, ExamplePreferenceInput } from "./src/example-preference";
 import { ExamplePreferencesStore } from "./src/example-preference-store";
 import React from "react";
@@ -130,7 +130,7 @@ Again, `ExamplePreferencesStore.getInstanceOrCreate().loadExtension(this)` is ca
 `ExamplePreferenceInput` is defined in `./src/example-preference.tsx`:
 
 ``` typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { observer } from "mobx-react";
 import React from "react";
 import { ExamplePreferencesStore } from "./example-preference-store";

@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import { object } from "@k8slens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
+import { object } from "@openlens/utilities";
 import type { LensTheme } from "./lens-theme";
 import resetThemeInjectable from "../../features/user-preferences/common/reset-theme.injectable";
 

@@ -1,17 +1,17 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { ApiManager } from "../api-manager";
 import type { IngressApi } from "../endpoints";
 import { HorizontalPodAutoscalerApi } from "../endpoints";
-import { Ingress } from "@k8slens/kube-object";
+import { Ingress } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../../renderer/getDiForUnitTesting";
 import type { Fetch } from "../../fetch/fetch.injectable";
 import fetchInjectable from "../../fetch/fetch.injectable";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { flushPromises } from "@k8slens/test-utils";
+import { flushPromises } from "@openlens/test-utils";
 import setupAutoRegistrationInjectable from "../../../renderer/before-frame-starts/runnables/setup-auto-registration.injectable";
 import { createMockResponseFromString } from "../../../test-utils/mock-responses";
 import storesAndApisCanBeCreatedInjectable from "../../../renderer/stores-apis-can-be-created.injectable";
@@ -21,7 +21,7 @@ import directoryForKubeConfigsInjectable from "../../app-paths/directory-for-kub
 import apiManagerInjectable from "../api-manager/manager.injectable";
 import type { DiContainer } from "@ogre-tools/injectable";
 import ingressApiInjectable from "../endpoints/ingress.api.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";
 import { Cluster } from "../../cluster/cluster";
 

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import emitAppEventInjectable from "../../../../common/app-event-bus/emit-event.injectable";
@@ -8,8 +8,8 @@ import directoryForLensLocalStorageInjectable from "../../../../common/directory
 import removePathInjectable from "../../../../common/fs/remove.injectable";
 import joinPathsInjectable from "../../../../common/path/join-paths.injectable";
 import clusterConnectionInjectable from "../../../../main/cluster/cluster-connection.injectable";
-import { noop } from "@k8slens/utilities";
-import { getRequestChannelListenerInjectable } from "@k8slens/messaging";
+import { noop } from "@openlens/utilities";
+import { getRequestChannelListenerInjectable } from "@openlens/messaging";
 import { deleteClusterChannel } from "../common/delete-channel";
 import clustersStateInjectable from "../../storage/common/state.injectable";
 

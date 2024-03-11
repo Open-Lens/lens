@@ -1,15 +1,15 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React, { useEffect } from "react";
 import { Observer, observer } from "mobx-react";
-import { ErrorBoundary } from "@k8slens/error-boundary";
+import { ErrorBoundary } from "@openlens/error-boundary";
 import type { NamespaceStore } from "../../components/namespaces/store";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import namespaceStoreInjectable  from "../../components/namespaces/store.injectable";
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
-import { disposer } from "@k8slens/utilities";
+import { disposer } from "@openlens/utilities";
 import subscribeStoresInjectable from "../../kube-watch-api/subscribe-stores.injectable";
 import type { ClusterFrameChildComponent } from "./cluster-frame-child-component-injection-token";
 import { clusterFrameChildComponentInjectionToken } from "./cluster-frame-child-component-injection-token";

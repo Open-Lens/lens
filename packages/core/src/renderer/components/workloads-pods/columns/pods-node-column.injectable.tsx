@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 import nodeApiInjectable from "../../../../common/k8s-api/endpoints/node.api.injectable";
 import { Badge } from "../../badge";
 import getDetailsUrlInjectable from "../../kube-detail-params/get-details-url.injectable";
-import { stopPropagation } from "@k8slens/utilities";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import { stopPropagation } from "@openlens/utilities";
+import { podListLayoutColumnInjectionToken } from "@openlens/list-layout";
 
 export const podsNodeColumnInjectable = getInjectable({
   id: "pods-node-column",

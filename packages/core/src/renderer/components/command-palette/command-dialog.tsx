@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -13,7 +13,7 @@ import type { CatalogEntity } from "../../../common/catalog";
 import { broadcastMessage } from "../../../common/ipc";
 import { IpcRendererNavigationEvents } from "../../../common/ipc/navigation-events";
 import type { RegisteredCommand } from "./registered-commands/commands";
-import { iter } from "@k8slens/utilities";
+import { iter } from "@openlens/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import registeredCommandsInjectable from "./registered-commands/registered-commands.injectable";
 import type { SingleValue } from "react-select";

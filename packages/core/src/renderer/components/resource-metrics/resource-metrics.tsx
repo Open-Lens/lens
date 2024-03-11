@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,8 +7,8 @@ import "./resource-metrics.scss";
 
 import React, { createContext, useState } from "react";
 import { Radio, RadioGroup } from "../radio";
-import type { KubeObject } from "@k8slens/kube-object";
-import { cssNames } from "@k8slens/utilities";
+import type { KubeObject } from "@openlens/kube-object";
+import { cssNames } from "@openlens/utilities";
 import { Spinner } from "../spinner";
 import type { MetricsTab } from "../chart/options";
 import type { MetricData } from "../../../common/k8s-api/endpoints/metrics.api";

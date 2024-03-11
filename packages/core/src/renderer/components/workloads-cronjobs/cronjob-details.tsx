@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,15 +14,15 @@ import type { JobStore } from "../workloads-jobs/store";
 import { Link } from "react-router-dom";
 import type { CronJobStore } from "./store";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import type { Job } from "@k8slens/kube-object";
-import { CronJob } from "@k8slens/kube-object";
-import type { Logger } from "@k8slens/logger";
+import type { Job } from "@openlens/kube-object";
+import { CronJob } from "@openlens/kube-object";
+import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import subscribeStoresInjectable from "../../kube-watch-api/subscribe-stores.injectable";
 import cronJobStoreInjectable from "./store.injectable";
 import jobStoreInjectable from "../workloads-jobs/store.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 

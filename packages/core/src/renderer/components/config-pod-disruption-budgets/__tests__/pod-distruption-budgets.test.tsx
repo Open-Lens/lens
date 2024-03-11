@@ -1,16 +1,16 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
-import { PodDisruptionBudget } from "@k8slens/kube-object";
+import { PodDisruptionBudget } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { renderFor } from "../../test-utils/renderFor";
 import { PodDisruptionBudgets } from "../pod-disruption-budgets";
 import storesAndApisCanBeCreatedInjectable from "../../../stores-apis-can-be-created.injectable";
 import selectedNamespacesStorageInjectable from "../../../../features/namespace-filtering/renderer/storage.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import maybeKubeApiInjectable from "../../../../common/k8s-api/maybe-kube-api.injectable";
 import podDisruptionBudgetStoreInjectable from "../store.injectable";
 import siblingTabsInjectable from "../../../routes/sibling-tabs.injectable";

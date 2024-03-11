@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { CatalogEntity } from "./catalog-entity";
 import GraphemeSplitter from "grapheme-splitter";
-import { hasOwnProperty, hasTypedProperty, isObject, isString, iter } from "@k8slens/utilities";
+import { hasOwnProperty, hasTypedProperty, isObject, isString, iter } from "@openlens/utilities";
 
 function getNameParts(name: string): string[] {
   const byWhitespace = name.split(/\s+/);

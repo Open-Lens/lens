@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import { computed, observable, makeObservable, action } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 import { NamespaceSelect } from "../../../namespaces/namespace-select";
-import type { ClusterRole, Role, ServiceAccount, Subject } from "@k8slens/kube-object";
+import type { ClusterRole, Role, ServiceAccount, Subject } from "@openlens/kube-object";
 import type { DialogProps } from "../../../dialog";
 import { Dialog } from "../../../dialog";
 import { EditableList } from "../../../editable-list";
@@ -20,7 +20,7 @@ import type { SelectOption } from "../../../select";
 import { onMultiSelectFor, Select } from "../../../select";
 import { Wizard, WizardStep } from "../../../wizard";
 import { Input } from "../../../input";
-import { ObservableHashSet, iter } from "@k8slens/utilities";
+import { ObservableHashSet, iter } from "@openlens/utilities";
 import type { RoleBindingDialogState } from "./state.injectable";
 import type { RoleBindingStore } from "../store";
 import { withInjectables } from "@ogre-tools/injectable-react";

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isBoolean } from "@k8slens/utilities";
+import { isBoolean } from "@openlens/utilities";
 import type { IComputedValue } from "mobx";
 
 export interface Showable {

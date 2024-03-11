@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,12 +12,12 @@ import { Link } from "react-router-dom";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Badge } from "../badge";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { cssNames } from "@k8slens/utilities";
-import { ContainerScalingMode, ControlledValues, ResourceName, UpdateMode, VerticalPodAutoscaler } from "@k8slens/kube-object";
-import type { PodUpdatePolicy, PodResourcePolicy, VerticalPodAutoscalerStatus } from "@k8slens/kube-object";
+import { cssNames } from "@openlens/utilities";
+import { ContainerScalingMode, ControlledValues, ResourceName, UpdateMode, VerticalPodAutoscaler } from "@openlens/kube-object";
+import type { PodUpdatePolicy, PodResourcePolicy, VerticalPodAutoscalerStatus } from "@openlens/kube-object";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { Logger } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { Logger } from "@openlens/logger";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";

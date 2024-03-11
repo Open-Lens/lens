@@ -1,17 +1,17 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { base64 } from "@k8slens/utilities";
+import { base64 } from "@openlens/utilities";
 import type { RenderResult } from "@testing-library/react";
 import { act } from "@testing-library/react";
 import React from "react";
 import type { SecretStore } from "../config-secrets/store";
 import secretStoreInjectable from "../config-secrets/store.injectable";
-import { Secret, SecretType } from "@k8slens/kube-object";
+import { Secret, SecretType } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import { renderFor } from "../test-utils/renderFor";
 import { SecretKey } from "./secret-key";

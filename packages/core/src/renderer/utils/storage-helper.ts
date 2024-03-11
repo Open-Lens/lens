@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import type { Draft } from "immer";
 import { produce, isDraft } from "immer";
 import { isEqual, isPlainObject } from "lodash";
 import assert from "assert";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 
 export interface StorageChange<T> {
   key: string;

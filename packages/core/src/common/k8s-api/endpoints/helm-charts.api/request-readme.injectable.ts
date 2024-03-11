@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { AsyncResult } from "@k8slens/utilities";
-import { urlBuilderFor } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
+import { urlBuilderFor } from "@openlens/utilities";
 import apiBaseInjectable from "../../api-base.injectable";
 
 const requestReadmeEndpoint = urlBuilderFor("/v2/charts/:repo/:name/readme");

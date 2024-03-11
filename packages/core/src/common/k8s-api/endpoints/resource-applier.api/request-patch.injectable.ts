@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { Patch } from "rfc6902";
 import apiBaseInjectable from "../../api-base.injectable";
-import type { AsyncResult, Result } from "@k8slens/utilities";
-import type { KubeJsonApiData } from "@k8slens/kube-object";
+import type { AsyncResult, Result } from "@openlens/utilities";
+import type { KubeJsonApiData } from "@openlens/kube-object";
 
 export type RequestKubeObjectPatch = (name: string, kind: string, ns: string | undefined, patch: Patch) => AsyncResult<KubeJsonApiData, string>;
 

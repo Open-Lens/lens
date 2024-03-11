@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { DiContainerForInjection, InjectionToken } from "@ogre-tools/injectable";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
 import type { RunnableSync, RunSync, RunnableSyncWithId } from "./types";
 import { convertToWithIdWith, verifyRunnablesAreDAG } from "./helpers";
 import type TypedEventEmitter from "typed-emitter";

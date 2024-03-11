@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,8 +12,8 @@ import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { IngressClassStore } from "./ingress-class-store";
 import ingressClassStoreInjectable from "./ingress-class-store.injectable";
-import type { IngressClass } from "@k8slens/kube-object";
-import { cssNames } from "@k8slens/utilities";
+import type { IngressClass } from "@openlens/kube-object";
+import { cssNames } from "@openlens/utilities";
 import { Icon } from "../icon";
 
 enum columnId {

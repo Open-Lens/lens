@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import assert from "assert";
@@ -321,7 +321,7 @@ async function getRelevantPRs(previousReleasedVersion: string, baseBranch: strin
 }
 
 function formatPrEntry(pr: ExtendedGithubPrData) {
-  return `- ${pr.title} (**[#${pr.number}](https://github.com/lensapp/lens/pull/${pr.number})**) https://github.com/${pr.authorLogin}`;
+  return `- ${pr.title} (**[#${pr.number}](https://github.com/Open-Lens/app/pull/${pr.number})**) https://github.com/${pr.authorLogin}`;
 }
 
 const isEnhancementPr = (pr: ExtendedGithubPrData) => pr.labels.some(label => label.name === "enhancement");
@@ -345,7 +345,7 @@ async function pickWhichPRsToUse(prs: ExtendedGithubPrData[]): Promise<ExtendedG
     choices: prs.map(pr => ({
       checked: true,
       key: pr.number,
-      name: `#${pr.number}: ${pr.title} (https://github.com/lensapp/lens/pull/${pr.number})`,
+      name: `#${pr.number}: ${pr.title} (https://github.com/Open-Lens/app/pull/${pr.number})`,
       value: pr.number,
       short: `#${pr.number}`,
     })),
@@ -470,7 +470,7 @@ async function pickRelevantPrs(prs: ExtendedGithubPrData[], isMasterBranch: bool
 }
 
 async function setExtensionApiDepAsExact(coreVersion: SemVer) {
-  await pipeExecFile("npm", ["install", "--save-exact", "--workspace=@k8slens/extensions", `@k8slens/core@${coreVersion.format()}`]);
+  await pipeExecFile("npm", ["install", "--save-exact", "--workspace=@openlens/extensions", `@openlens/core@${coreVersion.format()}`]);
 }
 
 async function createRelease(): Promise<void> {

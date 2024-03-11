@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getDiForUnitTesting } from "../../../../../main/getDiForUnitTesting";
@@ -10,9 +10,9 @@ import type { AppUpdater, UpdateCheckResult } from "electron-updater";
 import type { CheckForPlatformUpdates } from "./check-for-platform-updates.injectable";
 import checkForPlatformUpdatesInjectable from "./check-for-platform-updates.injectable";
 import type { UpdateChannel, ReleaseChannel } from "../../../common/update-channels";
-import { getPromiseStatus } from "@k8slens/test-utils";
-import { loggerInjectionToken } from "@k8slens/logger";
-import { noop } from "@k8slens/utilities";
+import { getPromiseStatus } from "@openlens/test-utils";
+import { loggerInjectionToken } from "@openlens/logger";
+import { noop } from "@openlens/utilities";
 
 describe("check-for-platform-updates", () => {
   let checkForPlatformUpdates: CheckForPlatformUpdates;

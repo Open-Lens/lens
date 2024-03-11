@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi } from "@openlens/legacy-global-di";
 import createTerminalTabInjectable from "../../renderer/components/dock/terminal/create-terminal-tab.injectable";
 import terminalStoreInjectable from "../../renderer/components/dock/terminal/store.injectable";
 import logTabStoreInjectable from "../../renderer/components/dock/logs/tab-store.injectable";
@@ -34,7 +34,7 @@ export * from "../../renderer/components/layout/wizard-layout";
 export * from "../../renderer/components/layout/tab-layout";
 
 // form-controls
-export * from "@k8slens/button";
+export * from "@openlens/button";
 export * from "../../renderer/components/checkbox";
 export * from "../../renderer/components/radio";
 export * from "../../renderer/components/select";
@@ -62,7 +62,7 @@ export const ConfirmDialog = Object.assign(_ConfirmDialog, {
 });
 
 export * from "../../renderer/components/icon";
-export * from "@k8slens/tooltip";
+export * from "@openlens/tooltip";
 export * from "../../renderer/components/tabs";
 export * from "../../renderer/components/table";
 export * from "../../renderer/components/badge";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import styles from "./sidebar.module.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { SidebarItem } from "./sidebar-item";
 import type { CatalogEntityRegistry } from "../../api/catalog/entity/registry";
 import { SidebarCluster } from "./sidebar-cluster";

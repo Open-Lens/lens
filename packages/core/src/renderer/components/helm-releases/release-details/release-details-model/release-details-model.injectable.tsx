@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
@@ -13,7 +13,7 @@ import type { RequestHelmReleaseConfiguration } from "../../../../../common/k8s-
 import requestHelmReleaseConfigurationInjectable from "../../../../../common/k8s-api/endpoints/helm-releases.api/request-configuration.injectable";
 import { pipeline } from "@ogre-tools/fp";
 import { groupBy, map } from "lodash/fp";
-import type { KubeJsonApiData } from "@k8slens/kube-object";
+import type { KubeJsonApiData } from "@openlens/kube-object";
 import type { GetResourceDetailsUrl } from "./get-resource-details-url.injectable";
 import getResourceDetailsUrlInjectable from "./get-resource-details-url.injectable";
 import type { RequestHelmReleaseUpdate } from "../../../../../common/k8s-api/endpoints/helm-releases.api/request-update.injectable";
@@ -32,7 +32,7 @@ import activeThemeInjectable from "../../../../themes/active.injectable";
 import hostedClusterIdInjectable from "../../../../cluster-frame-context/hosted-cluster-id.injectable";
 import helmChartRepoInjectable from "../../helm-chart-repo.injectable";
 import type { IAsyncComputed } from "@ogre-tools/injectable-react";
-import { waitUntilDefined } from "@k8slens/utilities";
+import { waitUntilDefined } from "@openlens/utilities";
 
 const releaseDetailsModelInjectable = getInjectable({
   id: "release-details-model",

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,14 +9,14 @@ import { Icon } from "../icon";
 import { List } from "../list/list";
 import { MenuActions, MenuItem } from "../menu";
 import { Spinner } from "../spinner";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { observer } from "mobx-react";
 import type { Row } from "react-table";
 import extensionDiscoveryInjectable from "../../../extensions/extension-discovery/extension-discovery.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import extensionInstallationStateStoreInjectable from "../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
 import type { ExtensionInstallationStateStore } from "../../../extensions/extension-installation-state-store/extension-installation-state-store";
-import type { InstalledExtension } from "@k8slens/legacy-extensions";
+import type { InstalledExtension } from "@openlens/legacy-extensions";
 import type { IComputedValue } from "mobx";
 import type { ConfirmUninstallExtension } from "./confirm-uninstall-extension.injectable";
 import confirmUninstallExtensionInjectable from "./confirm-uninstall-extension.injectable";

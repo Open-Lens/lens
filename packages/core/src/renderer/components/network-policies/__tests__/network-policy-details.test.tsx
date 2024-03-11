@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
 import { findByTestId, findByText } from "@testing-library/react";
-import { NetworkPolicy } from "@k8slens/kube-object";
+import { NetworkPolicy } from "@openlens/kube-object";
 import { NetworkPolicyDetails } from "../network-policy-details";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import type { DiRender } from "../../test-utils/renderFor";

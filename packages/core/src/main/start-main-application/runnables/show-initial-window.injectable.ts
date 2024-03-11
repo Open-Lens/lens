@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,7 +8,7 @@ import openDeepLinkInjectable from "../../protocol-handler/lens-protocol-router-
 import commandLineArgumentsInjectable from "../../utils/command-line-arguments.injectable";
 import createFirstApplicationWindowInjectable from "../lens-window/application-window/create-first-application-window.injectable";
 import splashWindowInjectable from "../lens-window/splash-window/splash-window.injectable";
-import { afterApplicationIsLoadedInjectionToken } from "@k8slens/application";
+import { afterApplicationIsLoadedInjectionToken } from "@openlens/application";
 
 const getDeepLinkUrl = (commandLineArguments: string[]) => (
   commandLineArguments

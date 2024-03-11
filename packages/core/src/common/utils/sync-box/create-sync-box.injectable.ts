@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { IObservableValue } from "mobx";
 import { computed } from "mobx";
 import { syncBoxChannel } from "./channels";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
+import { sendMessageToChannelInjectionToken } from "@openlens/messaging";
 import syncBoxStateInjectable from "./sync-box-state.injectable";
 import type { SyncBox } from "./sync-box-injection-token";
 import { toJS } from "../toJS";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,11 +7,11 @@ import "./input.scss";
 
 import type { DOMAttributes, InputHTMLAttributes, TextareaHTMLAttributes } from "react";
 import React from "react";
-import type { StrictReactNode, SingleOrMany } from "@k8slens/utilities";
-import { debouncePromise, isPromiseSettledFulfilled, cssNames } from "@k8slens/utilities";
+import type { StrictReactNode, SingleOrMany } from "@openlens/utilities";
+import { debouncePromise, isPromiseSettledFulfilled, cssNames } from "@openlens/utilities";
 import { Icon } from "../icon";
-import type { TooltipProps } from "@k8slens/tooltip";
-import { Tooltip } from "@k8slens/tooltip";
+import type { TooltipProps } from "@openlens/tooltip";
+import { Tooltip } from "@openlens/tooltip";
 import * as Validators from "./input_validators";
 import type { InputValidator, InputValidation, InputValidationResult, SyncValidationMessage } from "./input_validators";
 import uniqueId from "lodash/uniqueId";

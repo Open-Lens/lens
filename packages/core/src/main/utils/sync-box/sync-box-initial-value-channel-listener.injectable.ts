@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { syncBoxInitialValueChannel } from "../../../common/utils/sync-box/channels";
 import { syncBoxInjectionToken } from "../../../common/utils/sync-box/sync-box-injection-token";
-import { getRequestChannelListenerInjectable } from "@k8slens/messaging";
+import { getRequestChannelListenerInjectable } from "@openlens/messaging";
 
 const syncBoxInitialValueChannelListenerInjectable = getRequestChannelListenerInjectable({
   id: "sync-box-initial-value-channel-listener",

@@ -43,7 +43,7 @@ To register either a handler or a listener, you should do something like the fol
 
 `main.ts`:
 ```typescript
-import { Main } from "@k8slens/extensions";
+import { Main } from "@openlens/extensions";
 import { IpcMain } from "./helpers/main";
 
 export class ExampleExtensionMain extends Main.LensExtension {
@@ -60,7 +60,7 @@ Lens will automatically clean up that store and all the handlers on deactivation
 
 `helpers/main.ts`:
 ```typescript
-import { Main } from "@k8slens/extensions";
+import { Main } from "@openlens/extensions";
 
 export class IpcMain extends Main.Ipc {
   constructor(extension: Main.LensExtension) {
@@ -82,7 +82,7 @@ You should be able to just call `IpcMain.getInstance()` anywhere it is needed in
 
 `renderer.ts`:
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { IpcRenderer } from "./helpers/renderer";
 
 export class ExampleExtensionRenderer extends Renderer.LensExtension {
@@ -100,7 +100,7 @@ It is also needed to create an instance to broadcast messages too.
 
 `helpers/renderer.ts`:
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 export class IpcRenderer extends Renderer.Ipc {}
 ```

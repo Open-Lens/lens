@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import electronUpdaterInjectable from "../../../../../main/electron-app/features/electron-updater.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import type { ProgressInfo } from "electron-updater";
 import type { ProgressOfDownload } from "../../../common/progress-of-update-download.injectable";
 

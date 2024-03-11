@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,11 +8,11 @@ import React, { useRef, useState } from "react";
 import { Icon } from "../icon";
 import { Badge } from "../badge";
 import { HotbarSwitchCommand } from "./hotbar-switch-command";
-import { Tooltip, TooltipPosition } from "@k8slens/tooltip";
+import { Tooltip, TooltipPosition } from "@openlens/tooltip";
 import { observer } from "mobx-react";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import commandOverlayInjectable from "../command-palette/command-overlay.injectable";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { IComputedValue } from "mobx";
 import activeHotbarInjectable from "../../../features/hotbar/storage/common/active.injectable";
 import type { SwitchToPreviousHotbar } from "../../../features/hotbar/storage/common/switch-to-previous.injectable";

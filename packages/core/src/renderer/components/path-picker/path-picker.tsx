@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 import React from "react";
 import type { OpenPathPickingDialog } from "../../../features/path-picking-dialog/renderer/pick-paths.injectable";
 import openPathPickingDialogInjectable from "../../../features/path-picking-dialog/renderer/pick-paths.injectable";
-import { cssNames } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import { cssNames } from "@openlens/utilities";
+import { Button } from "@openlens/button";
 
 export interface PathPickOpts {
   message: string;

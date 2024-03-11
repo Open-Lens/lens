@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import emitAppEventInjectable from "../../common/app-event-bus/emit-event.injectable";
 import { kubectlApplyAllChannel } from "../../common/kube-helpers/channels";
 import getClusterByIdInjectable from "../../features/cluster/storage/common/get-by-id.injectable";
 import resourceApplierInjectable from "../resource-applier/create-resource-applier.injectable";
-import { getRequestChannelListenerInjectable } from "@k8slens/messaging";
+import { getRequestChannelListenerInjectable } from "@openlens/messaging";
 
 const kubectlApplyAllChannelHandlerInjectable = getRequestChannelListenerInjectable({
   id: "kubectl-apply-all-channel-handler-listener",

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -29,7 +29,7 @@ const ExtensionsNotice = () => (
       </a>
       {" and list of "}
       <a
-        href="https://github.com/lensapp/lens-extensions/blob/main/README.md"
+        href="https://github.com/Open-Lens/app-extensions/blob/main/README.md"
         target="_blank"
         rel="noreferrer"
       >

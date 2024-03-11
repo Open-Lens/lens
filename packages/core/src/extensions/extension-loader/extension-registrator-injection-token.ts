@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import type { LegacyLensExtension } from "@k8slens/legacy-extensions";
+import type { LegacyLensExtension } from "@openlens/legacy-extensions";
 import type { Injectable } from "@ogre-tools/injectable";
 import { getInjectionToken } from "@ogre-tools/injectable";
 import type { IComputedValue } from "mobx";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,8 +9,8 @@ import React from "react";
 import { computed, makeObservable } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { DrawerItem } from "../drawer";
-import { cssNames } from "@k8slens/utilities";
-import { Namespace } from "@k8slens/kube-object";
+import { cssNames } from "@openlens/utilities";
+import { Namespace } from "@openlens/kube-object";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { Link } from "react-router-dom";
 import { Spinner } from "../spinner";
@@ -24,8 +24,8 @@ import type { LimitRangeStore } from "../config-limit-ranges/store";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 import limitRangeStoreInjectable from "../config-limit-ranges/store.injectable";
 import resourceQuotaStoreInjectable from "../config-resource-quotas/store.injectable";
-import type { Logger } from "@k8slens/logger";
-import { loggerInjectionToken } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import { NamespaceTreeView } from "./namespace-tree-view";
 import namespaceStoreInjectable from "./store.injectable";
 import type { NamespaceStore } from "./store";

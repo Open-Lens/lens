@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,9 +8,9 @@ import type { KubeObjectStore } from "../kube-object.store";
 import type { IComputedValue } from "mobx";
 import { autorun,  action, observable } from "mobx";
 import type { KubeApi } from "../kube-api";
-import type { KubeObject, ObjectReference } from "@k8slens/kube-object";
+import type { KubeObject, ObjectReference } from "@openlens/kube-object";
 import { parseKubeApi, createKubeApiURL } from "../kube-api-parse";
-import { getOrInsertWith, iter } from "@k8slens/utilities";
+import { getOrInsertWith, iter } from "@openlens/utilities";
 import type { CreateCustomResourceStore } from "./create-custom-resource-store.injectable";
 
 export type RegisterableStore<Store> = Store extends KubeObjectStore<any, any, any>

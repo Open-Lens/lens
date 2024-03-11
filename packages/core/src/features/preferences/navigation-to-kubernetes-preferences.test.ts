@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { RenderResult } from "@testing-library/react";
@@ -7,8 +7,8 @@ import type { ApplicationBuilder } from "../../renderer/components/test-utils/ge
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 import requestPublicHelmRepositoriesInjectable from "../helm-charts/child-features/preferences/renderer/adding-of-public-helm-repository/public-helm-repositories/request-public-helm-repositories.injectable";
 import getActiveHelmRepositoriesInjectable from "../../main/helm/repositories/get-active-helm-repositories/get-active-helm-repositories.injectable";
-import type { Discover } from "@k8slens/react-testing-library-discovery";
-import { discoverFor } from "@k8slens/react-testing-library-discovery";
+import type { Discover } from "@openlens/react-testing-library-discovery";
+import { discoverFor } from "@openlens/react-testing-library-discovery";
 
 describe("preferences - navigation to kubernetes preferences", () => {
   let builder: ApplicationBuilder;

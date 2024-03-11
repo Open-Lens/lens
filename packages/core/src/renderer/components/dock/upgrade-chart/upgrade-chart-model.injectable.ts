@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
@@ -13,8 +13,8 @@ import releasesInjectable from "../../helm-releases/releases.injectable";
 import updateReleaseInjectable from "../../helm-releases/update-release/update-release.injectable";
 import type { HelmRelease } from "../../../../common/k8s-api/endpoints/helm-releases.api";
 import requestHelmReleaseConfigurationInjectable from "../../../../common/k8s-api/endpoints/helm-releases.api/request-configuration.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
-import { waitUntilDefined } from "@k8slens/utilities";
+import type { AsyncResult } from "@openlens/utilities";
+import { waitUntilDefined } from "@openlens/utilities";
 import type { SelectOption } from "../../select";
 import type { DockTab } from "../dock/store";
 import upgradeChartTabDataInjectable from "./tab-data.injectable";

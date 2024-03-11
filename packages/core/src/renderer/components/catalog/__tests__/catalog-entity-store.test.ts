@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import catalogEntityRegistryInjectable from "../../../api/catalog/entity/registr
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import type { CatalogEntityStore } from "../catalog-entity-store.injectable";
 import catalogEntityStoreInjectable from "../catalog-entity-store.injectable";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@openlens/utilities";
 import type { CatalogEntityRegistry } from "../../../api/catalog/entity/registry";
 
 class TestEntityOne extends CatalogEntity {

@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { transports } from "winston";
 import directoryForLogsInjectable from "../../common/app-paths/directory-for-logs.injectable";
-import { loggerTransportInjectionToken } from "@k8slens/logger";
+import { loggerTransportInjectionToken } from "@openlens/logger";
 
 const fileLoggerTransportInjectable = getInjectable({
   id: "file-logger-transport",

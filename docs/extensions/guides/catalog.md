@@ -31,7 +31,7 @@ A registration takes the form of a [Common.Types.CustomCategoryViewRegistration]
 For example:
 
 ```typescript
-import { Renderer, Common } from "@k8slens/extensions";
+import { Renderer, Common } from "@openlens/extensions";
 
 function MyKubernetesClusterView({
   category,

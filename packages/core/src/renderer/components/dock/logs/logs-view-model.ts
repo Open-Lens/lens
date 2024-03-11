@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { LogTabData } from "./tab-store";
@@ -7,8 +7,8 @@ import type { IComputedValue } from "mobx";
 import { computed } from "mobx";
 import type { TabId } from "../dock/store";
 import type { SearchStore } from "../../../search-store/search-store";
-import type { Pod, PodLogsQuery } from "@k8slens/kube-object";
-import { isDefined } from "@k8slens/utilities";
+import type { Pod, PodLogsQuery } from "@openlens/kube-object";
+import { isDefined } from "@openlens/utilities";
 import assert from "assert";
 import type { GetPodById } from "../../workloads-pods/get-pod-by-id.injectable";
 import type { GetPodsByOwnerId } from "../../workloads-pods/get-pods-by-owner-id.injectable";

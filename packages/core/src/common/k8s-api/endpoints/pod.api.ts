@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,8 +10,8 @@ import type {
   ResourceDescriptor,
 } from "../kube-api";
 import { KubeApi } from "../kube-api";
-import type { KubeStatusData, PodLogsQuery } from "@k8slens/kube-object";
-import { isKubeStatusData, KubeStatus, Pod } from "@k8slens/kube-object";
+import type { KubeStatusData, PodLogsQuery } from "@openlens/kube-object";
+import { isKubeStatusData, KubeStatus, Pod } from "@openlens/kube-object";
 
 
 export class PodApi extends KubeApi<Pod> {

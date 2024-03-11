@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@openlens/kube-object";
 import { computed } from "mobx";
 import { computedInjectManyInjectable } from "@ogre-tools/injectable-extension-for-mobx";
 import { kubeObjectMenuItemInjectionToken } from "./kube-object-menu-item-injection-token";

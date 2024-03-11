@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import extensionLoaderInjectable from "../../../../extensions/extension-loader/extension-loader.injectable";
 import getExtensionDestFolderInjectable from "./get-extension-dest-folder.injectable";
 import extensionInstallationStateStoreInjectable from "../../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
-import type { Disposer } from "@k8slens/utilities";
-import { noop } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
+import { noop } from "@openlens/utilities";
 import { extensionDisplayName } from "../../../../extensions/lens-extension";
 import { getMessageFromError } from "../get-message-from-error/get-message-from-error";
 import path from "path";
@@ -16,7 +16,7 @@ import { when } from "mobx";
 import React from "react";
 import type { InstallRequestValidated } from "./create-temp-files-and-validate.injectable";
 import extractTarInjectable from "../../../../common/fs/extract-tar.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import showInfoNotificationInjectable from "../../notifications/show-info-notification.injectable";
 import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
 

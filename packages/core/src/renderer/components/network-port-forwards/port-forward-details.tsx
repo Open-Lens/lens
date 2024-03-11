@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import type { PortForwardItem } from "../../port-forward";
 import { portForwardAddress } from "../../port-forward";
 import { Drawer, DrawerItem } from "../drawer";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { PodApi, ServiceApi } from "../../../common/k8s-api/endpoints";
 import { PortForwardMenu } from "./port-forward-menu";
 import { withInjectables } from "@ogre-tools/injectable-react";

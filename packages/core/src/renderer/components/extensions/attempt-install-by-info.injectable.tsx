@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { isObject } from "@k8slens/utilities";
+import { isObject } from "@openlens/utilities";
 import React from "react";
 import { SemVer } from "semver";
 import URLParse from "url-parse";
@@ -18,7 +18,7 @@ import downloadBinaryInjectable from "../../../common/fetch/download-binary.inje
 import downloadJsonInjectable from "../../../common/fetch/download-json/normal.injectable";
 import type { PackageJson } from "type-fest";
 import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 export interface ExtensionInfo {
   name: string;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import { Drawer, DrawerItem } from "../../drawer";
 import type { CatalogCategory, CatalogEntity } from "../../../../common/catalog";
 import { Icon } from "../../icon";
 import { CatalogEntityDrawerMenu } from "../catalog-entity-drawer-menu";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { Avatar } from "../../avatar";
 import type { GetLabelBadges } from "../get-label-badges.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import "./terminal-window.scss";
 
 import React from "react";
 import { disposeOnUnmount, observer } from "mobx-react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { Terminal } from "./terminal";
 import type { TerminalStore } from "./store";
 import type { LensTheme } from "../../../themes/lens-theme";

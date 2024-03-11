@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./radio.scss";
 import React, { useContext, useRef } from "react";
-import type { StrictReactNode, SingleOrMany } from "@k8slens/utilities";
-import { cssNames, noop } from "@k8slens/utilities";
+import type { StrictReactNode, SingleOrMany } from "@openlens/utilities";
+import { cssNames, noop } from "@openlens/utilities";
 
 export interface RadioGroupProps<T> {
   className?: string;

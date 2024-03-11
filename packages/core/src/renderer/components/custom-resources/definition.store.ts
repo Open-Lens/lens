@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { computed, makeObservable } from "mobx";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { CustomResourceDefinition, KubeObject } from "@k8slens/kube-object";
+import type { CustomResourceDefinition, KubeObject } from "@openlens/kube-object";
 import autoBind from "auto-bind";
 import type { CustomResourceDefinitionApi } from "../../../common/k8s-api/endpoints";
 

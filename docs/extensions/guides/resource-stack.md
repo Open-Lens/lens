@@ -28,7 +28,7 @@ It is simply a pod named `example-pod`, running nginx. Assume this content is in
 The following code sample shows how to use the `Renderer.K8sApi.ResourceStack` to manage installing and uninstalling this resource stack:
 
 ```typescript
-import { Renderer, Common } from "@k8slens/extensions";
+import { Renderer, Common } from "@openlens/extensions";
 import * as path from "path";
 
 const {
@@ -98,7 +98,7 @@ To allow the end-user to control the life cycle of this cluster feature the foll
 
 ```typescript
  import React from "react";
- import { Common, Renderer } from "@k8slens/extensions";
+ import { Common, Renderer } from "@openlens/extensions";
  import { observer } from "mobx-react";
  import { computed, observable, makeObservable } from "mobx";
  import { ExampleClusterFeature } from "./example-cluster-feature";
@@ -196,7 +196,7 @@ Finally, `ExampleClusterFeatureSettings` needs to be connected to the extension,
 The `ExampleExtension` would look like this:
 
 ```typescript
-import { Common, Renderer } from "@k8slens/extensions";
+import { Common, Renderer } from "@openlens/extensions";
 import { ExampleClusterFeatureSettings } from "./src/example-cluster-feature-settings"
 import React from "react"
 

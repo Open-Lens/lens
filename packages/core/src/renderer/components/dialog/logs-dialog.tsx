@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,7 +10,7 @@ import type { DialogProps } from "../dialog";
 import { Dialog } from "../dialog";
 import { Wizard, WizardStep } from "../wizard";
 import type { ShowNotification } from "../notifications";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import { Icon } from "../icon";
 import { clipboard } from "electron";
 import { kebabCase } from "lodash/fp";

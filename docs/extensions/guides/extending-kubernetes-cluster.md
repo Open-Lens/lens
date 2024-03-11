@@ -5,7 +5,7 @@ Extension can specify it's own subclass of Common.Catalog.KubernetesCluster. Ext
 ## Extending Common.Catalog.KubernetesCluster
 
 ``` typescript
-import { Common } from "@k8slens/extensions";
+import { Common } from "@openlens/extensions";
 
 // The kind must be different from KubernetesCluster's kind
 export const kind = "ManagedDevCluster";
@@ -22,7 +22,7 @@ export class ManagedDevCluster extends Common.Catalog.KubernetesCluster {
 These custom Catalog entities can be added a new Category in the Catalog.
 
 ``` typescript
-import { Common } from "@k8slens/extensions";
+import { Common } from "@openlens/extensions";
 import { kind, ManagedDevCluster } from "../entities/ManagedDevCluster";
 
 class ManagedDevClusterCategory extends Common.Catalog.CatalogCategory {

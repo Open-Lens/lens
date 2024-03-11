@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./terminal-dock-tab.scss";
 import React from "react";
 import { disposeOnUnmount, observer } from "mobx-react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import type { DockTabProps } from "../dock-tab";
 import { DockTab } from "../dock-tab";
 import { Icon } from "../../icon";

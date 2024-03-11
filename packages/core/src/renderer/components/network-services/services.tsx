@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -13,7 +13,7 @@ import { KubeObjectStatusIcon } from "../kube-object-status-icon";
 import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";
 import { KubeObjectAge } from "../kube-object/age";
 import type { ServiceStore } from "./store";
-import type { Service } from "@k8slens/kube-object";
+import type { Service } from "@openlens/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import serviceStoreInjectable from "./store.injectable";
 import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";

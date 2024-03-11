@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,13 +8,13 @@ import "./error-boundary.scss";
 import type { ErrorInfo } from "react";
 import React from "react";
 import { observer } from "mobx-react";
-import { Button } from "@k8slens/button";
-import type { StrictReactNode } from "@k8slens/utilities";
+import { Button } from "@openlens/button";
+import type { StrictReactNode } from "@openlens/utilities";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@openlens/routing";
 
-const issuesTrackerUrl = "https://github.com/lensapp/lens/issues";
+const issuesTrackerUrl = "https://github.com/Open-Lens/app/issues";
 const forumsUrl = "https://forums.k8slens.dev";
 
 export interface ErrorBoundaryProps {

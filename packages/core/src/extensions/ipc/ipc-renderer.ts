@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { ipcRenderer } from "electron";
 import { IpcPrefix, IpcRegistrar } from "./ipc-registrar";
 import { Disposers } from "../lens-extension";
 import type { LensRendererExtension } from "../lens-renderer-extension";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
 import { once } from "lodash";
 
 export abstract class IpcRenderer extends IpcRegistrar {

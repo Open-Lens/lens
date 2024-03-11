@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,16 +10,16 @@ import { autorun, makeObservable, observable } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { DrawerTitle } from "../drawer";
 import type { ShowNotification } from "../notifications";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { ConfigMap } from "@k8slens/kube-object";
-import type { Logger } from "@k8slens/logger";
+import { ConfigMap } from "@openlens/kube-object";
+import type { Logger } from "@openlens/logger";
 import type { ConfigMapStore } from "./store";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import configMapStoreInjectable from "./store.injectable";
 import showSuccessNotificationInjectable from "../notifications/show-success-notification.injectable";
 import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import { MonacoEditor } from "../monaco-editor";
 
 export interface ConfigMapDetailsProps extends KubeObjectDetailsProps<ConfigMap> {

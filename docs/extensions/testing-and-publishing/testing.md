@@ -14,7 +14,7 @@ My component `GlobalPageMenuIcon`
 
 ```typescript
 import React from "react"
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 const {
   Component: {

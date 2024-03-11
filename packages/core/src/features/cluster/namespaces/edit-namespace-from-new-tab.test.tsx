@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { DiContainer } from "@ogre-tools/injectable";
@@ -13,7 +13,7 @@ import getRandomIdForEditResourceTabInjectable from "../../../renderer/component
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
 import dockStoreInjectable from "../../../renderer/components/dock/dock/store.injectable";
-import { Namespace } from "@k8slens/kube-object";
+import { Namespace } from "@openlens/kube-object";
 import showSuccessNotificationInjectable from "../../../renderer/components/notifications/show-success-notification.injectable";
 import showErrorNotificationInjectable from "../../../renderer/components/notifications/show-error-notification.injectable";
 import readJsonFileInjectable from "../../../common/fs/read-json-file.injectable";
@@ -23,8 +23,8 @@ import type { ApiKubePatch } from "../../../renderer/k8s/api-kube-patch.injectab
 import type { ApiKubeGet } from "../../../renderer/k8s/api-kube-get.injectable";
 import apiKubePatchInjectable from "../../../renderer/k8s/api-kube-patch.injectable";
 import apiKubeGetInjectable from "../../../renderer/k8s/api-kube-get.injectable";
-import type { BaseKubeJsonApiObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@k8slens/kube-object";
-import { JsonApiErrorParsed } from "@k8slens/json-api";
+import type { BaseKubeJsonApiObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@openlens/kube-object";
+import { JsonApiErrorParsed } from "@openlens/json-api";
 import type { ShowNotification } from "../../../renderer/components/notifications";
 import React from "react";
 

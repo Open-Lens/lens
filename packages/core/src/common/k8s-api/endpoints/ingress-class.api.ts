@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { IngressClass } from "@k8slens/kube-object";
+import { IngressClass } from "@openlens/kube-object";
 import type { KubeApiDependencies, ResourceDescriptor } from "../kube-api";
 import { KubeApi } from "../kube-api";
 

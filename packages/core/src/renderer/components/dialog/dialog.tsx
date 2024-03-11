@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,11 +10,11 @@ import { createPortal } from "react-dom";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { reaction } from "mobx";
 import { Animate } from "../animate";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, noop, stopPropagation } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames, noop, stopPropagation } from "@openlens/utilities";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@openlens/routing";
 import requestAnimationFrameInjectable from "../animate/request-animation-frame.injectable";
 
 // todo: refactor + handle animation-end in props.onClose()?

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { getStartableStoppable } from "@k8slens/startable-stoppable";
+import { getStartableStoppable } from "@openlens/startable-stoppable";
 import { reaction } from "mobx";
 import type { MinimalTrayMenuItem } from "../electron-tray/electron-tray.injectable";
 import electronTrayInjectable from "../electron-tray/electron-tray.injectable";

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -14,8 +14,8 @@ import { observer } from "mobx-react";
 import ReactSelect, { components, createFilter } from "react-select";
 import type { Props as ReactSelectProps, GroupBase, MultiValue, OptionsOrGroups, PropsValue, SingleValue } from "react-select";
 import type { LensTheme } from "../../themes/lens-theme";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import activeThemeInjectable from "../../themes/active.injectable";
 import autoBindReact from "auto-bind/react";

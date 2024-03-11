@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { getMessageChannelListenerInjectable } from "@k8slens/messaging";
+import { getMessageChannelListenerInjectable } from "@openlens/messaging";
 import ipcFileLoggerInjectable from "./ipc-file-logger.injectable";
 import {
   closeIpcFileLoggerChannel,

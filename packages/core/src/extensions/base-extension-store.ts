@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import * as path from "path";
 import type { LensExtension } from "./lens-extension";
 import type { StaticThis } from "../common/utils/singleton";
-import { getOrInsertWith } from "@k8slens/utilities";
-import { getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getOrInsertWith } from "@openlens/utilities";
+import { getLegacyGlobalDiForExtensionApi } from "@openlens/legacy-global-di";
 import type { PersistentStorage, PersistentStorageParams } from "../common/persistent-storage/create.injectable";
 import createPersistentStorageInjectable from "../common/persistent-storage/create.injectable";
 import directoryForUserDataInjectable from "../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";

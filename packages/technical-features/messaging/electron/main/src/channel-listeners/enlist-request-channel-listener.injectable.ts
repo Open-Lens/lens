@@ -1,8 +1,8 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import type { IpcMainInvokeEvent } from "electron";
 import ipcMainInjectable from "../ipc-main/ipc-main.injectable";
-import type { RequestChannel, RequestChannelListener } from "@k8slens/messaging";
-import { enlistRequestChannelListenerInjectionToken } from "@k8slens/messaging";
+import type { RequestChannel, RequestChannelListener } from "@openlens/messaging";
+import { enlistRequestChannelListenerInjectionToken } from "@openlens/messaging";
 
 export type EnlistRequestChannelListener = <TChannel extends RequestChannel<unknown, unknown>>(
   listener: RequestChannelListener<TChannel>,

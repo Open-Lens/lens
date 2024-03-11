@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import React from "react";
 import type { PluginServiceRegistrationOptions } from "chart.js";
 import ChartJS from "chart.js";
 import { remove } from "lodash";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@openlens/utilities";
 import { StatusBrick } from "../status-brick";
 import { Badge } from "../badge";
 

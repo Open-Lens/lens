@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,8 +7,8 @@ import EventEmitter from "events";
 import type TypedEmitter from "typed-emitter";
 import { observable, makeObservable } from "mobx";
 import { once } from "lodash";
-import type { Disposer, StrictReactNode } from "@k8slens/utilities";
-import { iter } from "@k8slens/utilities";
+import type { Disposer, StrictReactNode } from "@openlens/utilities";
+import { iter } from "@openlens/utilities";
 import type { CategoryColumnRegistration, TitleCellProps } from "../../renderer/components/catalog/custom-category-columns";
 
 export type { CategoryColumnRegistration, TitleCellProps };

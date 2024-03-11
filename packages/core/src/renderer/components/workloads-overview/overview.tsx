@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -15,7 +15,7 @@ import type { IComputedValue } from "mobx";
 import { makeObservable, observable, reaction } from "mobx";
 import { NamespaceSelectFilter } from "../namespaces/namespace-select-filter";
 import { Icon } from "../icon";
-import { TooltipPosition } from "@k8slens/tooltip";
+import { TooltipPosition } from "@openlens/tooltip";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../cluster-frame-context/for-namespaced-resources.injectable";
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";

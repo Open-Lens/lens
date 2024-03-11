@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -13,13 +13,13 @@ import { TabLayout } from "../layout/tab-layout-2";
 import type { EventStore } from "./store";
 import type { KubeObjectListLayoutProps } from "../kube-object-list-layout";
 import { KubeObjectListLayout } from "../kube-object-list-layout";
-import type { KubeEvent, KubeEventData } from "@k8slens/kube-object";
+import type { KubeEvent, KubeEventData } from "@openlens/kube-object";
 import type { TableSortParams, TableSortCallbacks } from "../table";
 import type { HeaderCustomizer } from "../item-object-list";
-import { Tooltip } from "@k8slens/tooltip";
+import { Tooltip } from "@openlens/tooltip";
 import { Link } from "react-router-dom";
-import type { IClassName } from "@k8slens/utilities";
-import { cssNames, stopPropagation } from "@k8slens/utilities";
+import type { IClassName } from "@openlens/utilities";
+import { cssNames, stopPropagation } from "@openlens/utilities";
 import { Icon } from "../icon";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import { withInjectables } from "@ogre-tools/injectable-react";

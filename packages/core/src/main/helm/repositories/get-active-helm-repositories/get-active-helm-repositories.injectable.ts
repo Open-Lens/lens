@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,8 +8,8 @@ import type { ReadYamlFile } from "../../../../common/fs/read-yaml-file.injectab
 import readYamlFileInjectable from "../../../../common/fs/read-yaml-file.injectable";
 import getHelmEnvInjectable from "../../get-helm-env/get-helm-env.injectable";
 import execHelmInjectable from "../../exec-helm/exec-helm.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { AsyncResult } from "@k8slens/utilities";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { AsyncResult } from "@openlens/utilities";
 
 interface HelmRepositoryFromYaml {
   name: string;

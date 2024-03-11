@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -10,7 +10,7 @@ import hostedClusterInjectable from "../../../cluster-frame-context/hosted-clust
 import assert from "assert";
 import emitAppEventInjectable from "../../../../common/app-event-bus/emit-event.injectable";
 import loadExtensionsInjectable from "../../load-extensions.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import showErrorNotificationInjectable from "../../../components/notifications/show-error-notification.injectable";
 
 const initClusterFrameInjectable = getInjectable({

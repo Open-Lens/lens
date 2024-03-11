@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { computeRuleDeclarations, Ingress } from "@k8slens/kube-object";
+import { computeRuleDeclarations, Ingress } from "@openlens/kube-object";
 
 describe("Ingress", () => {
   it("given no loadbalancer ingresses in status property, loadbalancers should be an empty array", () => {

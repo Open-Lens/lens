@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -8,9 +8,9 @@ import styles from "./badge.module.scss";
 import React, { useEffect, useRef, useState } from "react";
 import { action, observable } from "mobx";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
-import { withTooltip } from "@k8slens/tooltip";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames } from "@openlens/utilities";
+import { withTooltip } from "@openlens/tooltip";
 
 export interface BadgeProps extends React.HTMLAttributes<HTMLDivElement> {
   small?: boolean;

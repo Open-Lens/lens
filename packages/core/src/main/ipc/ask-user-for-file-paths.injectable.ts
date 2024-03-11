@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectable } from "@ogre-tools/injectable";
 import showApplicationWindowInjectable from "../start-main-application/lens-window/show-application-window.injectable";
-import type { RequestChannelHandler } from "@k8slens/messaging";
+import type { RequestChannelHandler } from "@openlens/messaging";
 import type { openPathPickingDialogChannel } from "../../features/path-picking-dialog/common/channel";
 import showOpenDialogInjectable from "../electron-app/features/show-open-dialog.injectable";
 

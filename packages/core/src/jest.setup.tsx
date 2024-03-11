@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import { TextEncoder, TextDecoder as TextDecoderNode } from "util";
 import glob from "glob";
 import path from "path";
 import { enableMapSet, setAutoFreeze } from "immer";
-import type * as K8slensTooltip from "@k8slens/tooltip";
+import type * as K8slensTooltip from "@openlens/tooltip";
 import React from "react";
 
 declare global {
@@ -55,8 +55,8 @@ global.ResizeObserver = class {
 };
 
 jest.mock("./renderer/components/monaco-editor/monaco-editor");
-jest.mock("@k8slens/tooltip", () => ({
-  ...jest.requireActual("@k8slens/tooltip"),
+jest.mock("@openlens/tooltip", () => ({
+  ...jest.requireActual("@openlens/tooltip"),
   withTooltip: (Target => ({ tooltip, tooltipOverrideDisabled, ...props }: any) => {
     if (tooltip) {
       const testId = props["data-testid"];

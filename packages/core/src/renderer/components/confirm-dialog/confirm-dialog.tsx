@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,10 +9,10 @@ import React from "react";
 import type { IObservableValue } from "mobx";
 import { observable, makeObservable, computed } from "mobx";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, noop, prevDefault } from "@k8slens/utilities";
-import type { ButtonProps } from "@k8slens/button";
-import { Button } from "@k8slens/button";
+import type { StrictReactNode } from "@openlens/utilities";
+import { cssNames, noop, prevDefault } from "@openlens/utilities";
+import type { ButtonProps } from "@openlens/button";
+import { Button } from "@openlens/button";
 import type { DialogProps } from "../dialog";
 import { Dialog } from "../dialog";
 import { Icon } from "../icon";

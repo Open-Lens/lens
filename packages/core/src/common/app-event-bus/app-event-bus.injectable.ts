@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { EventEmitter } from "@k8slens/event-emitter";
+import { EventEmitter } from "@openlens/event-emitter";
 import type { AppEvent } from "./event-bus";
 
 const appEventBusInjectable = getInjectable({

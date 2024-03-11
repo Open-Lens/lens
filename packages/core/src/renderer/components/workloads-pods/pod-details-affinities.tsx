@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import React from "react";
 import yaml from "js-yaml";
 import { DrawerItem, DrawerParamToggler } from "../drawer";
-import type { DaemonSet, Deployment, Job, Pod, ReplicaSet, StatefulSet } from "@k8slens/kube-object";
+import type { DaemonSet, Deployment, Job, Pod, ReplicaSet, StatefulSet } from "@openlens/kube-object";
 import { MonacoEditor } from "../monaco-editor";
 
 export interface PodDetailsAffinitiesProps {

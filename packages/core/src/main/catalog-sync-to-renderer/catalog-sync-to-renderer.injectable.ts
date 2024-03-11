@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction } from "mobx";
 import ipcMainInjectionToken from "../../common/ipc/ipc-main-injection-token";
 import { catalogInitChannel } from "../../common/ipc/catalog";
-import { disposer } from "@k8slens/utilities";
-import { getStartableStoppable } from "@k8slens/startable-stoppable";
+import { disposer } from "@openlens/utilities";
+import { getStartableStoppable } from "@openlens/startable-stoppable";
 import catalogEntityRegistryInjectable from "../catalog/entity-registry.injectable";
 import catalogSyncBroadcasterInjectable from "./broadcaster.injectable";
 import { toJS } from "../../common/utils";

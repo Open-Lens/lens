@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -7,7 +7,7 @@ import { sortBy } from "lodash/fp";
 import proxyDownloadJsonInjectable from "../../../../../../../common/fetch/download-json/proxy.injectable";
 import { withTimeout } from "../../../../../../../common/fetch/timeout-controller";
 import type { HelmRepo } from "../../../../../../../common/helm/helm-repo";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 
 const publicHelmReposUrl = "https://github.com/lensapp/artifact-hub-repositories/releases/download/latest/repositories.json";
 

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { ItemObject } from "@k8slens/list-layout";
+import type { ItemObject } from "@openlens/list-layout";
 import autoBind from "auto-bind";
 import orderBy from "lodash/orderBy";
 import { action, computed, observable, when, makeObservable } from "mobx";

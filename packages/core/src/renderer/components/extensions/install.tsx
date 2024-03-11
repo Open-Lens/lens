@@ -1,17 +1,17 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import styles from "./install.module.scss";
 import React, { useEffect, useRef, useState } from "react";
-import { prevDefault } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import { prevDefault } from "@openlens/utilities";
+import { Button } from "@openlens/button";
 import { Icon } from "../icon";
 import { observer } from "mobx-react";
 import { Input, InputValidators } from "../input";
 import { SubTitle } from "../layout/sub-title";
-import { TooltipPosition } from "@k8slens/tooltip";
+import { TooltipPosition } from "@openlens/tooltip";
 import type { ExtensionInstallationStateStore } from "../../../extensions/extension-installation-state-store/extension-installation-state-store";
 import extensionInstallationStateStoreInjectable from "../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";

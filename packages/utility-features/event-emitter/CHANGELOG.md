@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/event-emitter
+**Note:** Version bump only for package @openlens/event-emitter
 
 
 
@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/event-emitter
+**Note:** Version bump only for package @openlens/event-emitter
 
 
 
@@ -61,7 +61,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/event-emitter
+**Note:** Version bump only for package @openlens/event-emitter
 
 
 
@@ -73,7 +73,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 6.5.0-alpha.9 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/event-emitter
+**Note:** Version bump only for package @openlens/event-emitter
 
 
 
@@ -81,4 +81,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 1.0.0-alpha.2 (2023-05-04)
 
-**Note:** Version bump only for package @k8slens/event-emitter
+**Note:** Version bump only for package @openlens/event-emitter

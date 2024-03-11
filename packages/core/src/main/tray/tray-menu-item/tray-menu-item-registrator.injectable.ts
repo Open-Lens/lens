@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { pipeline } from "@ogre-tools/fp";
@@ -15,7 +15,7 @@ import { withErrorSuppression } from "../../../common/utils/with-error-suppressi
 import type { WithErrorLoggingFor } from "../../../common/utils/with-error-logging/with-error-logging.injectable";
 import withErrorLoggingInjectable from "../../../common/utils/with-error-logging/with-error-logging.injectable";
 import getRandomIdInjectable from "../../../common/utils/get-random-id.injectable";
-import { isBoolean, isString } from "@k8slens/utilities";
+import { isBoolean, isString } from "@openlens/utilities";
 
 const trayMenuItemRegistratorInjectable = getInjectable({
   id: "tray-menu-item-registrator",

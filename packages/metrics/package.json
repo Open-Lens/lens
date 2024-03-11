@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/metrics",
+  "name": "@openlens/metrics",
   "private": false,
   "version": "6.5.0",
   "description": "Injection tokens for implementing metrics for Lens",
@@ -13,16 +13,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lensapp/lens.git"
+    "url": "git+https://github.com/Open-Lens/app.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/lensapp/lens",
+  "homepage": "https://github.com/Open-Lens/app",
   "scripts": {
     "build": "lens-webpack-build",
     "clean": "rimraf dist/",
@@ -32,14 +32,14 @@
     "lint:fix": "lens-lint --fix"
   },
   "peerDependencies": {
-    "@k8slens/kube-object": "^1.0.0-alpha.1",
+    "@openlens/kube-object": "^1.0.0-alpha.1",
     "@ogre-tools/injectable": "^16.1.0",
     "react": "^17.0.2"
   },
   "devDependencies": {
-    "@k8slens/eslint-config": "^6.5.0",
-    "@k8slens/jest": "^6.5.0",
-    "@k8slens/typescript": "^6.5.0",
-    "@k8slens/webpack": "^6.5.0"
+    "@openlens/eslint-config": "^6.5.0",
+    "@openlens/jest": "^6.5.0",
+    "@openlens/typescript": "^6.5.0",
+    "@openlens/webpack": "^6.5.0"
   }
 }

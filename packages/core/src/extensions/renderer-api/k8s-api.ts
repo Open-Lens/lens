@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { KubeResource } from "../../common/rbac";
 import { apiResourceRecord } from "../../common/rbac";
-import { getLegacyGlobalDiForExtensionApi, asLegacyGlobalForExtensionApi, asLegacyGlobalFunctionForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi, asLegacyGlobalForExtensionApi, asLegacyGlobalFunctionForExtensionApi } from "@openlens/legacy-global-di";
 import clusterRoleBindingApiInjectable from "../../common/k8s-api/endpoints/cluster-role-binding.api.injectable";
 import clusterRoleApiInjectable from "../../common/k8s-api/endpoints/cluster-role.api.injectable";
 import serviceAccountApiInjectable from "../../common/k8s-api/endpoints/service-account.api.injectable";

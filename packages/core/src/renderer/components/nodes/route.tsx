@@ -1,18 +1,18 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import "./nodes.scss";
 import React from "react";
 import { observer } from "mobx-react";
-import { bytesToUnits, cssNames, interval } from "@k8slens/utilities";
+import { bytesToUnits, cssNames, interval } from "@openlens/utilities";
 import { TabLayout } from "../layout/tab-layout-2";
 import { KubeObjectListLayout } from "../kube-object-list-layout";
-import type { Node } from "@k8slens/kube-object";
-import { formatNodeTaint } from "@k8slens/kube-object";
+import type { Node } from "@openlens/kube-object";
+import { formatNodeTaint } from "@openlens/kube-object";
 import { LineProgress } from "../line-progress";
-import { Tooltip, TooltipPosition } from "@k8slens/tooltip";
+import { Tooltip, TooltipPosition } from "@openlens/tooltip";
 import kebabCase from "lodash/kebabCase";
 import upperFirst from "lodash/upperFirst";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";

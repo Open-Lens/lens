@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { Menu, Tray } from "electron";
 import showApplicationWindowInjectable from "../../start-main-application/lens-window/show-application-window.injectable";
 import isWindowsInjectable from "../../../common/vars/is-windows.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import { convertToElectronMenuTemplate } from "../reactive-tray-menu-items/converters";
 import trayIconInjectable from "../menu-icon/tray-icon.injectable";
 import applicationDescriptionInjectable from "../../../common/vars/application-description.injectable";

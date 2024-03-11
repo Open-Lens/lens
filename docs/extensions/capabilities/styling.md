@@ -24,7 +24,7 @@ However, you are free to use any styling technique or framework you like, includ
 ### Layout Variables
 
 There is a set of CSS variables available for for basic layout needs.
-They are located inside `:root` and are defined in [app.scss](https://github.com/lensapp/lens/blob/master/src/renderer/components/app.scss):
+They are located inside `:root` and are defined in [app.scss](https://github.com/Open-Lens/app/blob/master/src/renderer/components/app.scss):
 
 ```css
 --unit: 8px;
@@ -45,7 +45,7 @@ For example:
 
 ## Themes
 
-Lens uses two built-in themes defined in [the themes directory](https://github.com/lensapp/lens/tree/master/src/renderer/themes) – one light and one dark.
+Lens uses two built-in themes defined in [the themes directory](https://github.com/Open-Lens/app/tree/master/src/renderer/themes) – one light and one dark.
 
 ### Theme Variables
 
@@ -58,7 +58,7 @@ When the user changes the theme, the above process is repeated, and new CSS vari
 If you want to preserve Lens's native look and feel, with respect to the lightness or darkness of your extension, you can use the provided variables and built-in Lens components such as `Button`, `Select`, `Table`, and so on.
 
 There is a set of CSS variables available for extensions to use for theming.
-They are all located inside `:root` and are defined in [app.scss](https://github.com/lensapp/lens/blob/master/src/renderer/components/app.scss):
+They are all located inside `:root` and are defined in [app.scss](https://github.com/Open-Lens/app/blob/master/src/renderer/components/app.scss):
 
 ```css
 --font-main: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -71,7 +71,7 @@ They are all located inside `:root` and are defined in [app.scss](https://github
 --font-weight-bold: 500;
 ```
 
-as well as in [the theme modules](https://github.com/lensapp/lens/tree/master/src/renderer/themes):
+as well as in [the theme modules](https://github.com/Open-Lens/app/tree/master/src/renderer/themes):
 
 ```
 --blue: #3d90ce;
@@ -114,7 +114,7 @@ There is a way of detect active theme and its changes in JS. [MobX observer func
 ```js
 import React from "react"
 import { observer } from "mobx-react"
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 
 @observer
 export class SupportPage extends React.Component {
@@ -128,13 +128,13 @@ export class SupportPage extends React.Component {
 }
 ```
 
-`Theme` entity from `@k8slens/extensions` provides active theme object and `@observer` decorator makes component reactive - so it will rerender each time any of the observables (active theme in our case) will be changed.
+`Theme` entity from `@openlens/extensions` provides active theme object and `@observer` decorator makes component reactive - so it will rerender each time any of the observables (active theme in our case) will be changed.
 
-Working example provided in [Styling with Emotion](https://github.com/lensapp/lens-extension-samples/tree/master/styling-emotion-sample) sample extension.
+Working example provided in [Styling with Emotion](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-emotion-sample) sample extension.
 
 ## Injected Styles
 
-Every extension is affected by the list of default global styles defined in [app.scss](https://github.com/lensapp/lens/blob/master/src/renderer/components/app.scss). These are basic browser resets and element styles, including:
+Every extension is affected by the list of default global styles defined in [app.scss](https://github.com/Open-Lens/app/blob/master/src/renderer/components/app.scss). These are basic browser resets and element styles, including:
 
 - setting the `box-sizing` property for every element
 - default text and background colors
@@ -158,6 +158,6 @@ const Container = styled.div(() => ({
 
 You can explore samples for each styling technique that you can use for extensions:
 
-- [Styling with Sass](https://github.com/lensapp/lens-extension-samples/tree/master/styling-sass-sample)
-- [Styling with Emotion](https://github.com/lensapp/lens-extension-samples/tree/master/styling-emotion-sample)
-- [Styling with CSS Modules](https://github.com/lensapp/lens-extension-samples/tree/master/styling-css-modules-sample)
+- [Styling with Sass](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-sass-sample)
+- [Styling with Emotion](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-emotion-sample)
+- [Styling with CSS Modules](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-css-modules-sample)

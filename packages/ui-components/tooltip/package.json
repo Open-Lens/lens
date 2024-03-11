@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/tooltip",
+  "name": "@openlens/tooltip",
   "private": false,
   "version": "1.0.0",
   "description": "Highly extendable tooltip in the Lens.",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lensapp/lens.git"
+    "url": "git+https://github.com/Open-Lens/app.git"
   },
   "main": "dist/index.js",
   "exports": {
@@ -22,11 +22,11 @@
   },
   "types": "dist/index.d.ts",
   "author": {
-    "name": "OpenLens Authors",
-    "email": "info@k8slens.dev"
+    "name": "OpenLens Maintainers",
+    "email": "f.baldo31@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/lensapp/lens",
+  "homepage": "https://github.com/Open-Lens/app",
   "scripts": {
     "build": "lens-webpack-build",
     "test:unit": "jest --coverage --runInBand",
@@ -34,7 +34,7 @@
     "lint:fix": "lens-lint --fix"
   },
   "peerDependencies": {
-    "@k8slens/utilities": "^1.0.0-alpha.1",
+    "@openlens/utilities": "^1.0.0-alpha.1",
     "auto-bind": "^4.0.0",
     "lodash": "^4.17.21",
     "mobx": "^6.8.0",
@@ -44,9 +44,9 @@
   },
   "devDependencies": {
     "@async-fn/jest": "^1.6.4",
-    "@k8slens/eslint-config": "^6.5.0",
-    "@k8slens/react-testing-library-discovery": "^1.0.0",
-    "@k8slens/webpack": "^6.5.0",
+    "@openlens/eslint-config": "^6.5.0",
+    "@openlens/react-testing-library-discovery": "^1.0.0",
+    "@openlens/webpack": "^6.5.0",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^12.8.3"
   }

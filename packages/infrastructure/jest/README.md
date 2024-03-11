@@ -1,11 +1,11 @@
-# @k8slens/jest
+# @openlens/jest
 
 This package contains jest configurations and scripts for Lens packages.
 
 ## Install
 
 ```
-$ npm install @k8slens/jest
+$ npm install @openlens/jest
 ```
 
 ## Features
@@ -17,14 +17,14 @@ Shared configurations for minimal duplication.
 
 **./packages/<any-package>/jest.config.js**
 ```javascript
-module.exports = require("@k8slens/jest").monorepoPackageConfig(__dirname).configForNode;
+module.exports = require("@openlens/jest").monorepoPackageConfig(__dirname).configForNode;
 ```
 
 #### React
 
 **./packages/<any-package>/jest.config.js**
 ```javascript
-module.exports = require("@k8slens/jest").monorepoPackageConfig(__dirname).configForReact;
+module.exports = require("@openlens/jest").monorepoPackageConfig(__dirname).configForReact;
 ```
 
 ### Root configuration
@@ -33,7 +33,7 @@ You may want to enable testing of packages using single command from root level.
 
 **./jest.config.js**
 ```javascript
-module.exports = require("@k8slens/jest").monorepoRootConfig(__dirname);
+module.exports = require("@openlens/jest").monorepoRootConfig(__dirname);
 ```
 
 ### Scripts

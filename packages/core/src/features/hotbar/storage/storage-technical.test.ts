@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,8 +12,8 @@ import type { IComputedValue } from "mobx";
 import { computed } from "mobx";
 import hasCategoryForEntityInjectable from "../../../common/catalog/has-category-for-entity.injectable";
 import catalogCatalogEntityInjectable from "../../../common/catalog-entities/general-catalog-entities/implementations/catalog-catalog-entity.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
-import type { Logger } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
+import type { Logger } from "@openlens/logger";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import storeMigrationVersionInjectable from "../../../common/vars/store-migration-version.injectable";
 import writeJsonSyncInjectable from "../../../common/fs/write-json-sync.injectable";

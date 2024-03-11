@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -7,7 +7,7 @@ import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import { computedInjectManyInjectable } from "@ogre-tools/injectable-extension-for-mobx";
 import { kubeObjectDetailItemInjectionToken } from "./kube-object-detail-item-injection-token";
-import { byValue } from "@k8slens/utilities";
+import { byValue } from "@openlens/utilities";
 
 const kubeObjectDetailItemsInjectable = getInjectable({
   id: "kube-object-detail-items",

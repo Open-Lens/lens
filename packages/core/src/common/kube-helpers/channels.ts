@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectionToken } from "@ogre-tools/injectable";
 import type { ClusterId } from "../cluster-types";
-import type { AsyncResult, Result } from "@k8slens/utilities";
-import { getRequestChannel } from "@k8slens/messaging";
+import type { AsyncResult, Result } from "@openlens/utilities";
+import { getRequestChannel } from "@openlens/messaging";
 
 export interface KubectlApplyAllArgs {
   clusterId: ClusterId;

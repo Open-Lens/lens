@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { RequestChannel } from "@k8slens/messaging";
+import type { RequestChannel } from "@openlens/messaging";
 import { getInitializable } from "../../../../../common/initializable-state/create";
 
 export const updatingIsEnabledChannel: RequestChannel<void, boolean> = {

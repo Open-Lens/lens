@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import { docsUrl, forumsUrl } from "../../../common/vars";
 import { getInjectable } from "@ogre-tools/injectable";
 import { weblinkStoreMigrationInjectionToken } from "../../../features/weblinks/common/migration-token";
 import { lensDocumentationWeblinkId, lensForumsWeblinkId } from "../../../features/weblinks/main/links";
-import { applicationInformationToken } from "@k8slens/application";
+import { applicationInformationToken } from "@openlens/application";
 import type { WeblinkData } from "../common/storage.injectable";
 
 const currentVersionWeblinkStoreMigrationInjectable = getInjectable({

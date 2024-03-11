@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,7 +9,7 @@ import type { Cluster } from "../../../common/cluster/cluster";
 import { CoreV1Api } from "@kubernetes/client-node";
 import type { GetPrometheusProviderByKind } from "../../prometheus/get-by-kind.injectable";
 import type { IComputedValue } from "mobx";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { LoadProxyKubeconfig } from "../load-proxy-kubeconfig.injectable";
 
 export interface PrometheusDetails {

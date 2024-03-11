@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type React from "react";
 import { action, observable, makeObservable } from "mobx";
 import uniqueId from "lodash/uniqueId";
-import type { JsonApiErrorParsed } from "@k8slens/json-api";
+import type { JsonApiErrorParsed } from "@openlens/json-api";
 import type { SetRequired } from "type-fest";
 import autoBind from "auto-bind";
 

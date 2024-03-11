@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { kebabCase, toUpper } from "lodash/fp";
@@ -24,6 +24,25 @@ export interface Logger {
 export const loggerInjectionToken = getInjectionToken<Logger>({
   id: "logger-injection-token",
 });
+
+const screamingKebabCase = (str: string) => pipeline(str, kebabCase, toUpper);
+
+const getLogFunctionFor = (
+  scenario: keyof Logger,
+  namespace: string | undefined
+) => {
+  const prefix = namespace
+    ? `[${screamingKebabCase(namespace.replace(/-feature$/, ""))}]: `
+    : "";
+
+  return (di: DiContainerForInjection): LogFunction => {
+    const winstonLogger = di.inject(winstonLoggerInjectable);
+
+    return (message, ...data) => {
+      winstonLogger[scenario](`${prefix}${message}`, ...data);
+    };
+  };
+};
 
 export const loggerInjectable = getInjectable({
   id: "logger",
@@ -60,25 +79,6 @@ export const logErrorInjectionToken = getInjectionToken<LogFunction>({
 export const logSillyInjectionToken = getInjectionToken<LogFunction>({
   id: "log-silly-injection-token",
 });
-
-const screamingKebabCase = (str: string) => pipeline(str, kebabCase, toUpper);
-
-const getLogFunctionFor = (
-  scenario: keyof Logger,
-  namespace: string | undefined
-) => {
-  const prefix = namespace
-    ? `[${screamingKebabCase(namespace.replace(/-feature$/, ""))}]: `
-    : "";
-
-  return (di: DiContainerForInjection): LogFunction => {
-    const winstonLogger = di.inject(winstonLoggerInjectable);
-
-    return (message, ...data) => {
-      winstonLogger[scenario](`${prefix}${message}`, ...data);
-    };
-  };
-};
 
 export const logDebugInjectable = getInjectable({
   id: "log-debug",

@@ -1,3 +1,3 @@
-# @k8slens/test-utils
+# @openlens/test-utils
 
 This package contains many useful utilities for testing.

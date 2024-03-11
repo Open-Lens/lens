@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { comparer, reaction } from "mobx";
-import type { Disposer } from "@k8slens/utilities";
-import { disposer, getOrInsert, noop, WrappedAbortController } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
+import { disposer, getOrInsert, noop, WrappedAbortController } from "@openlens/utilities";
 import { once } from "lodash";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@openlens/logger";
 import type { KubeObjectStoreLoadAllParams, KubeObjectStoreSubscribeParams } from "../../common/k8s-api/kube-object.store";
 import type { ClusterContext } from "../cluster-frame-context/cluster-frame-context";
 

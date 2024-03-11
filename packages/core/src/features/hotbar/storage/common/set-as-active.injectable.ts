@@ -1,8 +1,8 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { iter } from "@k8slens/utilities";
+import { iter } from "@openlens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action } from "mobx";
 import activeHotbarIdInjectable from "./active-id.injectable";

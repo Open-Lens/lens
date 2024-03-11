@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -9,12 +9,12 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import { DrawerItem, DrawerTitle } from "../../drawer";
-import { stopPropagation } from "@k8slens/utilities";
+import { stopPropagation } from "@openlens/utilities";
 import { observer } from "mobx-react";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { ConfigurationInput, MinimalResourceGroup, OnlyUserSuppliedValuesAreShownToggle, ReleaseDetailsModel } from "./release-details-model/release-details-model.injectable";
 import releaseDetailsModelInjectable from "./release-details-model/release-details-model.injectable";
-import { Button } from "@k8slens/button";
+import { Button } from "@openlens/button";
 import { kebabCase } from "lodash/fp";
 import { Badge } from "../../badge";
 import { SubTitle } from "../../layout/sub-title";

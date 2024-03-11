@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import path from "path";
@@ -24,7 +24,7 @@ const webpack = [
     },
     externals: [
       {
-        "@k8slens/extensions": "var global.LensExtensions",
+        "@openlens/extensions": "var global.LensExtensions",
         react: "var global.React",
         "react-dom": "var global.ReactDOM",
         mobx: "var global.Mobx",
@@ -60,7 +60,7 @@ const webpack = [
     },
     externals: [
       {
-        "@k8slens/extensions": "var global.LensExtensions",
+        "@openlens/extensions": "var global.LensExtensions",
         react: "var global.React",
         "react-dom": "var global.ReactDOM",
         mobx: "var global.Mobx",

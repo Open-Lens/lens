@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -10,8 +10,8 @@ import type { Readable } from "stream";
 import type { CatalogEntity } from "../../../common/catalog";
 import type { Cluster } from "../../../common/cluster/cluster";
 import createReadFileStreamInjectable from "../../../common/fs/create-read-file-stream.injectable";
-import type { Disposer } from "@k8slens/utilities";
-import { bytesToUnits, noop } from "@k8slens/utilities";
+import type { Disposer } from "@openlens/utilities";
+import { bytesToUnits, noop } from "@openlens/utilities";
 import computeKubeconfigDiffInjectable from "./compute-diff.injectable";
 import kubeconfigSyncLoggerInjectable from "./logger.injectable";
 

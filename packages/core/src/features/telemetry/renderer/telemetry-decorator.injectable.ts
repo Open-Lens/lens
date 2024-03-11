@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, instantiationDecoratorToken, createInstantiationTargetDecorator } from "@ogre-tools/injectable";
 import assert from "assert";
 import emitTelemetryInjectable from "./emit-telemetry.injectable";
 import telemetryWhiteListForParameterlessFunctionsInjectable from "./telemetry-white-list-for-parameterless-functions.injectable";
-import { isFunction } from "@k8slens/utilities";
+import { isFunction } from "@openlens/utilities";
 
 const basicTelemetryDecoratorInjectable = getInjectable({
   id: "basic-telemetry-decorator",

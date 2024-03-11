@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -9,8 +9,8 @@ import releaseSecretsInjectable from "./release-secrets.injectable";
 import requestListHelmReleasesInjectable from "../../../features/helm-releases/renderer/request-list-helm-releases.injectable";
 import hostedClusterIdInjectable from "../../cluster-frame-context/hosted-cluster-id.injectable";
 import assert from "assert";
-import { iter } from "@k8slens/utilities";
-import { prefixedLoggerInjectable } from "@k8slens/logger";
+import { iter } from "@openlens/utilities";
+import { prefixedLoggerInjectable } from "@openlens/logger";
 import { toHelmRelease } from "./to-helm-release";
 
 const releasesInjectable = getInjectable({

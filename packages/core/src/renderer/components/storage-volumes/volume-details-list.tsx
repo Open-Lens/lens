@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,9 +7,9 @@ import "./volume-details-list.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { PersistentVolume } from "@k8slens/kube-object";
+import type { PersistentVolume } from "@openlens/kube-object";
 import { TableRow } from "../table/table-row";
-import { cssNames, prevDefault } from "@k8slens/utilities";
+import { cssNames, prevDefault } from "@openlens/utilities";
 import { TableCell } from "../table/table-cell";
 import { Spinner } from "../spinner/spinner";
 import { DrawerTitle } from "../drawer/drawer-title";

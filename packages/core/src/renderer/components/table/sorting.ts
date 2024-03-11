@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { TableOrderBy, TableSortCallback } from "./table";
-import { Ordering, rectifyOrdering, sortCompare, tuple } from "@k8slens/utilities";
+import { Ordering, rectifyOrdering, sortCompare, tuple } from "@openlens/utilities";
 
 export function getSorted<T>(rawItems: T[], sortingCallback: TableSortCallback<T> | undefined, orderBy: TableOrderBy = "asc"): T[] {
   if (typeof sortingCallback !== "function") {

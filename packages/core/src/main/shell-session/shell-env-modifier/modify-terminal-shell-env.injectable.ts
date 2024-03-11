@@ -1,12 +1,12 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import type { ClusterId } from "../../../common/cluster-types";
-import { isDefined } from "@k8slens/utilities";
+import { isDefined } from "@openlens/utilities";
 import mainExtensionsInjectable from "../../../extensions/main-extensions.injectable";
 import catalogEntityRegistryInjectable from "../../catalog/entity-registry.injectable";
 

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { unitsToBytes } from "@k8slens/utilities";
+import { unitsToBytes } from "@openlens/utilities";
 import type { TypedLocalObjectReference, LabelSelector, ObjectReference, ClusterScopedMetadata } from "../api-types";
 import { KubeObject } from "../kube-object";
 import type { ResourceRequirements } from "../types/resource-requirements";

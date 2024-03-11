@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,7 +11,7 @@ import { DockTab } from "./dock-tab";
 import type { DockTab as DockTabModel } from "./dock/store";
 import { TabKind } from "./dock/store";
 import { TerminalTab } from "./terminal/dock-tab";
-import { cssVar } from "@k8slens/utilities";
+import { cssVar } from "@openlens/utilities";
 import { useResizeObserver } from "../../hooks";
 
 export interface DockTabsProps {

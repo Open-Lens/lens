@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import assert from "assert";
 import path from "path";
-import { getGlobalOverride } from "@k8slens/test-utils";
+import { getGlobalOverride } from "@openlens/test-utils";
 import getConfigurationFileModelInjectable from "./get-configuration-file-model.injectable";
 import type Config from "conf";
 import readJsonSyncInjectable from "../fs/read-json-sync.injectable";

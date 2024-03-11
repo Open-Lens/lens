@@ -1,10 +1,10 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { ChartOptions, ChartPoint } from "chart.js";
-import { bytesToUnits, isDefined } from "@k8slens/utilities";
+import { bytesToUnits, isDefined } from "@openlens/utilities";
 
 export type MetricsTab = "CPU" | "Memory" | "Disk" | "Pods" | "Network" | "Filesystem" | "Duration";
 

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -10,10 +10,10 @@ import type { IComputedValue } from "mobx";
 import { computed, makeObservable, untracked } from "mobx";
 import type { ConfirmDialogParams } from "../confirm-dialog";
 import type { TableProps, TableRowProps, TableSortCallbacks } from "../table";
-import type { IClassName, StrictReactNode, SingleOrMany } from "@k8slens/utilities";
-import { cssNames, noop } from "@k8slens/utilities";
+import type { IClassName, StrictReactNode, SingleOrMany } from "@openlens/utilities";
+import { cssNames, noop } from "@openlens/utilities";
 import type { AddRemoveButtonsProps } from "../add-remove-buttons";
-import type { ItemObject, TableCellProps } from "@k8slens/list-layout";
+import type { ItemObject, TableCellProps } from "@openlens/list-layout";
 import type { SearchInputUrlProps } from "../input";
 import type { PageFiltersStore } from "./page-filters/store";
 import { FilterType } from "./page-filters/store";

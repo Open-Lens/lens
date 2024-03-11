@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
@@ -8,7 +8,7 @@ import type { IComputedValue } from "mobx";
 import { computed } from "mobx";
 import type { LensRendererExtension } from "../../../extensions/lens-renderer-extension";
 import rendererExtensionsInjectable from "../../../extensions/renderer-extensions.injectable";
-import { getOrInsert, getOrInsertMap } from "@k8slens/utilities";
+import { getOrInsert, getOrInsertMap } from "@openlens/utilities";
 import type { CustomCategoryViewComponents } from "./custom-views";
 
 interface Dependencies {

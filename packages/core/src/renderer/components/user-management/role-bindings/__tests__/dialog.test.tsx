@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import userEvent from "@testing-library/user-event";
 import React from "react";
-import { ClusterRole } from "@k8slens/kube-object";
+import { ClusterRole } from "@openlens/kube-object";
 import { RoleBindingDialog } from "../dialog/view";
 import { getDiForUnitTesting } from "../../../../getDiForUnitTesting";
 import type { DiRender } from "../../../test-utils/renderFor";

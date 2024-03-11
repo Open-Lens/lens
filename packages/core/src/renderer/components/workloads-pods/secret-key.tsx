@@ -1,11 +1,11 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React, { useState } from "react";
-import type { EnvVarKeySelector } from "@k8slens/kube-object";
+import type { EnvVarKeySelector } from "@openlens/kube-object";
 import { Icon } from "../icon";
-import { base64, cssNames, isObject } from "@k8slens/utilities";
+import { base64, cssNames, isObject } from "@openlens/utilities";
 import type { SecretStore } from "../config-secrets/store";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import secretStoreInjectable from "../config-secrets/store.injectable";

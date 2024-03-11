@@ -53,7 +53,7 @@ Some of the most-important fields include:
   "version": "0.0.1",
   "description": "Lens helloworld-sample",
   "license": "MIT",
-  "homepage": "https://github.com/lensapp/lens-extension-samples",
+  "homepage": "https://github.com/Open-Lens/app-extension-samples",
   "engines": {
     "node": "^16.14.2",
     "lens": "5.4"
@@ -68,7 +68,7 @@ Some of the most-important fields include:
     "react-open-doodles": "^1.0.5"
   },
   "devDependencies": {
-    "@k8slens/extensions": "^5.4.6",
+    "@openlens/extensions": "^5.4.6",
     "ts-loader": "^8.0.4",
     "typescript": "^4.5.5",
     "@types/react": "^17.0.44",
@@ -133,7 +133,7 @@ It also registers the `MenuItem` component that displays the `ExampleIcon` React
 These React components are defined in the additional `./src/page.tsx` file.
 
 ```typescript
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@openlens/extensions";
 import { ExampleIcon, ExamplePage } from "./page";
 import React from "react";
 

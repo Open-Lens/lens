@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { RenderResult } from "@testing-library/react";
@@ -13,7 +13,7 @@ import requestKubeResourceInjectable from "../../../renderer/components/dock/edi
 import directoryForLensLocalStorageInjectable from "../../../common/directory-for-lens-local-storage/directory-for-lens-local-storage.injectable";
 import writeJsonFileInjectable from "../../../common/fs/write-json-file.injectable";
 import { TabKind } from "../../../renderer/components/dock/dock/store";
-import { Namespace } from "@k8slens/kube-object";
+import { Namespace } from "@openlens/kube-object";
 
 describe("cluster/namespaces - edit namespaces from previously opened tab", () => {
   let builder: ApplicationBuilder;

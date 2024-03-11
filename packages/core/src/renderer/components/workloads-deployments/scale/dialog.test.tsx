@@ -1,5 +1,5 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -7,7 +7,7 @@ import React from "react";
 import { waitFor, fireEvent } from "@testing-library/react";
 import { DeploymentScaleDialog } from "./dialog";
 import type { DeploymentApi } from "../../../../common/k8s-api/endpoints/deployment.api";
-import { Deployment } from "@k8slens/kube-object";
+import { Deployment } from "@openlens/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import deploymentApiInjectable from "../../../../common/k8s-api/endpoints/deployment.api.injectable";
 import type { OpenDeploymentScaleDialog } from "./open.injectable";

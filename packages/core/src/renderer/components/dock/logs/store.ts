@@ -1,13 +1,13 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import type { IComputedValue } from "mobx";
 import { observable } from "mobx";
-import type { PodLogsQuery, Pod } from "@k8slens/kube-object";
-import { waitUntilDefined, getOrInsertWith, interval } from "@k8slens/utilities";
-import type { IntervalFn } from "@k8slens/utilities";
+import type { PodLogsQuery, Pod } from "@openlens/kube-object";
+import { waitUntilDefined, getOrInsertWith, interval } from "@openlens/utilities";
+import type { IntervalFn } from "@openlens/utilities";
 import type { TabId } from "../dock/store";
 import type { CallForLogs } from "./call-for-logs.injectable";
 import type { LogTabData } from "./tab-store";

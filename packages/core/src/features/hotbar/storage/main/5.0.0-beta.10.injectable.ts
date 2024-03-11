@@ -1,17 +1,17 @@
 /**
- * Copyright (c) OpenLens Authors. All rights reserved.
+ * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import * as uuid from "uuid";
 import directoryForUserDataInjectable from "../../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import catalogCatalogEntityInjectable from "../../../../common/catalog-entities/general-catalog-entities/implementations/catalog-catalog-entity.injectable";
-import { isDefined, isErrnoException } from "@k8slens/utilities";
+import { isDefined, isErrnoException } from "@openlens/utilities";
 import joinPathsInjectable from "../../../../common/path/join-paths.injectable";
 import { getInjectable } from "@ogre-tools/injectable";
 import { hotbarStoreMigrationInjectionToken } from "../common/migrations-token";
 import readJsonSyncInjectable from "../../../../common/fs/read-json-sync.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@openlens/logger";
 import { generateNewIdFor } from "../../../../common/utils/generate-new-id-for";
 import type { ClusterModel } from "../../../../common/cluster-types";
 import { defaultHotbarCells } from "../common/types";
