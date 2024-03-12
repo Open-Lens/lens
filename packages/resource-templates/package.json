@@ -6,7 +6,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "copyright": "© 2023 OpenLens Maintainers",
+  "copyright": "© 2024 OpenLens Maintainers",
   "license": "MIT",
   "author": "OpenLens Maintainers <f.baldo31@gmail.com>",
   "files": [

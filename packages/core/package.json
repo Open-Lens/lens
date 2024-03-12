@@ -3,7 +3,7 @@
   "productName": "",
   "description": "Lens Desktop Core",
   "homepage": "https://github.com/Open-Lens/app",
-  "version": "6.5.2",
+  "version": "6.5.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Open-Lens/app.git"
@@ -48,7 +48,7 @@
     "types/*",
     "tsconfig.json"
   ],
-  "copyright": "© 2023 OpenLens Maintainers",
+  "copyright": "© 2024 OpenLens Maintainers",
   "license": "MIT",
   "author": "OpenLens Maintainers <f.baldo31@gmail.com>",
   "scripts": {

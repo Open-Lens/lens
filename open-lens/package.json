@@ -14,7 +14,7 @@
     "url": "https://github.com/Open-Lens/app/issues"
   },
   "main": "static/build/main.js",
-  "copyright": "© 2023 OpenLens Maintainers",
+  "copyright": "© 2024 OpenLens Maintainers",
   "license": "MIT",
   "author": "OpenLens Maintainers <f.baldo31@gmail.com>",
   "scripts": {
@@ -184,7 +184,7 @@
     "@openlens/application-for-electron-main": "^6.5.0",
     "@openlens/button": "^1.0.0",
     "@openlens/cluster-settings": "^6.5.0",
-    "@openlens/core": "^6.5.2",
+    "@openlens/core": "^6.5.3",
     "@openlens/ensure-binaries": "^6.5.0",
     "@openlens/error-boundary": "^1.0.0",
     "@openlens/event-emitter": "^1.0.0",
