@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 6.5.3 (2024-03-21)
+
+### Bug Fixes
+
+* Avoid infinite loop on extension install ([#7](https://github.com/Open-Lens/app/issues/7)) ([2f58d98](https://github.com/Open-Lens/app/commit/2f58d9856b90ba2073e84da720b91b8c4b2abcaa))
+
+### Features
+
+* Use packages scoped `@openlens`
+
 # 6.5.0 (2023-05-26)
 
 
