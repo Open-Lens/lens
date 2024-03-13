@@ -45,6 +45,7 @@ Lens Desktop is a standalone application for MacOS, Windows and Linux operating 
 cd open-lens
 npm run build
 npm run build:app
+# npx nx run open-lens:build:app
 ```
 
 ## Contributing
