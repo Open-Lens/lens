@@ -101,10 +101,11 @@ class NonInjectedClusterIssues extends React.Component<ClusterIssuesProps & Depe
     }
 
     const { getId, getName, message, kind, selfLink, renderAge } = warning;
+    const id = getId();
 
     return (
       <TableRow
-        key={getId()}
+        key={id}
         sortItem={warning}
         selected={selfLink === kubeSelectedUrlParam.get()}
         onClick={prevDefault(() => toggleDetails(selfLink))}

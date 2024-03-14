@@ -29,7 +29,7 @@ Lens Desktop is a standalone application for MacOS, Windows and Linux operating 
 
 ### Prequisites
 
-* Nodejs v16
+* Nodejs v16 || v18
 
 ### Install
 
