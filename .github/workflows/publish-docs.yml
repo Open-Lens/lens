@@ -17,10 +17,13 @@ jobs:
       matrix:
         node-version: [16.x]
     steps:
-      - name: Set up Python 3.7
+      - name: Set up Python 3
         uses: actions/setup-python@v2
         with:
           python-version: "3.x"
+
+      - name: Install python dependencies
+        run: python -m pip install --upgrade setuptools
 
       - name: Checkout Release from lens
         uses: actions/checkout@v3
