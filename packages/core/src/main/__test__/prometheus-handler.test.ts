@@ -186,7 +186,7 @@ describe("PrometheusHandler", () => {
       [2, 2],
       [2, 3],
     ])("should pick the first provider of %d success(es) between %d failure(s)", async (successes, failures) => {
-      const beforeSuccesses = Math.floor(successes / 2);
+      const beforeSuccesses = Math.floor(successes / 4);
 
       runInAction(() => {
         for (let i = 0; i < beforeSuccesses; i += 1) {
