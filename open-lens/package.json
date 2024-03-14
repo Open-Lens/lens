@@ -4,7 +4,7 @@
   "productName": "OpenLens",
   "description": "OpenLens - Open Source IDE for Kubernetes",
   "homepage": "https://github.com/Open-Lens/app",
-  "version": "6.5.2",
+  "version": "6.5.3-dev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Open-Lens/app.git"
