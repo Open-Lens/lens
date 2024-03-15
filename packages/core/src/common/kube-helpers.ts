@@ -70,7 +70,7 @@ interface KubeConfigOptions {
   clusters: Cluster[];
   users: User[];
   contexts: Context[];
-  currentContext?: string;
+  currentContext: string;
 }
 
 interface OptionsResult {

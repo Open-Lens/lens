@@ -36,7 +36,7 @@
   },
   "config": {
     "k8sProxyVersion": "0.3.0",
-    "bundledKubectlVersion": "1.23.3",
+    "bundledKubectlVersion": "1.25.16",
     "bundledHelmVersion": "3.11.0",
     "sentryDsn": "",
     "contentSecurityPolicy": "script-src 'unsafe-eval' 'self'; frame-src https://*.lens.app:*/; img-src * data:",
@@ -210,7 +210,7 @@
     "@openlens/startable-stoppable": "^1.0.0",
     "@openlens/tooltip": "^1.0.0",
     "@openlens/utilities": "^1.0.0",
-    "@kubernetes/client-node": "^0.18.1",
+    "@kubernetes/client-node": "^0.19.0",
     "@material-ui/core": "^4.12.3",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@ogre-tools/fp": "^16.1.0",
