@@ -130,7 +130,7 @@ export class SupportPage extends React.Component {
 
 `Theme` entity from `@openlens/extensions` provides active theme object and `@observer` decorator makes component reactive - so it will rerender each time any of the observables (active theme in our case) will be changed.
 
-Working example provided in [Styling with Emotion](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-emotion-sample) sample extension.
+Working example provided in [Styling with Emotion](https://github.com/lensapp/lens-extension-samples/tree/master/styling-emotion-sample) sample extension.
 
 ## Injected Styles
 
@@ -158,6 +158,6 @@ const Container = styled.div(() => ({
 
 You can explore samples for each styling technique that you can use for extensions:
 
-- [Styling with Sass](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-sass-sample)
-- [Styling with Emotion](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-emotion-sample)
-- [Styling with CSS Modules](https://github.com/Open-Lens/app-extension-samples/tree/master/styling-css-modules-sample)
+- [Styling with Sass](https://github.com/lensapp/lens-extension-samples/tree/master/styling-sass-sample)
+- [Styling with Emotion](https://github.com/lensapp/lens-extension-samples/tree/master/styling-emotion-sample)
+- [Styling with CSS Modules](https://github.com/lensapp/lens-extension-samples/tree/master/styling-css-modules-sample)
