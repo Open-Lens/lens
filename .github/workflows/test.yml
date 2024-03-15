@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         # os: [ubuntu-23.04, macos-11, windows-2019]
-        os: [$WF_UBUNTU_LTS]
+        os: [${{ vars.WF_UBUNTU_LTS }}]
         node-version: [18.x]
     steps:
       - name: Checkout Release from lens
