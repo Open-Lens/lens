@@ -4,7 +4,7 @@ on:
     types: [opened, edited, synchronize]
 jobs:
   milestone:
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.WF_UBUNTU_LTS }}
     steps:
       - uses: actions/checkout@v3
       - name: Require Milestone

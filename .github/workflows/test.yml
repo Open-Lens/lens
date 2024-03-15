@@ -90,7 +90,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-20.04]
+        os: [${{ vars.WF_UBUNTU_LTS }}]
         node-version: [18.x]
     steps:
       - name: Checkout Release from lens

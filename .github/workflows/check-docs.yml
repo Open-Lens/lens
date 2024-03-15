@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Check Docs
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.WF_UBUNTU_LTS }}
     if: ${{ contains(github.event.pull_request.labels.*.name, 'area/documentation') }}
     strategy:
       matrix:

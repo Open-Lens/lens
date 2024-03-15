@@ -14,7 +14,7 @@ on:
 jobs:
   publish-npm-packages:
     name: Publish NPM Packages
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.WF_UBUNTU_LTS }}
     strategy:
       matrix:
         node-version: [18.x]
