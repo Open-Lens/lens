@@ -16,7 +16,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # os: [ubuntu-23.04, macos-11, windows-2019]
         os: [${{ vars.WF_UBUNTU_LTS }}]
         node-version: [18.x]
     steps:
