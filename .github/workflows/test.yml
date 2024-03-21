@@ -11,15 +11,15 @@ concurrency:
   cancel-in-progress: true
 jobs:
   integration-test:
-    name: integration tests on ${{ matrix.os }}
+    name: integration tests on ${{ matrix.os }} with NodeJS ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
         os:
-          - "${{ vars.WF_UBUNTU_LTS }}"
           - "${{ vars.WF_UBUNTU_LATEST }}"
-        node-version: [18.x]
+        node-version:
+          - "${{ vars.WF_NODEJS_LATEST }}"
     steps:
       - name: Checkout Release from lens
         uses: actions/checkout@v3
