@@ -44,6 +44,10 @@ jobs:
       - name: Install specific npm version
         run: npm install -g npm@^9.6.7
 
+      - name: Ensure pip is installed
+        if: runner.os == 'macOS'
+        run: python3 -m ensurepip
+
       - name: Install specific python dependencies
         run: pip install setuptools
 

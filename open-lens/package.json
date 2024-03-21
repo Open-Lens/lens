@@ -43,7 +43,7 @@
     "welcomeRoute": "/welcome"
   },
   "engines": {
-    "node": ">=16 <19"
+    "node": ">=16 <=20"
   },
   "jest": {
     "collectCoverage": false,
