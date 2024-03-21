@@ -17,9 +17,14 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - "${{ vars.WF_UBUNTU_LATEST }}"
+          - "${{ vars.WF_UBUNTU_LTS }}"
+          - "${{ vars.WF_MACOS_LATEST }}"
+          - "${{ vars.WF_MACOS_OLD }}"
+          - "${{ vars.WF_WINDOWS_LATEST }}"
+          - "${{ vars.WF_WINDOWS_OLD }}"
         node-version:
           - "${{ vars.WF_NODEJS_LATEST }}"
+          - "${{ vars.WF_NODEJS_OLD }}"
     steps:
       - name: Checkout Release from lens
         uses: actions/checkout@v3
