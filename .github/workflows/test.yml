@@ -20,7 +20,6 @@ jobs:
           - "${{ vars.WF_UBUNTU_LTS }}"
         node-version:
           - "${{ vars.WF_NODEJS_LATEST }}"
-          - "${{ vars.WF_NODEJS_OLD }}"
     steps:
       - name: Checkout Release from lens
         uses: actions/checkout@v3
@@ -96,13 +95,15 @@ jobs:
         if: ${{ runner.os == 'Windows' }}
 
   unit-test:
-    name: unit tests on ${{ matrix.os }}
+    name: unit tests on ${{ matrix.os }} with NodeJS ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        os: ["${{ vars.WF_UBUNTU_LTS }}"]
-        node-version: [18.x]
+        os:
+          - "${{ vars.WF_UBUNTU_LTS }}"
+        node-version:
+          - "${{ vars.WF_NODEJS_LATEST }}"
     steps:
       - name: Checkout Release from lens
         uses: actions/checkout@v3
