@@ -16,7 +16,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ["${{ vars.WF_UBUNTU_LTS }}"]
+        os:
+          - "${{ vars.WF_UBUNTU_LTS }}"
+          - "${{ vars.WF_UBUNTU_LATEST }}"
         node-version: [18.x]
     steps:
       - name: Checkout Release from lens
