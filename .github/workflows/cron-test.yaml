@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [${{ vars.WF_UBUNTU_LTS }}, macos-11, windows-2019]
+        os: ["${{ vars.WF_UBUNTU_LTS }}", macos-11, windows-2019]
         node-version: [18.x]
     steps:
       - name: Checkout Release from lens
