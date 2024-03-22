@@ -48,6 +48,7 @@ jobs:
       - name: Ensure pip is installed
         run: python3 -m ensurepip
 
+      - name: Install setuptools on ${{ vars.WF_MACOS_OLD }}
       - name: Get npm cache directory path
         if: ${{ runner.os != 'Windows' }}
         id: npm-cache-dir-path
