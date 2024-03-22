@@ -50,7 +50,9 @@ jobs:
         run: npm install -g npm@${{ vars.WF_NPM_OLD }}
 
       - name: Ensure pip is installed
-        run: python3 -m ensurepip
+        run: python -m ensurepip
+      - name: Install specific python dependencies
+        run: python -m pip install setuptools
 
       - name: Get npm cache directory path
         if: ${{ runner.os != 'Windows' }}
