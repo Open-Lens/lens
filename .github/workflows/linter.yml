@@ -18,27 +18,27 @@ jobs:
         with:
           fetch-depth: 0
 
-      # - name: Using Node.js ${{ matrix.node-version }}
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: ${{ matrix.node-version }}
+      - name: Using Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
 
-      # - name: Install npm version matching NodeJS
-      #   if: ${{ matrix.node-version == vars.WF_NODEJS_LATEST }}
-      #   run: npm install -g npm@${{ vars.WF_NPM_LATEST }}
+      - name: Install npm version matching NodeJS
+        if: ${{ matrix.node-version == vars.WF_NODEJS_LATEST }}
+        run: npm install -g npm@${{ vars.WF_NPM_LATEST }}
 
-      # - name: Install npm version matching NodeJS
-      #   if: ${{ matrix.node-version == vars.WF_NODEJS_OLD }}
-      #   run: npm install -g npm@${{ vars.WF_NPM_OLD }}
+      - name: Install npm version matching NodeJS
+        if: ${{ matrix.node-version == vars.WF_NODEJS_OLD }}
+        run: npm install -g npm@${{ vars.WF_NPM_OLD }}
 
-      # - name: Install deps
-      #   run: npm install
+      - name: Install deps
+        run: npm install
 
-      # - name: Lint
-      #   run: npm run lint
+      - name: Lint
+        run: npm run lint
 
-      # - name: Verify Publish Configurations
-      #   run: ./scripts/lint-publish-configs.sh
+      - name: Verify Publish Configurations
+        run: ./scripts/lint-publish-configs.sh
 
-      # - name: Verify No Duplicate Dependencies
-      #   run: ./scripts/lint-package-dependencies.sh
+      - name: Verify No Duplicate Dependencies
+        run: ./scripts/lint-package-dependencies.sh
