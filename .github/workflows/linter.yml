@@ -7,7 +7,7 @@ concurrency:
 jobs:
   build:
     name: Lint
-    runs-on: ${{ vars.WF_UBUNTU_LTS }}
+    runs-on: []
     strategy:
       matrix:
         node-version:
