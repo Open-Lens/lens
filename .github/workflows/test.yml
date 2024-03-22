@@ -49,6 +49,9 @@ jobs:
         run: python3 -m ensurepip
 
       - name: Install setuptools on ${{ vars.WF_MACOS_OLD }}
+        if: ${{ matrix.os == vars.WF_MACOS_OLD }}
+        run: python3 -m pip install setuptools
+
       - name: Get npm cache directory path
         if: ${{ runner.os != 'Windows' }}
         id: npm-cache-dir-path
