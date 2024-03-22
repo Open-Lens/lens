@@ -11,6 +11,7 @@ jobs:
     strategy:
       matrix:
         node-version:
+          - "${{ vars.WF_NODEJS_LATEST }}"
           - "${{ vars.WF_NODEJS_OLD }}"
     steps:
       - name: Checkout Release from lens
