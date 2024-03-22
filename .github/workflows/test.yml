@@ -17,13 +17,9 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - "${{ vars.WF_UBUNTU_LTS }}"
           - "${{ vars.WF_MACOS_LATEST }}"
           - "${{ vars.WF_MACOS_OLD }}"
-          - "${{ vars.WF_WINDOWS_LATEST }}"
-          - "${{ vars.WF_WINDOWS_OLD }}"
         node-version:
-          - "${{ vars.WF_NODEJS_LATEST }}"
           - "${{ vars.WF_NODEJS_OLD }}"
     steps:
       - name: Checkout Release from lens
@@ -50,9 +46,9 @@ jobs:
         run: npm install -g npm@${{ vars.WF_NPM_OLD }}
 
       - name: Ensure pip is installed
-        run: python -m ensurepip
+        run: python3 -m ensurepip
       - name: Install specific python dependencies
-        run: python -m pip install setuptools
+        run: python3 -m pip install setuptools
 
       - name: Get npm cache directory path
         if: ${{ runner.os != 'Windows' }}
