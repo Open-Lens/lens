@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Update default docs Version
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.WF_UBUNTU_LTS }}
     steps:
       - name: Set up Python 3.7
         uses: actions/setup-python@v2

@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Manual documentation update to sync a deployed Version with Master branch
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.WF_UBUNTU_LTS }}
     strategy:
       matrix:
         node-version: [18.x]

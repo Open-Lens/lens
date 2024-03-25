@@ -9,7 +9,7 @@ on:
 jobs:
   release:
     name: Release
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.WF_UBUNTU_LTS }}
     if: ${{ github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'release') }}
     outputs:
       version: ${{ steps.tagger.outputs.tagname }}

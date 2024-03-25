@@ -11,13 +11,19 @@ concurrency:
   cancel-in-progress: true
 jobs:
   integration-test:
-    name: integration tests on ${{ matrix.os }}
+    name: integration tests on ${{ matrix.os }} with NodeJS ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-20.04, macos-11, windows-2019]
-        node-version: [18.x]
+        os:
+          - "${{ vars.WF_UBUNTU_LTS }}"
+          - "${{ vars.WF_MACOS_LATEST }}"
+          - "${{ vars.WF_MACOS_OLD }}"
+          - "${{ vars.WF_WINDOWS_LATEST }}"
+          - "${{ vars.WF_WINDOWS_OLD }}"
+        node-version:
+          - "${{ vars.WF_NODEJS_OLD }}"
     steps:
       - name: Checkout Release from lens
         uses: actions/checkout@v3
@@ -34,11 +40,21 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install specific npm version
-        run: npm install -g npm@^9.6.7
+      - name: Install npm version matching NodeJS
+        if: ${{ matrix.node-version == vars.WF_NODEJS_LATEST }}
+        run: npm install -g npm@${{ vars.WF_NPM_LATEST }}
 
-      - name: Install specific python dependencies
-        run: pip install setuptools
+      - name: Install npm version matching NodeJS
+        if: ${{ matrix.node-version == vars.WF_NODEJS_OLD }}
+        run: npm install -g npm@${{ vars.WF_NPM_OLD }}
+
+      - name: Ensure pip is installed
+        if: ${{ runner.os == 'macOS' }}
+        run: python3 -m ensurepip
+
+      - name: Install setuptools on ${{ vars.WF_MACOS_OLD }}
+        if: ${{ matrix.os == vars.WF_MACOS_OLD }}
+        run: python3 -m pip install setuptools
 
       - name: Get npm cache directory path
         if: ${{ runner.os != 'Windows' }}
@@ -84,13 +100,16 @@ jobs:
         if: ${{ runner.os == 'Windows' }}
 
   unit-test:
-    name: unit tests on ${{ matrix.os }}
+    name: unit tests on ${{ matrix.os }} with NodeJS ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-20.04]
-        node-version: [18.x]
+        os:
+          - "${{ vars.WF_UBUNTU_LTS }}"
+        node-version:
+          # - "${{ vars.WF_NODEJS_LATEST }}"
+          - "${{ vars.WF_NODEJS_OLD }}"
     steps:
       - name: Checkout Release from lens
         uses: actions/checkout@v3
@@ -107,8 +126,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install specific npm version
-        run: npm install -g npm@^9.6.7
+      - name: Install npm version matching NodeJS
+        if: ${{ matrix.node-version == vars.WF_NODEJS_LATEST }}
+        run: npm install -g npm@${{ vars.WF_NPM_LATEST }}
+
+      - name: Install npm version matching NodeJS
+        if: ${{ matrix.node-version == vars.WF_NODEJS_OLD }}
+        run: npm install -g npm@${{ vars.WF_NPM_OLD }}
 
       - name: Get npm cache directory path
         if: ${{ runner.os != 'Windows' }}

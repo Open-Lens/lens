@@ -5,7 +5,7 @@ on:
   workflow_dispatch: # for testing
 jobs:
   create-alpha-release-pr:
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.WF_UBUNTU_LTS }}
     steps:
       - uses: actions/checkout@v3
         with:
