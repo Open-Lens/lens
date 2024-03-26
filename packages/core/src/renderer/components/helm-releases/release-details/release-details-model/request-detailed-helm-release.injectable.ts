@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { AsyncResult } from "@openlens/utilities";
-import requestHelmReleaseInjectable from "../../../../../features/helm-releases/renderer/request–helm-release.injectable";
+import requestHelmReleaseInjectable from "../../../../../features/helm-releases/renderer/request-helm-release.injectable";
 import type { GetHelmReleaseArgs, HelmReleaseDataWithResources } from "../../../../../features/helm-releases/common/channels";
 import requestListHelmReleasesInjectable from "../../../../../features/helm-releases/renderer/request-list-helm-releases.injectable";
 import type { HelmRelease } from "../../../../../common/k8s-api/endpoints/helm-releases.api";
