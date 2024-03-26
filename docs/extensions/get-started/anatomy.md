@@ -53,7 +53,7 @@ Some of the most-important fields include:
   "version": "0.0.1",
   "description": "Lens helloworld-sample",
   "license": "MIT",
-  "homepage": "https://github.com/Open-Lens/app-extension-samples",
+  "homepage": "https://github.com/lensapp/lens-extension-samples",
   "engines": {
     "node": "^16.14.2",
     "lens": "5.4"
