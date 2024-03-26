@@ -321,7 +321,7 @@
     "concurrently": "^7.6.0",
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3",
-    "css-loader": "^6.7.2",
+    "css-loader": "^6.10.0",
     "electron": "^22.3.10",
     "electron-builder": "^23.6.0",
     "electron-notarize": "^0.3.0",
