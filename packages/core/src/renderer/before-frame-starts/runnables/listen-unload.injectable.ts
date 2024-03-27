@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Maintainers. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { unmountComponentAtNode } from "react-dom";
+import { createRoot } from "react-dom/client";
 import { getInjectable } from "@ogre-tools/injectable";
 import currentlyInClusterFrameInjectable from "../../routes/currently-in-cluster-frame.injectable";
 import { beforeFrameStartsSecondInjectionToken } from "../tokens";
@@ -32,10 +32,10 @@ const listenUnloadInjectable = getInjectable({
         }
 
         closeRendererLogFile();
-        const rootElem = document.getElementById("app");
+        const rootElem = createRoot(document.getElementById("app")!);
 
         if (rootElem) {
-          unmountComponentAtNode(rootElem);
+          rootElem.unmount();
         }
       });
     },
