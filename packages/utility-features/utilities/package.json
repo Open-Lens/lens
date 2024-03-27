@@ -26,7 +26,7 @@
   },
   "peerDependencies": {
     "@astronautlabs/jsonpath": "^1.1.0",
-    "crypto-js": "^4.1.1",
+    "crypto-js": "^4.2.0",
     "lodash": "^4.17.21",
     "mobx": "^6.8.0",
     "moment": "^2.29.4",
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@openlens/webpack": "^6.5.0",
-    "@types/crypto-js": "^4.1.1",
+    "@types/crypto-js": "^4.2.2",
     "@types/lodash": "^4.14.191",
     "@types/react": "^17.0.2",
     "@types/react-router": "^5.1.20",
