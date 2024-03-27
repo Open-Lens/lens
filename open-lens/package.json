@@ -183,7 +183,7 @@
     "@openlens/button": "^1.0.0",
     "@openlens/cluster-settings": "^6.5.0",
     "@openlens/core": "^6.5.3",
-    "@openlens/ensure-binaries": "^6.5.0",
+    "@openlens/ensure-binaries": "^6.5.1",
     "@openlens/error-boundary": "^1.0.0",
     "@openlens/event-emitter": "^1.0.0",
     "@openlens/feature-core": "^6.5.0",
