@@ -328,11 +328,7 @@ export class ExtensionLoader {
             this.dependencies.logger.error(`${logModule}: error loading extension`, { ext: installedExtension, err });
           }
         } else if (!installedExtension.isEnabled && alreadyInit) {
-          this.dependencies.logger.warn(
-            `${extId} cannot be enabled - compatible: ${installedExtension.isCompatible}, enbabled: ${installedExtension.isEnabled}, init: ${alreadyInit}`,
-          );
-
-          return;
+          this.removeInstance(extId);
         }
 
         return null;
