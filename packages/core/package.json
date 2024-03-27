@@ -274,7 +274,6 @@
     "moment-timezone": "^0.5.40",
     "monaco-editor": "^0.38.0",
     "node-pty": "0.10.1",
-    "npm": "^9.6.7",
     "path-to-regexp": "^6.2.0",
     "proper-lockfile": "^4.1.2",
     "query-string": "^7.1.3",
