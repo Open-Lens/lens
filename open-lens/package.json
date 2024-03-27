@@ -42,9 +42,6 @@
     "contentSecurityPolicy": "script-src 'unsafe-eval' 'self'; frame-src https://*.lens.app:*/; img-src * data:",
     "welcomeRoute": "/welcome"
   },
-  "engines": {
-    "node": ">=16 <=20"
-  },
   "jest": {
     "collectCoverage": false,
     "verbose": true,
@@ -183,7 +180,7 @@
     "@openlens/button": "^1.0.0",
     "@openlens/cluster-settings": "^6.5.0",
     "@openlens/core": "^6.5.3",
-    "@openlens/ensure-binaries": "^6.5.0",
+    "@openlens/ensure-binaries": "^6.5.1",
     "@openlens/error-boundary": "^1.0.0",
     "@openlens/event-emitter": "^1.0.0",
     "@openlens/feature-core": "^6.5.0",
@@ -252,7 +249,6 @@
     "moment-timezone": "^0.5.40",
     "monaco-editor": "^0.38.0",
     "node-pty": "0.10.1",
-    "npm": "^9.6.7",
     "p-limit": "^3.1.0",
     "path-to-regexp": "^6.2.0",
     "proper-lockfile": "^4.1.2",

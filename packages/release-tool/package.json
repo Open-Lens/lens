@@ -22,7 +22,6 @@
     "@types/node": "^16.18.25",
     "@types/semver": "^7.3.13",
     "install": "^0.13.0",
-    "npm": "^9.6.7",
     "rimraf": "^4.4.1"
   },
   "dependencies": {
