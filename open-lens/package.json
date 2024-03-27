@@ -42,9 +42,6 @@
     "contentSecurityPolicy": "script-src 'unsafe-eval' 'self'; frame-src https://*.lens.app:*/; img-src * data:",
     "welcomeRoute": "/welcome"
   },
-  "engines": {
-    "node": ">=16 <=20"
-  },
   "jest": {
     "collectCoverage": false,
     "verbose": true,

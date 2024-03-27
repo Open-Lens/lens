@@ -21,7 +21,7 @@
     "./renderer": "./dist/renderer.js"
   },
   "engines": {
-    "lens": "6.5"
+    "lens": ">=6.5"
   },
   "author": {
     "name": "OpenLens Maintainers",
