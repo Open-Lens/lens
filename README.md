@@ -33,11 +33,15 @@ Lens Desktop is a standalone application for MacOS, Windows and Linux operating 
 
 ### Install
 
-`npm run install:all`
+`npm run all:install`
 
 ### Run (dev)
 
 `npm run start-dev`
+
+If binaries have been downloaded once you can skip this step with:
+
+`export LENS_SKIP_DOWNLOAD_BINARIES=true`
 
 ### Build app
 

@@ -9,7 +9,7 @@ This documentation describes:
 
 - How to build, run, test, and publish an extension.
 - How to take full advantage of the Lens Extension API.
-- Where to find [guides](extensions/guides/README.md) and [code samples](https://github.com/Open-Lens/app-extension-samples) to help get you started.
+- Where to find [guides](extensions/guides/README.md) and [code samples](https://github.com/lensapp/lens-extension-samples) to help get you started.
 
 ## What Extensions Can Do
 
