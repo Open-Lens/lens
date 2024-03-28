@@ -36,7 +36,7 @@
     "@openlens/button": "^1.0.0-alpha.5",
     "@openlens/routing": "^1.0.0-alpha.5",
     "@openlens/utilities": "^1.0.0-alpha.1",
-    "@ogre-tools/injectable": "^16.1.0",
+    "@ogre-tools/injectable": "^18.0.1",
     "@ogre-tools/injectable-react": "^16.1.0",
     "auto-bind": "^4.0.0",
     "history": "^4.10.1",
