@@ -23,7 +23,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<any> {
   round?: boolean;
   href?: string; // render as hyperlink
   target?: "_blank"; // in case of using @href
-  children?: StrictReactNode;
+  children?: any;
 }
 
 export const Button = withTooltip((props: ButtonProps) => {

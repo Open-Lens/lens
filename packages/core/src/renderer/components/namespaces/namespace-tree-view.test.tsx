@@ -12,7 +12,7 @@ import { renderFor } from "../test-utils/renderFor";
 import hierarchicalNamespacesInjectable from "./hierarchical-namespaces.injectable";
 import { NamespaceTreeView } from "./namespace-tree-view";
 import type { NamespaceTree } from "./store";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 
 jest.mock("react-router-dom", () => ({
   Link: ({ children }: { children: StrictReactNode }) => children,

@@ -14,9 +14,7 @@ exports[`Viewing Custom Resources with extra columns renders 1`] = `
       >
         <div
           class="drawer-title-text flex gaps align-center"
-        >
-          
-        </div>
+        />
         <i
           class="Icon material interactive focusable"
           tabindex="0"

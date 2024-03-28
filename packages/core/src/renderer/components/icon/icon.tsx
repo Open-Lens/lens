@@ -36,7 +36,7 @@ import Workloads from "./workloads.svg";
 import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { loggerInjectionToken } from "@openlens/logger";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 
 const hrefValidation = /https?:\/\//;
 

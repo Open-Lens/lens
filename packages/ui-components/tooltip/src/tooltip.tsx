@@ -5,10 +5,10 @@
 
 import "./tooltip.scss";
 
-import React from "react";
+import React, { ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { observer } from "mobx-react";
-import type { IClassName, StrictReactNode } from "@openlens/utilities";
+import type { IClassName } from "@openlens/utilities";
 import { cssNames } from "@openlens/utilities";
 import { observable, makeObservable, action, runInAction } from "mobx";
 import autoBindReact from "auto-bind/react";
@@ -35,7 +35,7 @@ export interface TooltipProps {
   className?: IClassName;
   formatters?: TooltipContentFormatters;
   style?: React.CSSProperties;
-  children?: StrictReactNode;
+  children?: ReactNode;
   "data-testid"?: string;
 }
 

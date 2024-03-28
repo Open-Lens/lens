@@ -8,7 +8,7 @@ import "./info-panel.scss";
 import React, { Component } from "react";
 import { computed, observable, reaction, makeObservable } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { Button } from "@openlens/button";
 import { Icon } from "../icon";

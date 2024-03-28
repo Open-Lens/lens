@@ -15,7 +15,7 @@ import { Table, TableCell, TableHead, TableRow } from "../table";
 import type { Logger } from "@openlens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { loggerInjectionToken } from "@openlens/logger";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 
 export interface PodSecurityPolicyDetailsProps extends KubeObjectDetailsProps<PodSecurityPolicy> {
 }

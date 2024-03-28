@@ -5,7 +5,7 @@
 
 import "./wizard.scss";
 import React from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, prevDefault } from "@openlens/utilities";
 import { Button } from "@openlens/button";
 import { Stepper } from "../stepper";

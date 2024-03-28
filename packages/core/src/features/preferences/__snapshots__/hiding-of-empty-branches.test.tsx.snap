@@ -196,6 +196,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -214,6 +215,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-theme-input-placeholder"
                             aria-expanded="false"
@@ -287,6 +289,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -304,6 +307,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-expanded="false"
                             aria-haspopup="true"
@@ -432,6 +436,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -449,6 +454,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-expanded="false"
                             aria-haspopup="true"
@@ -902,6 +908,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -920,6 +927,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-theme-input-placeholder"
                             aria-expanded="false"
@@ -993,6 +1001,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1010,6 +1019,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-expanded="false"
                             aria-haspopup="true"
@@ -1138,6 +1148,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1155,6 +1166,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-expanded="false"
                             aria-haspopup="true"
@@ -1620,6 +1632,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1638,6 +1651,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-theme-input-placeholder"
                             aria-expanded="false"
@@ -1711,6 +1725,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1728,6 +1743,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-expanded="false"
                             aria-haspopup="true"
@@ -1856,6 +1872,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1873,6 +1890,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page given
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-expanded="false"
                             aria-haspopup="true"

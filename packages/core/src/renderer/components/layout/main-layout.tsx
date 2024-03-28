@@ -7,7 +7,7 @@ import styles from "./main-layout.module.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { ErrorBoundary } from "@openlens/error-boundary";
 import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@openlens/resizing-anchor";

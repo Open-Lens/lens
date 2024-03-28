@@ -6,7 +6,7 @@
 import "./tabs.scss";
 import type { DOMAttributes } from "react";
 import React from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { Icon } from "../icon";
 import autoBindReact from "auto-bind/react";

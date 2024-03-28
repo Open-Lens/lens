@@ -5,7 +5,7 @@
 import "./hotbar-menu.scss";
 
 import React, { useState } from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 
 export interface HotbarCellProps extends React.HTMLAttributes<HTMLDivElement> {

@@ -9,8 +9,8 @@ import "./slider.scss";
 
 import React, { Component } from "react";
 import { cssNames } from "@openlens/utilities";
-import type { SliderClassKey, SliderProps as MaterialSliderProps } from "@material-ui/core/Slider";
-import MaterialSlider from "@material-ui/core/Slider";
+import type { SliderClassKey, SliderProps as MaterialSliderProps } from "@mui/material/Slider";
+import MaterialSlider from "@mui/material/Slider";
 import assert from "assert";
 
 export interface SliderProps extends Omit<MaterialSliderProps, "onChange"> {

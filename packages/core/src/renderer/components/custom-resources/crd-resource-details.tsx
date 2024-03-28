@@ -7,7 +7,7 @@ import "./crd-resource-details.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, safeJSONPathValue } from "@openlens/utilities";
 import { Badge } from "../badge";
 import { DrawerItem } from "../drawer";

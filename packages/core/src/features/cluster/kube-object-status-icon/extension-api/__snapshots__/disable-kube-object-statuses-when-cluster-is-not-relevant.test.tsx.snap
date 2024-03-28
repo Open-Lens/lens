@@ -15,9 +15,7 @@ exports[`disable kube object statuses when cluster is not relevant given extensi
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -322,7 +320,6 @@ exports[`disable kube object statuses when cluster is not relevant given extensi
                   class="age"
                 >
                    . 
-                  
                 </span>
               </div>
             </div>
@@ -477,9 +474,7 @@ exports[`disable kube object statuses when cluster is not relevant given extensi
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -899,9 +894,7 @@ exports[`disable kube object statuses when cluster is not relevant given not yet
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"

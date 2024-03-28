@@ -5,7 +5,7 @@
 
 import "./line-progress.scss";
 import React from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { withTooltip } from "@openlens/tooltip";
 

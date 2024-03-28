@@ -14,9 +14,7 @@ exports[`cluster - order of sidebar items when rendered renders 1`] = `
       >
         <div
           class="drawer-title-text flex gaps align-center"
-        >
-          
-        </div>
+        />
         <i
           class="Icon material interactive focusable"
           tabindex="0"
@@ -396,6 +394,7 @@ exports[`cluster - order of sidebar items when rendered renders 1`] = `
                     aria-live="polite"
                     aria-relevant="additions text"
                     class="css-1f43avz-a11yText-A11yText"
+                    role="log"
                   />
                   <div
                     class="Select__control css-13cymwt-control"
@@ -414,6 +413,7 @@ exports[`cluster - order of sidebar items when rendered renders 1`] = `
                         data-value=""
                       >
                         <input
+                          aria-activedescendant=""
                           aria-autocomplete="list"
                           aria-describedby="react-select-overview-namespace-select-filter-input-placeholder"
                           aria-expanded="false"
@@ -617,9 +617,7 @@ exports[`cluster - order of sidebar items when rendered when parent is expanded 
       >
         <div
           class="drawer-title-text flex gaps align-center"
-        >
-          
-        </div>
+        />
         <i
           class="Icon material interactive focusable"
           tabindex="0"
@@ -1051,6 +1049,7 @@ exports[`cluster - order of sidebar items when rendered when parent is expanded 
                     aria-live="polite"
                     aria-relevant="additions text"
                     class="css-1f43avz-a11yText-A11yText"
+                    role="log"
                   />
                   <div
                     class="Select__control css-13cymwt-control"
@@ -1069,6 +1068,7 @@ exports[`cluster - order of sidebar items when rendered when parent is expanded 
                         data-value=""
                       >
                         <input
+                          aria-activedescendant=""
                           aria-autocomplete="list"
                           aria-describedby="react-select-overview-namespace-select-filter-input-placeholder"
                           aria-expanded="false"

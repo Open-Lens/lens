@@ -15,9 +15,7 @@ exports[`show status for a kube object given application starts and in test page
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -437,9 +435,7 @@ exports[`show status for a kube object given application starts and in test page
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -710,47 +706,7 @@ exports[`show status for a kube object given application starts and in test page
       </div>
       <div
         class="contents"
-      >
-        <i
-          class="Icon KubeObjectStatusIcon error material focusable"
-          data-testid="kube-object-status-icon-for-some-uid"
-        >
-          <span
-            class="icon"
-            data-icon-name="error"
-          >
-            error
-          </span>
-        </i>
-        <div
-          data-testid="tooltip-content-for-kube-object-status-icon-for-some-uid"
-        >
-          <div
-            class="KubeObjectStatusTooltip"
-          >
-            <div
-              class="level error"
-            >
-              <span
-                class="title"
-              >
-                Critical
-              </span>
-              <div
-                class="status msg"
-              >
-                - Some critical status for some-name 
-                <span
-                  class="age"
-                >
-                   . 
-                  2d
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      />
       <div
         class="footer"
       >
@@ -899,9 +855,7 @@ exports[`show status for a kube object given application starts and in test page
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -1172,47 +1126,7 @@ exports[`show status for a kube object given application starts and in test page
       </div>
       <div
         class="contents"
-      >
-        <i
-          class="Icon KubeObjectStatusIcon info material focusable"
-          data-testid="kube-object-status-icon-for-some-uid"
-        >
-          <span
-            class="icon"
-            data-icon-name="info"
-          >
-            info
-          </span>
-        </i>
-        <div
-          data-testid="tooltip-content-for-kube-object-status-icon-for-some-uid"
-        >
-          <div
-            class="KubeObjectStatusTooltip"
-          >
-            <div
-              class="level info"
-            >
-              <span
-                class="title"
-              >
-                Info
-              </span>
-              <div
-                class="status msg"
-              >
-                - Some info status for some-name 
-                <span
-                  class="age"
-                >
-                   . 
-                  2d
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      />
       <div
         class="footer"
       >
@@ -1361,9 +1275,7 @@ exports[`show status for a kube object given application starts and in test page
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -1783,9 +1695,7 @@ exports[`show status for a kube object given application starts and in test page
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -2205,9 +2115,7 @@ exports[`show status for a kube object given application starts and in test page
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -2478,47 +2386,7 @@ exports[`show status for a kube object given application starts and in test page
       </div>
       <div
         class="contents"
-      >
-        <i
-          class="Icon KubeObjectStatusIcon warning material focusable"
-          data-testid="kube-object-status-icon-for-some-uid"
-        >
-          <span
-            class="icon"
-            data-icon-name="warning"
-          >
-            warning
-          </span>
-        </i>
-        <div
-          data-testid="tooltip-content-for-kube-object-status-icon-for-some-uid"
-        >
-          <div
-            class="KubeObjectStatusTooltip"
-          >
-            <div
-              class="level warning"
-            >
-              <span
-                class="title"
-              >
-                Warning
-              </span>
-              <div
-                class="status msg"
-              >
-                - Some warning status for some-name 
-                <span
-                  class="age"
-                >
-                   . 
-                  2d
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      />
       <div
         class="footer"
       >

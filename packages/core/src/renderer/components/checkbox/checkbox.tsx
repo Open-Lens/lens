@@ -5,7 +5,7 @@
 
 import "./checkbox.scss";
 import React from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, noop } from "@openlens/utilities";
 
 export interface CheckboxProps {

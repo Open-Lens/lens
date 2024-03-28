@@ -9,7 +9,7 @@ import type { ErrorInfo } from "react";
 import React from "react";
 import { observer } from "mobx-react";
 import { Button } from "@openlens/button";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observableHistoryInjectionToken } from "@openlens/routing";

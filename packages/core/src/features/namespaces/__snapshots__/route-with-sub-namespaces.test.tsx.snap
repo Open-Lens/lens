@@ -15,9 +15,7 @@ exports[`namespaces route when viewed with some subNamespaces when navigating to
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -888,9 +886,7 @@ exports[`namespaces route when viewed with some subNamespaces when navigating to
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -1743,37 +1739,6 @@ exports[`namespaces route when viewed with some subNamespaces when navigating to
       </div>
     </div>
   </div>
-  <ul
-    class="Animate opacity Menu MenuActions flex KubeObjectMenu right bottom portal enter"
-    data-testid="menu-actions-for-kube-object-menu-for-namespace-default"
-    id="menu-actions-for-kube-object-menu-for-namespace-default"
-    style="--enter-duration: 100ms; --leave-duration: 100ms;"
-  >
-    <li
-      class="MenuItem"
-      data-testid="menu-action-delete-for-/api/v1/namespaces/default"
-      tabindex="0"
-    >
-      <i
-        class="Icon material focusable"
-      >
-        <span
-          class="icon"
-          data-icon-name="delete"
-        >
-          delete
-        </span>
-      </i>
-      <div>
-        Delete
-      </div>
-      <span
-        class="title"
-      >
-        Delete
-      </span>
-    </li>
-  </ul>
 </body>
 `;
 
@@ -1792,9 +1757,7 @@ exports[`namespaces route when viewed with some subNamespaces when navigating to
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -2647,36 +2610,5 @@ exports[`namespaces route when viewed with some subNamespaces when navigating to
       </div>
     </div>
   </div>
-  <ul
-    class="Animate opacity Menu MenuActions flex KubeObjectMenu right bottom portal enter"
-    data-testid="menu-actions-for-kube-object-menu-for-namespace-my-sub-namespace"
-    id="menu-actions-for-kube-object-menu-for-namespace-my-sub-namespace"
-    style="--enter-duration: 100ms; --leave-duration: 100ms;"
-  >
-    <li
-      class="MenuItem"
-      data-testid="menu-action-delete-for-/api/v1/namespaces/my-sub-namespace"
-      tabindex="0"
-    >
-      <i
-        class="Icon material focusable"
-      >
-        <span
-          class="icon"
-          data-icon-name="delete"
-        >
-          delete
-        </span>
-      </i>
-      <div>
-        Delete
-      </div>
-      <span
-        class="title"
-      >
-        Delete
-      </span>
-    </li>
-  </ul>
 </body>
 `;

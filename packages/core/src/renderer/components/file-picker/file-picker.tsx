@@ -13,7 +13,7 @@ import { Spinner } from "../spinner";
 import { observable, makeObservable } from "mobx";
 import { observer } from "mobx-react";
 import _ from "lodash";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 
 export interface FileUploadProps {
     uploadDir: string;

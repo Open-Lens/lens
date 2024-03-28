@@ -9,7 +9,7 @@ import moment from "moment";
 import React from "react";
 
 import type { Secret } from "@openlens/kube-object";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { prevDefault } from "@openlens/utilities";
 import { Icon } from "../../icon";
 

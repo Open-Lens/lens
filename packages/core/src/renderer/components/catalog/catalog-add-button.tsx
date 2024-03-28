@@ -5,7 +5,7 @@
 
 import "./catalog-add-button.scss";
 import React from "react";
-import { SpeedDial, SpeedDialAction } from "@material-ui/lab";
+import { SpeedDial, SpeedDialAction } from "@mui/material";
 import { Icon } from "../icon";
 import { observer } from "mobx-react";
 import { observable, makeObservable, action } from "mobx";
@@ -126,7 +126,7 @@ class NonInjectedCatalogAddButton extends React.Component<CatalogAddButtonProps 
               key={index}
               icon={<Icon material={menuItem.icon}/>}
               tooltipTitle={menuItem.title}
-              onClick={(evt) => {
+              onClick={(evt: Event) => {
                 evt.stopPropagation();
                 menuItem.onClick();
               }}

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { render, RenderResult } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import React from "react";

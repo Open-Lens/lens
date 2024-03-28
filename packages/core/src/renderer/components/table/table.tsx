@@ -7,7 +7,7 @@ import "./table.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, isDefined } from "@openlens/utilities";
 import type { TableRowElem, TableRowProps } from "./table-row";
 import { TableRow } from "./table-row";

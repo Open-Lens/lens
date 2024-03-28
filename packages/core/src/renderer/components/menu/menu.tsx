@@ -8,7 +8,7 @@ import "./menu.scss";
 import type { ReactElement } from "react";
 import React, { Fragment } from "react";
 import { createPortal } from "react-dom";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, noop } from "@openlens/utilities";
 import { Animate } from "../animate";
 import type { IconProps } from "../icon";

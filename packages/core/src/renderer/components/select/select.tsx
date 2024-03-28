@@ -14,7 +14,7 @@ import { observer } from "mobx-react";
 import ReactSelect, { components, createFilter } from "react-select";
 import type { Props as ReactSelectProps, GroupBase, MultiValue, OptionsOrGroups, PropsValue, SingleValue } from "react-select";
 import type { LensTheme } from "../../themes/lens-theme";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import activeThemeInjectable from "../../themes/active.injectable";

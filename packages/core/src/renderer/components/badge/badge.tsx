@@ -8,7 +8,7 @@ import styles from "./badge.module.scss";
 import React, { useEffect, useRef, useState } from "react";
 import { action, observable } from "mobx";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { withTooltip } from "@openlens/tooltip";
 

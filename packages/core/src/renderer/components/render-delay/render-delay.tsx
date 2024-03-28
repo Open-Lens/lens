@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect, useState } from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import type { RequestIdleCallback } from "./request-idle-callback.injectable";
 import type { CancelIdleCallback } from "./cancel-idle-callback.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";

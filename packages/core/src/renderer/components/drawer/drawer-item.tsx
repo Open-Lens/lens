@@ -5,7 +5,7 @@
 
 import "./drawer-item.scss";
 import React from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 
 export interface DrawerItemProps extends React.HTMLAttributes<HTMLDivElement> {

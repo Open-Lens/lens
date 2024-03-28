@@ -10,7 +10,7 @@ import { createPortal } from "react-dom";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { reaction } from "mobx";
 import { Animate } from "../animate";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, noop, stopPropagation } from "@openlens/utilities";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";

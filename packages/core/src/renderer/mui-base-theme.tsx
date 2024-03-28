@@ -4,30 +4,38 @@
  */
 
 import React from "react";
-import { createTheme, ThemeProvider } from "@material-ui/core";
+import { createTheme } from "@mui/material";
+import { ThemeProvider } from "@mui/styles";
+
 
 export const defaultMuiBaseTheme = createTheme({
-  props: {
+  components: {
     MuiIconButton: {
-      color: "inherit",
+        defaultProps: {
+            color: "inherit",
+        }
     },
     MuiSvgIcon: {
-      fontSize: "inherit",
+        defaultProps: {
+            fontSize: "inherit",
+        }
     },
     MuiTooltip: {
-      placement: "top",
+        defaultProps: {
+            placement: "top",
+        }
     },
   },
-  overrides: {
-    MuiIconButton: {
-      root: {
-        "&:hover": {
-          color: "var(--iconActiveColor)",
-          backgroundColor: "var(--iconActiveBackground)",
-        },
-      },
-    },
-  },
+//   overrides: {
+//     MuiIconButton: {
+//         root: {
+//         "&:hover": {
+//             color: "var(--iconActiveColor)",
+//             backgroundColor: "var(--iconActiveBackground)",
+//         },
+//         },
+//     },
+//   },
 });
 
 export function DefaultProps(App: React.ComponentType | React.FunctionComponent) {

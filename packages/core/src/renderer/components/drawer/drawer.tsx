@@ -8,7 +8,7 @@ import "./drawer.scss";
 import React from "react";
 import { clipboard } from "electron";
 import { createPortal } from "react-dom";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, noop } from "@openlens/utilities";
 import { Icon } from "../icon";
 import type { AnimateName } from "../animate";

@@ -7,7 +7,7 @@ import styles from "./dock-tab.module.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, prevDefault, isMiddleClick } from "@openlens/utilities";
 import type { DockStore, DockTab as DockTabModel } from "./dock/store";
 import type { TabProps } from "../tabs";

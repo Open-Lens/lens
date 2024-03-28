@@ -5,7 +5,7 @@
 
 import "./animate.scss";
 import React, { useEffect, useState } from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, noop } from "@openlens/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { RequestAnimationFrame } from "./request-animation-frame.injectable";

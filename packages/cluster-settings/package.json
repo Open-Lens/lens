@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "clean": "rimraf dist/",
-    "build": "lens-webpack-build"
+    "build": "lerna run build"
   },
   "devDependencies": {
     "@openlens/webpack": "^6.5.0",

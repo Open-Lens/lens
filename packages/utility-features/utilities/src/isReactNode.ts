@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import React from "react";
+import React, { ReactNode } from "react";
 import { isObject } from "./type-narrowing";
 
 // ref: https://changelog.com/posts/the-react-reactnode-type-is-a-black-hole
@@ -17,15 +17,7 @@ export type StrictReactFragment =
       };
     };
 
-export type StrictReactNode =
-  | React.ReactElement
-  | React.ReactText
-  | StrictReactFragment
-  | React.ReactPortal
-  | Iterable<StrictReactNode>
-  | boolean
-  | null
-  | undefined;
+export type StrictReactNode = ReactNode;
 
 export function isReactNode(node: unknown): node is StrictReactNode {
   return (isObject(node) && React.isValidElement(node))

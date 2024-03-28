@@ -15,9 +15,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs avail
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -342,6 +340,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs avail
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -360,6 +359,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs avail
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-overview-namespace-select-filter-input-placeholder"
                             aria-expanded="false"
@@ -588,6 +588,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs avail
                           aria-live="polite"
                           aria-relevant="additions text"
                           class="css-1f43avz-a11yText-A11yText"
+                          role="log"
                         />
                         <div
                           class="Select__control css-13cymwt-control"
@@ -605,6 +606,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs avail
                               data-value=""
                             >
                               <input
+                                aria-activedescendant=""
                                 aria-autocomplete="list"
                                 aria-expanded="false"
                                 aria-haspopup="true"
@@ -663,6 +665,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs avail
                           aria-live="polite"
                           aria-relevant="additions text"
                           class="css-1f43avz-a11yText-A11yText"
+                          role="log"
                         />
                         <div
                           class="Select__control css-13cymwt-control"
@@ -680,6 +683,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs avail
                               data-value=""
                             >
                               <input
+                                aria-activedescendant=""
                                 aria-autocomplete="list"
                                 aria-expanded="false"
                                 aria-haspopup="true"
@@ -908,9 +912,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs not a
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -1235,6 +1237,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs not a
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1253,6 +1256,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs not a
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-overview-namespace-select-filter-input-placeholder"
                             aria-expanded="false"
@@ -1481,6 +1485,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs not a
                           aria-live="polite"
                           aria-relevant="additions text"
                           class="css-1f43avz-a11yText-A11yText"
+                          role="log"
                         />
                         <div
                           class="Select__control css-13cymwt-control"
@@ -1498,6 +1503,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs not a
                               data-value=""
                             >
                               <input
+                                aria-activedescendant=""
                                 aria-autocomplete="list"
                                 aria-expanded="false"
                                 aria-haspopup="true"
@@ -1556,6 +1562,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs not a
                           aria-live="polite"
                           aria-relevant="additions text"
                           class="css-1f43avz-a11yText-A11yText"
+                          role="log"
                         />
                         <div
                           class="Select__control css-13cymwt-control"
@@ -1573,6 +1580,7 @@ exports[`download logs options in logs dock tab opening pod logs when logs not a
                               data-value=""
                             >
                               <input
+                                aria-activedescendant=""
                                 aria-autocomplete="list"
                                 aria-expanded="false"
                                 aria-haspopup="true"

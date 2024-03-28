@@ -14,7 +14,7 @@ import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-create
 import type { DiRender } from "../test-utils/renderFor";
 import { renderFor } from "../test-utils/renderFor";
 import { HorizontalPodAutoscalerDetails } from "./details";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 
 jest.mock("react-router-dom", () => ({
   Link: ({ children }: { children: StrictReactNode }) => children,

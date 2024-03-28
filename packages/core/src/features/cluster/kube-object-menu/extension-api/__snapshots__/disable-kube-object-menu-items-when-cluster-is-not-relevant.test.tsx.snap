@@ -15,9 +15,7 @@ exports[`disable kube object menu items when cluster is not relevant given exten
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -449,9 +447,7 @@ exports[`disable kube object menu items when cluster is not relevant given exten
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -877,9 +873,7 @@ exports[`disable kube object menu items when cluster is not relevant given not y
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"

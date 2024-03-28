@@ -8,7 +8,7 @@ import "./menu-actions.scss";
 import React, { isValidElement } from "react";
 import { observable, makeObservable, reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import type { IconProps } from "../icon";
 import { Icon } from "../icon";

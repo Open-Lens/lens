@@ -8,7 +8,7 @@ import styles from "./avatar.module.scss";
 import type { ImgHTMLAttributes, MouseEventHandler } from "react";
 import React from "react";
 import randomColor from "randomcolor";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { computeDefaultShortName } from "../../../common/catalog/helpers";
 

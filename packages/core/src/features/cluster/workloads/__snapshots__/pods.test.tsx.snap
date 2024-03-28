@@ -15,9 +15,7 @@ exports[`workloads / pods when navigating to workloads / pods view given a names
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -359,6 +357,7 @@ exports[`workloads / pods when navigating to workloads / pods view given a names
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -377,6 +376,7 @@ exports[`workloads / pods when navigating to workloads / pods view given a names
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-kube-object-list-layout-namespace-select-input-placeholder"
                             aria-expanded="false"
@@ -754,14 +754,10 @@ exports[`workloads / pods when navigating to workloads / pods view given a names
                               />
                               <div
                                 class="TableCell node"
-                              >
-                                
-                              </div>
+                              />
                               <div
                                 class="TableCell qos"
-                              >
-                                
-                              </div>
+                              />
                               <div
                                 class="TableCell age"
                               >
@@ -954,9 +950,7 @@ exports[`workloads / pods when navigating to workloads / pods view given no pods
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -1298,6 +1292,7 @@ exports[`workloads / pods when navigating to workloads / pods view given no pods
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1316,6 +1311,7 @@ exports[`workloads / pods when navigating to workloads / pods view given no pods
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-kube-object-list-layout-namespace-select-input-placeholder"
                             aria-expanded="false"
@@ -1787,9 +1783,7 @@ exports[`workloads / pods when navigating to workloads / pods view given pods ar
         >
           <div
             class="drawer-title-text flex gaps align-center"
-          >
-            
-          </div>
+          />
           <i
             class="Icon material interactive focusable"
             tabindex="0"
@@ -2131,6 +2125,7 @@ exports[`workloads / pods when navigating to workloads / pods view given pods ar
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -2149,6 +2144,7 @@ exports[`workloads / pods when navigating to workloads / pods view given pods ar
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-kube-object-list-layout-namespace-select-input-placeholder"
                             aria-expanded="false"

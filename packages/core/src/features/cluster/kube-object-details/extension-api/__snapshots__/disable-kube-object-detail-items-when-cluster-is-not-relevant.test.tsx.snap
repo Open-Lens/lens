@@ -413,6 +413,7 @@ exports[`disable kube object detail items when cluster is not relevant given ext
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -431,6 +432,7 @@ exports[`disable kube object detail items when cluster is not relevant given ext
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-overview-namespace-select-filter-input-placeholder"
                             aria-expanded="false"
@@ -1029,6 +1031,7 @@ exports[`disable kube object detail items when cluster is not relevant given ext
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1047,6 +1050,7 @@ exports[`disable kube object detail items when cluster is not relevant given ext
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-overview-namespace-select-filter-input-placeholder"
                             aria-expanded="false"
@@ -1645,6 +1649,7 @@ exports[`disable kube object detail items when cluster is not relevant given not
                       aria-live="polite"
                       aria-relevant="additions text"
                       class="css-1f43avz-a11yText-A11yText"
+                      role="log"
                     />
                     <div
                       class="Select__control css-13cymwt-control"
@@ -1663,6 +1668,7 @@ exports[`disable kube object detail items when cluster is not relevant given not
                           data-value=""
                         >
                           <input
+                            aria-activedescendant=""
                             aria-autocomplete="list"
                             aria-describedby="react-select-overview-namespace-select-filter-input-placeholder"
                             aria-expanded="false"

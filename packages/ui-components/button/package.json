@@ -47,8 +47,8 @@
     "@openlens/eslint-config": "^6.5.0",
     "@openlens/react-testing-library-discovery": "^1.0.0",
     "@openlens/webpack": "^6.5.0",
-    "@testing-library/react": "^12.1.5",
-    "@testing-library/user-event": "^12.8.3"
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2"
   },
   "overrides": {
     "@types/react-dom": "^18.2.22",

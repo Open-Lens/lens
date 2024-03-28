@@ -5,7 +5,7 @@
 
 import styles from "./drawer-title.module.css";
 import React from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 
 export interface DrawerTitleProps {

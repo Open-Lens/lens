@@ -7,7 +7,7 @@ import styles from "./kubeconfig-dialog.module.scss";
 import React from "react";
 import type { IObservableValue } from "mobx";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { Button } from "@openlens/button";
 import type { DialogProps } from "../dialog";

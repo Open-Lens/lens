@@ -15,7 +15,8 @@ import { Spinner } from "../spinner";
 import { Button } from "@openlens/button";
 import { Select } from "../select";
 import { Badge } from "../badge";
-import { Tooltip, withStyles } from "@material-ui/core";
+import { withStyles } from "@mui/styles";
+import { Tooltip } from "@mui/material";
 import type { IAsyncComputed } from "@ogre-tools/injectable-react";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import createInstallChartTabInjectable from "../dock/install-chart/create-install-chart-tab.injectable";
@@ -32,11 +33,11 @@ export interface HelmChartDetailsProps {
   chart: HelmChart;
 }
 
-const LargeTooltip = withStyles({
+const LargeTooltip = (withStyles({
   tooltip: {
     fontSize: "var(--font-size-small)",
   },
-})(Tooltip);
+}))(Tooltip);
 
 interface Dependencies {
   createInstallChartTab: (helmChart: HelmChart) => void;

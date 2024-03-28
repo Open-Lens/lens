@@ -7,7 +7,7 @@ import "./tab-layout.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { Tab, Tabs } from "../tabs";
 import { ErrorBoundary } from "@openlens/error-boundary";

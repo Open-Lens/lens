@@ -6,7 +6,7 @@
 import styles from "./tree-view.module.scss";
 import type { MouseEventHandler } from "react";
 import React, { useState } from "react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 import { Icon } from "../icon";
 

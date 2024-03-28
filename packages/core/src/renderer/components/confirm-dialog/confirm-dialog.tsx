@@ -9,7 +9,7 @@ import React from "react";
 import type { IObservableValue } from "mobx";
 import { observable, makeObservable, computed } from "mobx";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames, noop, prevDefault } from "@openlens/utilities";
 import type { ButtonProps } from "@openlens/button";
 import { Button } from "@openlens/button";

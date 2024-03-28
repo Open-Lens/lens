@@ -6,7 +6,7 @@
 import "./drawer-param-toggler.scss";
 import React from "react";
 import { Icon } from "../icon";
-import type { StrictReactNode } from "@openlens/utilities";
+import type { ReactNode as StrictReactNode } from "react";
 import { cssNames } from "@openlens/utilities";
 
 export interface DrawerParamTogglerProps {
