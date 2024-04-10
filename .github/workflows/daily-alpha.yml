@@ -15,11 +15,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18.x"
+          node-version: "${{ vars.WF_NODEJS_OLD }}"
           registry-url: "https://npm.pkg.github.com"
 
       - name: Install specific npm version
-        run: npm install -g npm@^9.6.7
+        run: npm install -g npm@npm@${{ vars.WF_NPM_OLD }}
 
       - name: Install deps
         run: |
@@ -36,4 +36,4 @@ jobs:
           BUMP_PACKAGE_ARGS: -- --conventional-commits --conventional-prerelease --yes
           PICK_ALL_PRS: "true"
           FAIL_ON_NO_CHANGES: "false"
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
