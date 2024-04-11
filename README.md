@@ -29,7 +29,7 @@ Lens Desktop is a standalone application for MacOS, Windows and Linux operating 
 
 ### Prequisites
 
-* Nodejs v16 || v18
+* Nodejs >=v16
 
 ### Install
 
@@ -51,6 +51,12 @@ npm run build
 npm run build:app
 # npx nx run open-lens:build:app
 ```
+
+## Documentation
+
+`docs` folder has been removed but can be build with
+
+`npm run build:docs`
 
 ## Contributing
 
